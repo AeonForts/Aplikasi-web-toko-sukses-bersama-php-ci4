@@ -1,0 +1,1061 @@
+INFO - 2024-12-31 08:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:56:14 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"10","name":"telur orange                                                 (15 KG)","quantity":"30","price":"28000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"TOKO SAMAN","id_method":"3","jumlah":"840000"}]}
+INFO - 2024-12-31 08:56:14 --> Received date: 2024-12-31
+DEBUG - 2024-12-31 08:56:14 --> Processing id_tipe: 7
+INFO - 2024-12-31 08:56:14 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 30, status: 1
+INFO - 2024-12-31 08:56:14 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 08:56:14 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":960000,"total_harga_modal":924800,"total_untung":35200,"total_barang_keluar":34}
+DEBUG - 2024-12-31 08:56:14 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":816000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 08:56:14 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22138092.24,"current_status":"0"}
+INFO - 2024-12-31 08:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:56:15 --> Invoice retrieved: {"id_invoice":"1026","customer_name":"TOKO SAMAN","total_amount":"840000.00","payment_amount":"840000.00","change_amount":"0.00","invoice_date":"2024-12-31 08:56:14"}
+INFO - 2024-12-31 08:56:15 --> Invoice items retrieved: [{"id_invoice_item":"1893","id_invoice":"1026","id_tipe":"7","id_unit":"10","id_method":"3","quantity":"30.00","price":"28000.00","total":"840000.00","jenis_barang":"telur orange","satuan_dasar":"kg","tipe_unit":"15 KG","standar_jumlah_barang":"1.00"}]
+INFO - 2024-12-31 08:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:49 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"10","name":"telur orange                                                 (15 KG)","quantity":"30","price":"27800","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"TOKO SAMAN","id_method":"3","jumlah":"834000"}]}
+INFO - 2024-12-31 08:57:49 --> Received date: 2024-12-31
+DEBUG - 2024-12-31 08:57:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 08:57:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 30, status: 1
+INFO - 2024-12-31 08:57:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 08:57:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":954000,"total_harga_modal":924800,"total_untung":29200,"total_barang_keluar":34}
+DEBUG - 2024-12-31 08:57:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":816000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 08:57:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22138092.24,"current_status":"0"}
+INFO - 2024-12-31 08:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 08:57:50 --> Invoice retrieved: {"id_invoice":"1027","customer_name":"TOKO SAMAN","total_amount":"834000.00","payment_amount":"834000.00","change_amount":"0.00","invoice_date":"2024-12-31 08:57:49"}
+INFO - 2024-12-31 08:57:50 --> Invoice items retrieved: [{"id_invoice_item":"1894","id_invoice":"1027","id_tipe":"7","id_unit":"10","id_method":"3","quantity":"30.00","price":"27800.00","total":"834000.00","jenis_barang":"telur orange","satuan_dasar":"kg","tipe_unit":"15 KG","standar_jumlah_barang":"1.00"}]
+INFO - 2024-12-31 09:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:49 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2.5","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"2","jumlah":"72500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.482759","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"43000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.87931","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"25500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.448276","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"13000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.862069","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"25000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"2","jumlah":"58000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.982759","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"28500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"29000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"2","jumlah":"29000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.965517","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"28000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.206897","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"35000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.5","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"14500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.517241","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"15000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.034483","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"30000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.965517","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"28000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"58000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.37931","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"40000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2.034483","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"59000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.637931","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"18500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.051724","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"30500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.517241","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"15000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.017241","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"29500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.551724","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"45000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"58000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"29000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.448276","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"13000"}]}
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 43000.011 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(43000.011)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 25499.99 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(25499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 13000.004 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(13000.004)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 25000.001 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(25000.001)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 28500.011000000002 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(28500.011000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 27999.993 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(27999.993)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 35000.013000000006 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(35000.013000000006)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 14999.988999999998 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(14999.988999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 27999.993 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(27999.993)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 39999.99 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(39999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 59000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(59000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 18499.999 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(18499.999)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 30499.996000000003 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(30499.996000000003)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 14999.988999999998 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(14999.988999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 29499.989 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(29499.989)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 44999.99600000001 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(44999.99600000001)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:14:49 --> Received date: 2024-12-31
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 13000.004 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(13000.004)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2.5, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1026500,"total_harga_modal":992800,"total_untung":33700,"total_barang_keluar":36.5}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":68000,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22206092.24,"current_status":"0"}
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.482759, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1069500.011,"total_harga_modal":1033131.0448,"total_untung":36368.9662,"total_barang_keluar":37.982759}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":40331.044799999996,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22246423.284799997,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 43000.011 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(43000.011)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.87931, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1095000,"total_harga_modal":1057048.272,"total_untung":37951.728,"total_barang_keluar":38.862069}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":23917.232,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22270340.512000002,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 25499.99 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(25499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.448276, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1108000.004,"total_harga_modal":1069241.3772,"total_untung":38758.626800000005,"total_barang_keluar":39.310345}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":12193.1072,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22282533.617200002,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 13000.004 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(13000.004)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.862069, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1133000.001,"total_harga_modal":1092689.6568,"total_untung":40310.3542,"total_barang_keluar":40.172413999999996}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":23448.2768,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22305981.8968,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 25000.001 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(25000.001)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1191000,"total_harga_modal":1147089.66,"total_untung":43910.35,"total_barang_keluar":42.172414}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":54400,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22360381.9,"current_status":"0"}
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.982759, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1219500.011,"total_harga_modal":1173820.7048,"total_untung":45679.3162,"total_barang_keluar":43.155173000000005}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":26731.0448,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22387112.944799997,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 28500.011000000002 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(28500.011000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1248500.01,"total_harga_modal":1201020.7,"total_untung":47479.32,"total_barang_keluar":44.155173}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27200,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22414312.94,"current_status":"0"}
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1277500.01,"total_harga_modal":1228220.7,"total_untung":49279.32,"total_barang_keluar":45.155173}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27200,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22441512.94,"current_status":"0"}
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.965517, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1305500.003,"total_harga_modal":1254482.7624,"total_untung":51017.2506,"total_barang_keluar":46.120689999999996}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":26262.0624,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22467775.0024,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 27999.993 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(27999.993)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.206897, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1340500.013,"total_harga_modal":1287310.3584,"total_untung":53189.664600000004,"total_barang_keluar":47.327587}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":32827.5984,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22500602.5984,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 35000.013000000006 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(35000.013000000006)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.5, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1355000.01,"total_harga_modal":1300910.36,"total_untung":54089.66,"total_barang_keluar":47.827587}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":13600,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22514202.6,"current_status":"0"}
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.517241, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1369999.999,"total_harga_modal":1314979.3152,"total_untung":55020.6938,"total_barang_keluar":48.344828}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":14068.955199999999,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22528271.555200003,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 14999.988999999998 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(14999.988999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.034483, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1400000.007,"total_harga_modal":1343117.2576000001,"total_untung":56882.7594,"total_barang_keluar":49.379311}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":28137.9376,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22556409.4976,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.965517, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1428000.003,"total_harga_modal":1369379.3224,"total_untung":58620.6906,"total_barang_keluar":50.344828}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":26262.0624,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22582671.5624,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 27999.993 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(27999.993)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1486000,"total_harga_modal":1423779.32,"total_untung":62220.69,"total_barang_keluar":52.344828}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":54400,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22637071.56,"current_status":"0"}
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.37931, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1525999.99,"total_harga_modal":1461296.5520000001,"total_untung":64703.448,"total_barang_keluar":53.724137999999996}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":37517.232,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22674588.792,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 39999.99 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(39999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2.034483, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1584999.997,"total_harga_modal":1516634.4876,"total_untung":68365.51939999999,"total_barang_keluar":55.758621000000005}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":55337.9376,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22729926.7276,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 59000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(59000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.637931, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1603499.999,"total_harga_modal":1533986.2131999999,"total_untung":69513.7958,"total_barang_keluar":56.396552}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":17351.7232,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22747278.4532,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 18499.999 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(18499.999)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.051724, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1633999.996,"total_harga_modal":1562593.1028,"total_untung":71406.9032,"total_barang_keluar":57.448276}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":28606.8928,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22775885.3428,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 30499.996000000003 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(30499.996000000003)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.517241, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1648999.989,"total_harga_modal":1576662.0552,"total_untung":72337.9338,"total_barang_keluar":57.965517}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":14068.955199999999,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22789954.2952,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 14999.988999999998 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(14999.988999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.017241, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1678499.979,"total_harga_modal":1604331.0152,"total_untung":74168.9638,"total_barang_keluar":58.982758}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27668.9552,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22817623.255200002,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 29499.989 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(29499.989)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.551724, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1723499.976,"total_harga_modal":1646537.9128,"total_untung":76962.0632,"total_barang_keluar":60.534482}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":42206.8928,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22859830.1528,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 44999.99600000001 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(44999.99600000001)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1781499.98,"total_harga_modal":1700937.91,"total_untung":80562.06,"total_barang_keluar":62.534482}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":54400,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22914230.15,"current_status":"0"}
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1810499.98,"total_harga_modal":1728137.91,"total_untung":82362.06,"total_barang_keluar":63.534482}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27200,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22941430.15,"current_status":"0"}
+DEBUG - 2024-12-31 09:14:49 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:14:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.448276, status: 1
+INFO - 2024-12-31 09:14:49 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:14:49 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":1823499.984,"total_harga_modal":1740331.0172,"total_untung":83168.9568,"total_barang_keluar":63.982758}
+DEBUG - 2024-12-31 09:14:49 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":12193.1072,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:14:49 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":22953623.2572,"current_status":"0"}
+WARNING - 2024-12-31 09:14:49 --> [DEPRECATED] Implicit conversion from float 13000.004 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(13000.004)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 09:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:21 --> Sanitized Input: {"cart":[{"id_tipe":"3","id_unit":"3","name":"telur ayam kampung super                                                 (butir)","quantity":"3","price":"4000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"12000"},{"id_tipe":"3","id_unit":"3","name":"telur ayam kampung super                                                 (butir)","quantity":"15","price":"4000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"60000"}]}
+INFO - 2024-12-31 09:15:21 --> Received date: 2024-12-31
+INFO - 2024-12-31 09:15:21 --> Received date: 2024-12-31
+DEBUG - 2024-12-31 09:15:21 --> Processing id_tipe: 3
+INFO - 2024-12-31 09:15:21 --> updateOrCreatePenjualan called with id_tipe: 3, jumlah_keluar: 3, status: 1
+INFO - 2024-12-31 09:15:21 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-31","id_tipe":"3","total_harga_jual":12000,"total_harga_modal":7800,"total_untung":4200,"total_barang_keluar":3}
+INFO - 2024-12-31 09:15:21 --> New penjualan record created with id_penjualan: 99
+DEBUG - 2024-12-31 09:15:21 --> updateLatestTerkumpul Input: {"id_pembelian":"13","totalHargaModal":7800,"id_tipe":"3","payment_method":"3"}
+DEBUG - 2024-12-31 09:15:21 --> Status Calculation: {"total_meity":"234000.00","terkumpul":83202.34,"current_status":"0"}
+DEBUG - 2024-12-31 09:15:21 --> Processing id_tipe: 3
+INFO - 2024-12-31 09:15:21 --> updateOrCreatePenjualan called with id_tipe: 3, jumlah_keluar: 15, status: 1
+INFO - 2024-12-31 09:15:21 --> Found existing penjualan record with id_penjualan: 99
+INFO - 2024-12-31 09:15:21 --> Updated existing penjualan record with id_penjualan: 99. New totals: {"total_harga_jual":72000,"total_harga_modal":46800,"total_untung":25200,"total_barang_keluar":18}
+DEBUG - 2024-12-31 09:15:21 --> updateLatestTerkumpul Input: {"id_pembelian":"13","totalHargaModal":39000,"id_tipe":"3","payment_method":"3"}
+DEBUG - 2024-12-31 09:15:21 --> Status Calculation: {"total_meity":"234000.00","terkumpul":122202.34,"current_status":"0"}
+INFO - 2024-12-31 09:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:16:57 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"7","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"203000"}]}
+INFO - 2024-12-31 09:16:57 --> Received date: 2024-12-31
+DEBUG - 2024-12-31 09:16:57 --> Processing id_tipe: 7
+INFO - 2024-12-31 09:16:57 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 7, status: 1
+INFO - 2024-12-31 09:16:57 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 09:16:57 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2026499.98,"total_harga_modal":1930731.02,"total_untung":95768.96,"total_barang_keluar":70.98275799999999}
+DEBUG - 2024-12-31 09:16:57 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":190400,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 09:16:57 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23144023.26,"current_status":"0"}
+INFO - 2024-12-31 09:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 09:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 11:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 11:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 11:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 11:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 11:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 11:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:55 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.034483","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"30000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.517241","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"44000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.034483","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"30000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.034483","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"30000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.672414","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"19500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.034483","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"30000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"58000"},{"id_tipe":"14","id_unit":"20","name":"minyak bimoli 1l                                                 (liter)","quantity":"1","price":"21000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"21000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.5","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"14500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"29000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"29000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.034483","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"30000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.327586","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"9500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"29000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.5","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"43500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"29000"},{"id_tipe":"14","id_unit":"20","name":"minyak bimoli 1l                                                 (liter)","quantity":"1","price":"21000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"21000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2.413793","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"70000"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.044828","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"2","jumlah":"30300"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.293103","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"2","jumlah":"37500"},{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"eceran","id_method":"3","jumlah":"29000"}]}
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 43999.989 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(43999.989)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 19500.005999999998 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(19500.005999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 9499.993999999999 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(9499.993999999999)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 69999.997 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(69999.997)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30300.012000000002 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(30300.012000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 37499.986999999994 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(233): App\Controllers\Admin\roundToNearestFiveHundred(37499.986999999994)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-31 13:48:55 --> Received date: 2024-12-31
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.034483, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2056499.987,"total_harga_modal":1958868.9576,"total_untung":97631.0294,"total_barang_keluar":72.017241}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":28137.9376,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23172161.197600003,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.517241, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2100499.979,"total_harga_modal":2000137.9152,"total_untung":100362.0638,"total_barang_keluar":73.534482}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":41268.955200000004,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23213430.1552,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 43999.989 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(43999.989)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.034483, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2130499.987,"total_harga_modal":2028275.8576,"total_untung":102224.1294,"total_barang_keluar":74.56896499999999}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":28137.9376,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23241568.0976,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.034483, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2160499.9970000004,"total_harga_modal":2056413.7976000002,"total_untung":104086.19940000001,"total_barang_keluar":75.603448}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":28137.9376,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23269706.037600003,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.672414, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2180000.006,"total_harga_modal":2074703.4608,"total_untung":105296.5452,"total_barang_keluar":76.275862}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":18289.660799999998,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23287995.700799998,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 19500.005999999998 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(19500.005999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.034483, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2210000.017,"total_harga_modal":2102841.3976,"total_untung":107158.6194,"total_barang_keluar":77.310345}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":28137.9376,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23316133.6376,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2268000.02,"total_harga_modal":2157241.4,"total_untung":110758.62,"total_barang_keluar":79.310345}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":54400,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23370533.64,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 14
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 14, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 13:48:55 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-31","id_tipe":"14","total_harga_jual":21000,"total_harga_modal":19800,"total_untung":1200,"total_barang_keluar":1}
+INFO - 2024-12-31 13:48:55 --> New penjualan record created with id_penjualan: 100
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"24","totalHargaModal":19800,"id_tipe":"14","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"712800.00","terkumpul":534600,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.5, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2282500.02,"total_harga_modal":2170841.4,"total_untung":111658.62,"total_barang_keluar":79.810345}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":13600,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23384133.64,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2311500.02,"total_harga_modal":2198041.4,"total_untung":113458.62,"total_barang_keluar":80.810345}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27200,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23411333.64,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2340500.02,"total_harga_modal":2225241.4,"total_untung":115258.62,"total_barang_keluar":81.810345}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27200,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23438533.64,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.034483, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2370500.0270000002,"total_harga_modal":2253379.3375999997,"total_untung":117120.6894,"total_barang_keluar":82.84482799999999}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":28137.9376,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23466671.577600002,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30000.007 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(30000.007)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.327586, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2380000.0239999997,"total_harga_modal":2262289.6791999997,"total_untung":117710.3448,"total_barang_keluar":83.172414}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":8910.3392,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23475581.9192,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 9499.993999999999 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(9499.993999999999)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2409000.02,"total_harga_modal":2289489.68,"total_untung":119510.34,"total_barang_keluar":84.172414}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27200,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23502781.92,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.5, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2452500.02,"total_harga_modal":2330289.68,"total_untung":122210.34,"total_barang_keluar":85.672414}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":40800,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23543581.92,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2481500.02,"total_harga_modal":2357489.68,"total_untung":124010.34,"total_barang_keluar":86.672414}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27200,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23570781.92,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 14
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 14, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 100
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 100. New totals: {"total_harga_jual":42000,"total_harga_modal":39600,"total_untung":2400,"total_barang_keluar":2}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"24","totalHargaModal":19800,"id_tipe":"14","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"712800.00","terkumpul":554400,"current_status":"0"}
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2.413793, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2551500.017,"total_harga_modal":2423144.8496000003,"total_untung":128355.16739999999,"total_barang_keluar":89.086207}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":65655.16960000001,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23636437.0896,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 69999.997 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(69999.997)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.044828, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2581800.032,"total_harga_modal":2451564.1716,"total_untung":130235.8604,"total_barang_keluar":90.131035}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":28419.321600000003,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23664856.4116,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 30300.012000000002 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(30300.012000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.293103, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2619300.017,"total_harga_modal":2486736.5716,"total_untung":132563.4454,"total_barang_keluar":91.424138}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":35172.4016,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23700028.8116,"current_status":"0"}
+WARNING - 2024-12-31 13:48:55 --> [DEPRECATED] Implicit conversion from float 37499.986999999994 to int loses precision in APPPATH\Controllers\Admin\PenjualanController.php on line 191.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(343): App\Controllers\Admin\roundToNearestFiveHundred(37499.986999999994)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-31 13:48:55 --> Processing id_tipe: 7
+INFO - 2024-12-31 13:48:55 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-31 13:48:55 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 13:48:55 --> Updated existing penjualan record with id_penjualan: 98. New totals: {"total_harga_jual":2648300.02,"total_harga_modal":2513936.57,"total_untung":134363.45,"total_barang_keluar":92.424138}
+DEBUG - 2024-12-31 13:48:55 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":27200,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-31 13:48:55 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23727228.81,"current_status":"0"}
+INFO - 2024-12-31 13:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 13:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:28 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"5","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"ci kemmy","id_method":"1","jumlah":"145000"}]}
+INFO - 2024-12-31 14:53:28 --> Received date: 2024-12-31
+DEBUG - 2024-12-31 14:53:28 --> Processing id_tipe: 7
+INFO - 2024-12-31 14:53:28 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 5, status: 0
+INFO - 2024-12-31 14:53:28 --> Found existing penjualan record with id_penjualan: 98
+INFO - 2024-12-31 14:53:28 --> Status is 0 (belum lunas). Returning existing id_penjualan: 98
+DEBUG - 2024-12-31 14:53:28 --> updateLatestTerkumpul Input: {"id_pembelian":"27","totalHargaModal":136000,"id_tipe":"7","payment_method":"1"}
+DEBUG - 2024-12-31 14:53:28 --> Status Calculation: {"total_meity":"45696000.00","terkumpul":23863228.81,"current_status":"0"}
+INFO - 2024-12-31 14:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-31 14:53:59 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"15","price":"28000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-31","nama_customer":"WARUNG SALSA","id_method":"3","jumlah":"420000"}]}
+INFO - 2024-12-31 14:53:59 --> Received date: 2024-12-31

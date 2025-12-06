@@ -1,0 +1,1160 @@
+CRITICAL - 2024-09-27 04:03:38 --> ParseError: syntax error, unexpected end of file
+[Method: CLI, Route: serve]
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-09-27 04:06:29 --> ParseError: syntax error, unexpected end of file
+[Method: CLI, Route: serve]
+in APPPATH\Config\Routes.php on line 36.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-09-27 04:07:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(13): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:08:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(13): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:08:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(13): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:10:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(12): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:13:01 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:13:02 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:13:36 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:13:37 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:14:10 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:16:00 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:16:01 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:16:03 --> ParseError: syntax error, unexpected variable "$routes"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:16:34 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:16:36 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:16:42 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:16:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(12): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:17:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(12): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:17:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(12): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:29:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(12): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:29:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(12): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:29:33 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:29:34 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:29:37 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:29:44 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:29:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\ViewController.php(12): view('admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:38:37 --> ErrorException: Undefined variable $halaman
+[Method: GET, Route: admin]
+in APPPATH\Views\layout\partials\sidebar.php on line 19.
+ 1 APPPATH\Views\layout\partials\sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $halaman', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\layout\\partials\\sidebar.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\layout\\partials\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/partials/sidebar', null, true)
+ 5 APPPATH\Views\layout\app.php(19): CodeIgniter\View\View->include('layout/partials/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\layout\\app.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/app', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+10 APPPATH\Controllers\ViewController.php(12): view('pages/admin/dashboard')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 04:38:38 --> ErrorException: Undefined variable $halaman
+[Method: GET, Route: admin]
+in APPPATH\Views\layout\partials\sidebar.php on line 19.
+ 1 APPPATH\Views\layout\partials\sidebar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $halaman', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\layout\\partials\\sidebar.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\layout\\partials\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/partials/sidebar', null, true)
+ 5 APPPATH\Views\layout\app.php(19): CodeIgniter\View\View->include('layout/partials/sidebar')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\layout\\app.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/app', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+10 APPPATH\Controllers\ViewController.php(12): view('pages/admin/dashboard')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 05:32:46 --> Error: Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$uri
+[Method: GET, Route: admin]
+in APPPATH\Views\layout\partials\sidebar.php on line 19.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/partials/sidebar', null, true)
+ 4 APPPATH\Views\layout\app.php(19): CodeIgniter\View\View->include('layout/partials/sidebar')
+ 5 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\layout\\app.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/app', [], true)
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/dashboard', [], true)
+ 9 APPPATH\Controllers\ViewController.php(12): view('pages/admin/dashboard')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ViewController->admin()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 07:36:25 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 08:31:42 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 08:36:07 --> Error: Class "APP\Models\PengeluaranModel" not found
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 08:36:08 --> Error: Class "APP\Models\PengeluaranModel" not found
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 08:42:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', '', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 08:42:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 08:42:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', '', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 08:42:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 08:59:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', '', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 08:59:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 08:59:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', '', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 08:59:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 08:59:53 --> ErrorException: Undefined array key "tgl_biaya_harian"
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Views\pages\admin\pengeluaran\list.php on line 26.
+ 1 APPPATH\Views\pages\admin\pengeluaran\list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_biaya_harian"', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(18): view('pages/admin/pengeluaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 08:59:54 --> ErrorException: Undefined array key "tgl_biaya_harian"
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Views\pages\admin\pengeluaran\list.php on line 26.
+ 1 APPPATH\Views\pages\admin\pengeluaran\list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_biaya_harian"', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(18): view('pages/admin/pengeluaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 09:08:30 --> ErrorException: Undefined array key "tgl_biaya_harian"
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Views\pages\admin\pengeluaran\list.php on line 26.
+ 1 APPPATH\Views\pages\admin\pengeluaran\list.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_biaya_harian"', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(18): view('pages/admin/pengeluaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 09:30:44 --> BadMethodCallException: Call to undefined method App\Models\DetailPengeluaranModel::getDetailByPengeluaranId
+[Method: GET, Route: admin/pengeluaran/detail/1]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\PengeluaranController.php(24): CodeIgniter\Model->__call('getDetailByPengeluaranId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 09:41:10 --> BadMethodCallException: Call to undefined method App\Models\DetailPengeluaranModel::getDetailByPengeluaranId
+[Method: GET, Route: admin/pengeluaran/detail/1]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\PengeluaranController.php(24): CodeIgniter\Model->__call('getDetailByPengeluaranId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 16:54:42 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 17:18:51 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 17:19:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 17:19:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 17:19:19 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 17:19:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 17:19:21 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 17:19:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 17:19:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 17:23:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 17:23:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 17:24:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-09-27 17:24:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(15): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 22:07:35 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-27 22:50:20 --> Invalid method: POST
+ERROR - 2024-09-27 22:50:28 --> Invalid method: POST
+ERROR - 2024-09-27 23:04:14 --> Invalid method: POST
+CRITICAL - 2024-09-27 23:27:49 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Models\PengeluaranModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PengeluaranModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PengeluaranModel')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PengeluaranModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 23:28:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Models\PengeluaranModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PengeluaranModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PengeluaranModel')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PengeluaranModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 23:28:46 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Models\PengeluaranModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PengeluaranModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PengeluaranModel')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PengeluaranModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 23:29:01 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Models\PengeluaranModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PengeluaranModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PengeluaranModel')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PengeluaranModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 23:29:50 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 23:29:58 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Models\PengeluaranModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PengeluaranModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PengeluaranModel')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PengeluaranModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 23:30:07 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Models\PengeluaranModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PengeluaranModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PengeluaranModel')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PengeluaranModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 23:30:08 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Models\PengeluaranModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PengeluaranModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PengeluaranModel')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PengeluaranModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-27 23:31:36 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Models\PengeluaranModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PengeluaranModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PengeluaranModel')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PengeluaranModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')

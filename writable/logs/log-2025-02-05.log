@@ -1,0 +1,111 @@
+INFO - 2025-02-05 18:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 18:32:47 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-02-05 18:32:47 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-02-05 18:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-05 18:32:47 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 284.
+ 1 APPPATH\Controllers\Admin\BulekController.php(284): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+WARNING - 2025-02-05 18:32:47 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 284.
+ 1 APPPATH\Controllers\Admin\BulekController.php(284): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+WARNING - 2025-02-05 18:32:47 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 284.
+ 1 APPPATH\Controllers\Admin\BulekController.php(284): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-02-05 18:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 18:33:44 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-02-05 18:33:44 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-02-05 18:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-05 18:33:44 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 295.
+ 1 APPPATH\Controllers\Admin\BulekController.php(295): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+WARNING - 2025-02-05 18:33:44 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 295.
+ 1 APPPATH\Controllers\Admin\BulekController.php(295): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+WARNING - 2025-02-05 18:33:44 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 295.
+ 1 APPPATH\Controllers\Admin\BulekController.php(295): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-02-05 18:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 18:35:01 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-02-05 18:35:01 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-02-05 18:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-02-05 18:35:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 297.
+ 1 APPPATH\Controllers\Admin\BulekController.php(297): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+WARNING - 2025-02-05 18:35:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 297.
+ 1 APPPATH\Controllers\Admin\BulekController.php(297): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+WARNING - 2025-02-05 18:35:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Controllers\Admin\BulekController.php on line 297.
+ 1 APPPATH\Controllers\Admin\BulekController.php(297): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableWithBiaya()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-02-05 18:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-05 18:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

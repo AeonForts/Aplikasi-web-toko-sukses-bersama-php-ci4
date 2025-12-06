@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      @page { 
+          size: 58mm; 
+          margin: 0 !important;
+      }
+
+      html, body {
+          width: 58mm;
+          max-width: 58mm;
+          margin: 0 !important;
+          padding: 0 !important;
+          overflow: hidden;
+      }
+
+      .receipt {
+          width: 58mm;
+          max-width: 58mm;
+          font-family: monospace;
+          font-size: 8px;
+          line-height: 1;
+          padding: 1mm;
+      }
+
+      .header {
+          text-align: center;
+          margin-bottom: 1mm;
+      }
+
+      .store-name {
+          font-size: 10px;
+          font-weight: bold;
+      }
+
+      .item-row {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+      }
+
+      .subtotal, .total-section {
+          border-top: 1px dashed #000;
+          margin-top: 1mm;
+      }
+
+      .footer {
+          text-align: center;
+          font-size: 8px;
+          margin-top: 1mm;
+      }
+
+      @media print {
+          body {
+              width: 58mm !important;
+              margin: 0 !important;
+              padding: 0 !important;
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="receipt">
+      <div class="header">
+        <div class="store-name"><?= $storeName ?></div>
+        <div><?= $address ?></div>
+        <div><?= $phone ?></div>
+      </div>
+      <div class="date-time"><?= $date ?></div>
+      <div class="items">
+        <?php foreach ($items as $item): ?>
+          <div class="item-row">
+            <span><?= $item['name'] ?> (<?= $item['quantity'] ?> @ Rp<?= number_format($item['price'], 0, ',', '.') ?>)</span>
+            <span>Rp<?= number_format($item['total'], 0, ',', '.') ?></span>
+          </div>
+        <?php endforeach; ?>
+        <div class="subtotal">Sub Total: Rp<?= number_format($total, 0, ',', '.') ?></div>
+      </div>
+      <div class="total-section">
+        <div class="item-row">
+          <span>TOTAL</span>
+          <span>: Rp<?= number_format($total, 0, ',', '.') ?></span>
+        </div>
+        <div class="item-row">
+          <span>BAYAR</span>
+          <span>: Rp<?= number_format($payment, 0, ',', '.') ?></span>
+        </div>
+        <div class="item-row">
+          <span>KEMBALI</span>
+          <span>: Rp<?= number_format($change, 0, ',', '.') ?></span>
+        </div>
+      </div>
+      <div class="footer">
+        <div>Terima Kasih Telah Berbelanja di</div>
+        <div>Toko Kami</div>
+        <div>Semoga Sehat Selalu</div>
+        <div>No Rek: <?= $bankInfo['accountNumber'] ?></div>
+        <div><?= $bankInfo['accountName'] ?></div>
+        <div><?= $bankInfo['bankName'] ?></div>
+      </div>
+    </div>
+  </body>
+</html>

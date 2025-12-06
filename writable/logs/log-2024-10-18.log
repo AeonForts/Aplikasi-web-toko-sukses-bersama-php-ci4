@@ -1,0 +1,169 @@
+CRITICAL - 2024-10-18 01:58:28 --> ErrorException: Undefined array key "piutang"
+[Method: GET, Route: admin/pembelian/detail/6]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 86.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "piutang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 86)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 02:27:18 --> ErrorException: Undefined array key "current_trf"
+[Method: GET, Route: admin/pembelian/detail/6]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 91.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "current_trf"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 91)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 02:37:17 --> ErrorException: Undefined array key "current_piutang"
+[Method: GET, Route: admin/pembelian/detail/6]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 86.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "current_piutang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 86)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 02:38:25 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: admin/pembelian/detail/6]
+in APPPATH\Models\ViewMeityModel.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-18 02:38:55 --> ErrorException: Undefined array key "current_piutang"
+[Method: GET, Route: admin/pembelian/detail/6]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 86.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "current_piutang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 86)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 02:39:50 --> ErrorException: Undefined array key "current_piutang"
+[Method: GET, Route: admin/pembelian/detail/6]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 86.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "current_piutang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 86)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('6')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 03:21:41 --> ErrorException: Undefined array key "current_piutang"
+[Method: GET, Route: admin/pembelian/detail/20]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 86.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "current_piutang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 86)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('20')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 03:22:54 --> ErrorException: Undefined array key "current_piutang"
+[Method: GET, Route: admin/pembelian/detail/20]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 86.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "current_piutang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 86)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('20')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 03:32:49 --> ErrorException: Undefined array key "satuan_barang"
+[Method: GET, Route: admin/pembelian/detail/20]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 57.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "satuan_barang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('20')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 03:33:17 --> ErrorException: Undefined array key "satuan_barang"
+[Method: GET, Route: admin/pembelian/detail/20]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 57.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "satuan_barang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('20')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 03:35:59 --> ErrorException: Undefined array key "satuan_barang"
+[Method: GET, Route: admin/pembelian/detail/20]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 57.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "satuan_barang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(48): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('20')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-18 03:42:04 --> ErrorException: Undefined array key "satuan_barang"
+[Method: GET, Route: admin/pembelian/detail/20]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 51.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "satuan_barang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(44): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('20')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')

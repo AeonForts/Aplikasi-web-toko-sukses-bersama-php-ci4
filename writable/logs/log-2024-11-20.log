@@ -1,0 +1,140 @@
+ERROR - 2024-11-20 10:36:24 --> Failed to create/update stock: Undefined array key "barang_masuk"
+ERROR - 2024-11-20 10:37:42 --> Failed to create/update stock: Undefined array key "barang_keluar"
+ERROR - 2024-11-20 10:39:28 --> Failed to create/update stock: Undefined array key "barang_masuk"
+CRITICAL - 2024-11-20 13:01:18 --> Error: Call to undefined method App\Controllers\Admin\PenjualanController::generateReceiptData()
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 13:03:10 --> Error: Call to undefined method App\Controllers\Admin\PenjualanController::generateReceiptData()
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 103.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 14:40:51 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getNextPage()
+[Method: GET, Route: admin/summary]
+in APPPATH\Views\pages\admin\summary\list.php on line 72.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/summary/list', [], true)
+ 4 APPPATH\Controllers\Admin\SummaryController.php(18): view('pages/admin/summary/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SummaryController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SummaryController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 14:45:07 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasPrevious()
+[Method: GET, Route: admin/summary]
+in APPPATH\Views\pages\admin\summary\list.php on line 46.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/summary/list', [], true)
+ 4 APPPATH\Controllers\Admin\SummaryController.php(18): view('pages/admin/summary/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SummaryController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SummaryController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 14:45:36 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasPrevious()
+[Method: GET, Route: admin/summary]
+in APPPATH\Views\pages\admin\summary\list.php on line 46.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/summary/list', [], true)
+ 4 APPPATH\Controllers\Admin\SummaryController.php(18): view('pages/admin/summary/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SummaryController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SummaryController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 14:45:55 --> Error: Call to undefined method CodeIgniter\Pager\Pager::getNextPage()
+[Method: GET, Route: admin/summary]
+in APPPATH\Views\pages\admin\summary\list.php on line 72.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/summary/list', [], true)
+ 4 APPPATH\Controllers\Admin\SummaryController.php(18): view('pages/admin/summary/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SummaryController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SummaryController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 14:47:30 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasPrevious()
+[Method: GET, Route: admin/summary]
+in APPPATH\Views\pages\admin\summary\list.php on line 45.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/summary/list', [], true)
+ 4 APPPATH\Controllers\Admin\SummaryController.php(16): view('pages/admin/summary/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SummaryController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SummaryController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 14:47:44 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasPrevious()
+[Method: GET, Route: admin/summary]
+in APPPATH\Views\pages\admin\summary\list.php on line 45.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/summary/list', [], true)
+ 4 APPPATH\Controllers\Admin\SummaryController.php(16): view('pages/admin/summary/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SummaryController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SummaryController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 23:30:54 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 23:31:16 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-20 23:37:18 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 73.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\PenjualanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PenjualanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PenjualanController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PenjualanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')

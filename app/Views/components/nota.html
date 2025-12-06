@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            font-family: monospace;
+            background-color: #f5f5f5;
+        }
+        
+        .receipt {
+            background: white;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .store-name {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .address {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .phone {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .date-time {
+            font-size: 12px;
+            margin-bottom: 15px;
+            border-bottom: 1px dashed #000;
+            padding-bottom: 10px;
+        }
+        
+        .customer {
+            font-size: 12px;
+            border-bottom: 1px dashed #000;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .items {
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .item-details {
+            margin-bottom: 8px;
+        }
+        
+        .item-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3px;
+        }
+        
+        .quantity-price {
+            color: #444;
+            font-size: 11px;
+            padding-left: 15px;
+        }
+        
+        .total-section {
+            border-top: 1px dashed #000;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        
+        .bank-info {
+            margin-top: 15px;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .subtotal {
+            text-align: right;
+            padding-top: 10px;
+            border-top: 1px dotted #ccc;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt">
+        <div class="header">
+            <div class="store-name">Toko Sukses Bersama</div>
+            <div class="store-name">(Agen Telur Orange)</div>
+            <div class="address">Jl. Rambutan Raya No.42, RT.06/R</div>
+            <div class="address">W.06, Baranangsiang, Kec. Bogor</div>
+            <div class="address">Timur., Kota Bogor, Jawa Barat 1</div>
+            <div class="address">6143</div>
+            <div class="phone">082175671616</div>
+        </div>
+        
+        <div class="date-time">14/11/2024 18:27</div>
+        
+        <div class="customer">Ci Kemmy</div>
+        
+        <div class="items">
+            <div class="item-details">
+                <div>Telur Orange</div>
+                <div class="quantity-price">
+                    <div class="item-row">
+                        <span>15 KG @ Rp25.5</span>
+                        <span>Rp382.500</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-details">
+                <div>Telur Puyuh</div>
+                <div class="quantity-price">
+                    <div class="item-row">
+                        <span>5 KG @ Rp45.0</span>
+                        <span>Rp225.000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-details">
+                <div>Minyak Kita</div>
+                <div class="quantity-price">
+                    <div class="item-row">
+                        <span>2 L @ Rp14.5</span>
+                        <span>Rp29.000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-details">
+                <div>Telur Bebek</div>
+                <div class="quantity-price">
+                    <div class="item-row">
+                        <span>3 KG @ Rp32.0</span>
+                        <span>Rp96.000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subtotal">
+                <div>Sub Total: Rp732.500</div>
+            </div>
+        </div>
+        
+        <div class="total-section">
+            <div class="item-row">
+                <span>TOTAL</span>
+                <span>: Rp732.500</span>
+            </div>
+            <div class="item-row">
+                <span>BAYAR</span>
+                <span>: Rp750.000</span>
+            </div>
+            <div class="item-row">
+                <span>KEMBALI</span>
+                <span>: Rp17.500</span>
+            </div>
+            <div style="text-align: right">LUNAS</div>
+        </div>
+        
+        <div class="footer">
+            <div>Terima Kasih Telah Berbelanja di</div>
+            <div>Toko Kami</div>
+            <div>Semoga Sehat Selalu</div>
+            <div>No Rek:</div>
+            <div>1140292849</div>
+            <div class="bank-info">
+                <div>Septian Cahyadi</div>
+                <div>Bank BCA</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

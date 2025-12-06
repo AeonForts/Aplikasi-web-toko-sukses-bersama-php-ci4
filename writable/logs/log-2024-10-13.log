@@ -1,0 +1,195 @@
+ERROR - 2024-10-13 04:24:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'db_toko_sukses_...', 3306, '', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PengeluaranController.php(18): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PengeluaranController.php(18): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-13 04:24:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `tbl_pengeluaran`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(18): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-13 05:42:50 --> Error: Call to undefined method CodeIgniter\Pager\Pager::hasPrevious()
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Views\pages\admin\pengeluaran\list.php on line 49.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 4 APPPATH\Controllers\Admin\PengeluaranController.php(21): view('pages/admin/pengeluaran/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-13 05:44:30 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Views\pages\admin\pengeluaran\list.php on line 55.
+ 1 APPPATH\Views\pages\admin\pengeluaran\list.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pengeluaran\\list.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(21): view('pages/admin/pengeluaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-13 05:45:47 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Views\pages\admin\pengeluaran\list.php on line 63.
+ 1 APPPATH\Views\pages\admin\pengeluaran\list.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pengeluaran\\list.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(21): view('pages/admin/pengeluaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-13 05:47:32 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Views\pages\admin\pengeluaran\list.php on line 63.
+ 1 APPPATH\Views\pages\admin\pengeluaran\list.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pengeluaran\\list.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 5 APPPATH\Controllers\Admin\PengeluaranController.php(21): view('pages/admin/pengeluaran/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-13 05:49:05 --> Error: Call to undefined method CodeIgniter\Pager\Pager::setSurroundCount()
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Views\pages\admin\pengeluaran\list.php on line 64.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 4 APPPATH\Controllers\Admin\PengeluaranController.php(21): view('pages/admin/pengeluaran/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-13 06:39:52 --> ArgumentCountError: array_column() expects at most 3 arguments, 4 given
+[Method: GET, Route: admin/pembelian/getTipeBarang]
+in APPPATH\Controllers\Admin\PembelianController.php on line 50.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(50): array_column([...], 'jenis_barang', 'satuan_barang', 'id_tipe')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->getTipeBarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-13 06:40:29 --> ArgumentCountError: array_column() expects at most 3 arguments, 4 given
+[Method: GET, Route: admin/pembelian/getTipeBarang]
+in APPPATH\Controllers\Admin\PembelianController.php on line 50.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(50): array_column([...], 'jenis_barang', 'satuan_barang', 'id_tipe')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->getTipeBarang()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-10-13 07:27:48 --> mysqli_sql_exception: Table 'db_toko_sukses_bersama.tbl_cash_payment' doesn't exist in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PembelianController.php(169): CodeIgniter\Model->insert(Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PembelianController.php(84): App\Controllers\Admin\PembelianController->createCashPayment(Array)
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->save()
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#16 {main}
+ERROR - 2024-10-13 07:28:08 --> mysqli_sql_exception: Table 'db_toko_sukses_bersama.tbl_cash_payment' doesn't exist in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PembelianController.php(169): CodeIgniter\Model->insert(Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PembelianController.php(84): App\Controllers\Admin\PembelianController->createCashPayment(Array)
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->save()
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#16 {main}
+CRITICAL - 2024-10-13 09:16:33 --> ErrorException: Undefined array key "password"
+[Method: POST, Route: auth/dologin]
+in APPPATH\Controllers\AuthController.php on line 31.
+ 1 APPPATH\Controllers\AuthController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\AuthController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->doLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')

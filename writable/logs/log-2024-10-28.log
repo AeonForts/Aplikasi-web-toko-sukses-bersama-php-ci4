@@ -1,0 +1,319 @@
+INFO - 2024-10-28 13:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-28 13:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-28 13:22:13 --> mysqli_sql_exception: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tip...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tip...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tip...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tip...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-28 13:22:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+[Method: GET, Route: admin/barang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 13:22:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 13:22:13 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-10-28 13:22:42 --> mysqli_sql_exception: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tip...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tip...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tip...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tip...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-28 13:22:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+[Method: GET, Route: admin/barang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 13:22:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 13:22:42 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-10-28 13:24:42 --> mysqli_sql_exception: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tip...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tip...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tip...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tip...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-28 13:24:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+[Method: GET, Route: admin/barang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 13:24:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 13:24:42 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_unit_barang.standar_harga_jual' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.*, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+LEFT JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\Admin\BarangController.php(25): CodeIgniter\BaseModel->paginate(10)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 13:26:46 --> ErrorException: Undefined array key "min_grosir"
+[Method: GET, Route: admin/barang]
+in APPPATH\Views\pages\admin\barang\list.php on line 34.
+ 1 APPPATH\Views\pages\admin\barang\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "min_grosir"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 5 APPPATH\Controllers\Admin\BarangController.php(28): view('pages/admin/barang/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 13:26:55 --> ErrorException: Undefined array key "min_grosir"
+[Method: GET, Route: admin/barang]
+in APPPATH\Views\pages\admin\barang\list.php on line 34.
+ 1 APPPATH\Views\pages\admin\barang\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "min_grosir"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 5 APPPATH\Controllers\Admin\BarangController.php(28): view('pages/admin/barang/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-28 20:44:55 --> ErrorException: Undefined array key "satuan_barang"
+[Method: GET, Route: admin/barang]
+in APPPATH\Views\pages\admin\barang\list.php on line 30.
+ 1 APPPATH\Views\pages\admin\barang\list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "satuan_barang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php', 30)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 5 APPPATH\Controllers\Admin\BarangController.php(27): view('pages/admin/barang/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')

@@ -1,0 +1,25 @@
+/* Hide spin buttons in WebKit-based browsers */
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+/* Light Theme */
+input[readonly] {
+    background-color: #e9ecef;
+    color: #495057;
+    border-color: #ced4da;
+    cursor: not-allowed;
+}
+
+/* Dark Theme */
+html[data-bs-theme="dark"] input[readonly] {
+    background-color: #2c2c3a; /* Slightly lighter than the dark background */
+    color: #c2c2d9;
+    border-color: #35354f;
+    cursor: not-allowed;
+}
+
+
+

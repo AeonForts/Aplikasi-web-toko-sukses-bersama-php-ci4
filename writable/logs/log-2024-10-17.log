@@ -1,0 +1,404 @@
+ERROR - 2024-10-17 14:09:10 --> mysqli_sql_exception: Table 'db_toko_sukses_bersama.vw_meity' doesn't exist in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT COUNT(*)...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PembelianController.php(23): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2024-10-17 14:09:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_toko_sukses_bersama.vw_meity' doesn't exist
+[Method: GET, Route: admin/pembelian]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`', [], false)
+ 2 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Admin\PembelianController.php(23): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 14:09:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_toko_sukses_bersama.vw_meity' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`', [], false)
+ 4 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\Admin\PembelianController.php(23): CodeIgniter\BaseModel->paginate(10)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 14:09:10 --> [Caused by] mysqli_sql_exception: Table 'db_toko_sukses_bersama.vw_meity' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`', [], false)
+ 5 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\Admin\PembelianController.php(23): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 14:32:27 --> ErrorException: Undefined property: App\Controllers\Admin\PembelianController::$viewMeityModel
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Controllers\Admin\PembelianController.php on line 24.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\PembelianController::$viewMeityModel', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\PembelianController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 14:35:27 --> ErrorException: Undefined array key "tgl_masuk"
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\list.php on line 44.
+ 1 APPPATH\Views\pages\admin\pembelian\list.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_masuk"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\list.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(26): view('pages/admin/pembelian/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 15:12:30 --> ErrorException: Undefined array key "id_pembelian"
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\list.php on line 55.
+ 1 APPPATH\Views\pages\admin\pembelian\list.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pembelian"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\list.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(26): view('pages/admin/pembelian/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 22:10:15 --> Error: Class "App\Model\SummaryViewModel" not found
+[Method: GET, Route: admin/summary]
+in APPPATH\Controllers\Admin\SummaryController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\SummaryController->list()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\SummaryController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-10-17 22:38:56 --> mysqli_sql_exception: Table 'db_toko_sukses_bersama.tbl_payment_total' doesn't exist in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tp`.*, ...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tp`.*, ...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tp`.*, ...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tp`.*, ...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\app\Models\PembelianModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('5')
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-17 22:38:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_toko_sukses_bersama.tbl_payment_total' doesn't exist
+[Method: GET, Route: admin/pembelian/detail/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = :tp.id_pembelian:', [...], false)
+ 2 APPPATH\Models\PembelianModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('5')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 22:38:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_toko_sukses_bersama.tbl_payment_total' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = :tp.id_pembelian:', [...], false)
+ 4 APPPATH\Models\PembelianModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('5')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 22:38:56 --> [Caused by] mysqli_sql_exception: Table 'db_toko_sukses_bersama.tbl_payment_total' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = :tp.id_pembelian:', [...], false)
+ 5 APPPATH\Models\PembelianModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-10-17 22:38:59 --> mysqli_sql_exception: Table 'db_toko_sukses_bersama.tbl_payment_total' doesn't exist in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tp`.*, ...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tp`.*, ...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tp`.*, ...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tp`.*, ...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\app\Models\PembelianModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('5')
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-17 22:38:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_toko_sukses_bersama.tbl_payment_total' doesn't exist
+[Method: GET, Route: admin/pembelian/detail/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = :tp.id_pembelian:', [...], false)
+ 2 APPPATH\Models\PembelianModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('5')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 22:38:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_toko_sukses_bersama.tbl_payment_total' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = :tp.id_pembelian:', [...], false)
+ 4 APPPATH\Models\PembelianModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('5')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 22:38:59 --> [Caused by] mysqli_sql_exception: Table 'db_toko_sukses_bersama.tbl_payment_total' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tp`.*, `dp`.*, `m`.*, `pt`.*, `sp`.*
+FROM `tbl_pembelian` `tp`
+JOIN `tbl_supplier` `sp` ON `tp`.`id_supplier` = `sp`.`id_supplier`
+JOIN `tbl_detail_pembelian` `dp` ON `tp`.`id_pembelian` = `dp`.`id_pembelian`
+JOIN `tbl_meity` `m` ON `tp`.`id_pembelian` = `m`.`id_pembelian`
+JOIN `tbl_payment_total` `pt` ON `m`.`id_total` = `pt`.`id_total`
+WHERE `tp`.`id_pembelian` = :tp.id_pembelian:', [...], false)
+ 5 APPPATH\Models\PembelianModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 22:39:58 --> ErrorException: Undefined array key "piutang"
+[Method: GET, Route: admin/pembelian/detail/5]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 86.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "piutang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php', 86)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(43): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 23:09:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/admin/barang/list.php"
+[Method: GET, Route: admin/barang]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/barang/list.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 3 APPPATH\Controllers\Admin\BarangController.php(17): view('pages/admin/barang/list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 23:11:00 --> ErrorException: Undefined variable $payment
+[Method: GET, Route: admin/barang]
+in APPPATH\Views\pages\admin\barang\list.php on line 23.
+ 1 APPPATH\Views\pages\admin\barang\list.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $payment', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 5 APPPATH\Controllers\Admin\BarangController.php(17): view('pages/admin/barang/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 23:26:46 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: admin/barang]
+in APPPATH\Views\pages\admin\barang\list.php on line 88.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 4 APPPATH\Controllers\Admin\BarangController.php(17): view('pages/admin/barang/list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-17 23:26:46 --> [Caused by] ErrorException: Undefined variable $pembelian
+in APPPATH\Views\pages\admin\barang\list.php on line 88.
+ 1 APPPATH\Views\pages\admin\barang\list.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pembelian', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php', 88)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 5 APPPATH\Controllers\Admin\BarangController.php(17): view('pages/admin/barang/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')

@@ -1,0 +1,1182 @@
+CRITICAL - 2024-10-01 02:39:41 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:44:20 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian/detail/2]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\detail.php(88): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(39): view('pages/admin/pembelian/detail', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('2')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:44:53 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian/detail/5]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\detail.php(88): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(39): view('pages/admin/pembelian/detail', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('5')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:44:57 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian/detail/20]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\detail.php(88): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(39): view('pages/admin/pembelian/detail', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('20')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:46:17 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(20): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:46:19 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(20): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:52:56 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(20): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:52:57 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian/detail/17]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\detail.php(88): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(39): view('pages/admin/pembelian/detail', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('17')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:52:59 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian/]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(20): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 05:53:03 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(20): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:05:22 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(20): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:09:48 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(20): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:09:49 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(20): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:10:59 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(21): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:11:00 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(21): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:20:14 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:20:24 --> ErrorException: Undefined variable $tipeBarang
+[Method: GET, Route: admin/pembelian/]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 16.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarang', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(65): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(21): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:21:37 --> ErrorException: Undefined variable $model
+[Method: GET, Route: admin/pembelian/]
+in APPPATH\Controllers\Admin\PembelianController.php on line 20.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PembelianController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:21:38 --> ErrorException: Undefined variable $model
+[Method: GET, Route: admin/pembelian/]
+in APPPATH\Controllers\Admin\PembelianController.php on line 20.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PembelianController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:24:01 --> ErrorException: Undefined variable $model
+[Method: GET, Route: admin/pembelian/]
+in APPPATH\Controllers\Admin\PembelianController.php on line 20.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PembelianController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:24:02 --> ErrorException: Undefined variable $model
+[Method: GET, Route: admin/pembelian/]
+in APPPATH\Controllers\Admin\PembelianController.php on line 20.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PembelianController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:25:02 --> ErrorException: Undefined variable $model
+[Method: GET, Route: admin/pembelian/]
+in APPPATH\Controllers\Admin\PembelianController.php on line 20.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PembelianController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 06:25:04 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 07:21:56 --> ErrorException: Undefined variable $response
+[Method: POST, Route: admin/pembelian/save]
+in APPPATH\Controllers\Admin\PembelianController.php on line 135.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PembelianController.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 07:26:46 --> ErrorException: Undefined variable $e
+[Method: POST, Route: admin/pembelian/save]
+in APPPATH\Controllers\Admin\PembelianController.php on line 135.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $e', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PembelianController.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 09:03:27 --> Error: Class "App\Controllers\Admin\TransaksiPembelianModel" not found
+[Method: POST, Route: admin/pembelian/save]
+in APPPATH\Controllers\Admin\PembelianController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 09:05:07 --> Error: Class "App\Controllers\Admin\CashPaymentModel" not found
+[Method: POST, Route: admin/pembelian/save]
+in APPPATH\Controllers\Admin\PembelianController.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 11:12:09 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: admin/pembelian/detail/45]
+in APPPATH\Models\ViewMeityModel.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-01 11:13:34 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: admin/pembelian/detail/45]
+in APPPATH\Models\ViewMeityModel.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-01 11:14:57 --> BadMethodCallException: Call to undefined method App\Models\ViewMeityModel::getMeityByPembelian
+[Method: GET, Route: admin/pembelian/detail/45]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(39): CodeIgniter\Model->__call('getMeityByPembelian', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('45')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 11:17:58 --> BadMethodCallException: Call to undefined method App\Models\ViewMeityModel::getMeityByPembelian
+[Method: GET, Route: admin/pembelian/detail/45]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(39): CodeIgniter\Model->__call('getMeityByPembelian', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('45')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 11:18:34 --> BadMethodCallException: Call to undefined method App\Models\ViewMeityModel::getMeityByPembelian
+[Method: GET, Route: admin/pembelian/detail/45]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(39): CodeIgniter\Model->__call('getMeityByPembelian', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('45')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 11:18:35 --> BadMethodCallException: Call to undefined method App\Models\ViewMeityModel::getMeityByPembelian
+[Method: GET, Route: admin/pembelian/detail/45]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(39): CodeIgniter\Model->__call('getMeityByPembelian', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('45')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 11:20:18 --> ErrorException: Undefined array key "hutang"
+[Method: GET, Route: admin/pembelian/detail/45]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 72.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hutang"', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\detail.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(47): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('45')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 11:21:52 --> ErrorException: Undefined array key "hutang"
+[Method: GET, Route: admin/pembelian/detail/45]
+in APPPATH\Views\pages\admin\pembelian\detail.php on line 72.
+ 1 APPPATH\Views\pages\admin\pembelian\detail.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hutang"', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\detail.php', 72)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(47): view('pages/admin/pembelian/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('45')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 12:48:28 --> ParseError: syntax error, unexpected token "protected", expecting "," or ";"
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Models\PenjualanModel.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Models\\PenjualanModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PenjualanModel')
+ 3 APPPATH\Controllers\Admin\PenjualanController.php(16): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PenjualanModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:42:49 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-10-01 17:42:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PembelianController.php(20): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PembelianController.php(20): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-01 17:42:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/pembelian/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(20): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-10-01 17:43:05 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PembelianController.php(20): CodeIgniter\BaseModel->paginate(10)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PembelianController.php(20): CodeIgniter\BaseModel->paginate(10)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-01 17:43:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/pembelian/]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1728): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `vw_meity`', [], false)
+ 3 SYSTEMPATH\Model.php(678): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 4 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(20): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:44:12 --> ErrorException: Undefined variable $row
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\list.php on line 34.
+ 1 APPPATH\Views\pages\admin\penjualan\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 5 APPPATH\Controllers\Admin\PenjualanController.php(21): view('pages/admin/penjualan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:45:16 --> ErrorException: Undefined variable $row
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\list.php on line 34.
+ 1 APPPATH\Views\pages\admin\penjualan\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 5 APPPATH\Controllers\Admin\PenjualanController.php(21): view('pages/admin/penjualan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:45:24 --> ErrorException: Undefined variable $row
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\list.php on line 34.
+ 1 APPPATH\Views\pages\admin\penjualan\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 5 APPPATH\Controllers\Admin\PenjualanController.php(21): view('pages/admin/penjualan/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:46:08 --> ErrorException: Constant expression contains invalid operations
+[Method: GET, Route: admin/penjualan/detail/48]
+in APPPATH\Models\ViewDetailPenjualanModel.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-10-01 17:46:50 --> BadMethodCallException: Call to undefined method App\Models\ViewDetailPenjualanModel::getDetailBypenjualanId
+[Method: GET, Route: admin/penjualan/detail/48]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(27): CodeIgniter\Model->__call('getDetailBypenjualanId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-10-01 17:50:19 --> mysqli_sql_exception: Table 'db_tokoko.viewdetailpenjualans' doesn't exist in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->first()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-01 17:50:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+[Method: GET, Route: admin/penjualan/detail/48]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:50:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:50:19 --> [Caused by] mysqli_sql_exception: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-10-01 17:50:24 --> mysqli_sql_exception: Table 'db_tokoko.viewdetailpenjualans' doesn't exist in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->first()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-01 17:50:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+[Method: GET, Route: admin/penjualan/detail/48]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:50:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:50:24 --> [Caused by] mysqli_sql_exception: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-10-01 17:55:43 --> mysqli_sql_exception: Table 'db_tokoko.viewdetailpenjualans' doesn't exist in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-10-01 17:55:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+[Method: GET, Route: admin/penjualan/detail/48]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:55:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:55:43 --> [Caused by] mysqli_sql_exception: Table 'db_tokoko.viewdetailpenjualans' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = \'48\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `viewdetailpenjualans`
+WHERE `id_penjualan` = :id_penjualan:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ViewDetailPenjualanModel.php(16): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Admin\PenjualanController.php(27): App\Models\ViewDetailPenjualanModel->getDetailByPenjualanId('48')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:56:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/admin/penjualan/detail.php"
+[Method: GET, Route: admin/penjualan/detail/48]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/penjualan/detail.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/detail', [], true)
+ 3 APPPATH\Controllers\Admin\PenjualanController.php(29): view('pages/admin/penjualan/detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 17:58:06 --> ErrorException: Attempt to read property "customer" on array
+[Method: GET, Route: admin/penjualan/detail/48]
+in APPPATH\Views\pages\admin\penjualan\detail.php on line 33.
+ 1 APPPATH\Views\pages\admin\penjualan\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "customer" on array', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/detail', [], true)
+ 5 APPPATH\Controllers\Admin\PenjualanController.php(29): view('pages/admin/penjualan/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->detail('48')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 20:31:33 --> ErrorException: Undefined variable $tipeBarangList
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\modal.php on line 22.
+ 1 APPPATH\Views\pages\admin\penjualan\modal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarangList', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/modal', [], true)
+ 5 APPPATH\Views\pages\admin\penjualan\list.php(47): view('pages/admin/penjualan/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 9 APPPATH\Controllers\Admin\PenjualanController.php(20): view('pages/admin/penjualan/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 20:33:35 --> ErrorException: Undefined variable $tipeBarangList
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\modal.php on line 22.
+ 1 APPPATH\Views\pages\admin\penjualan\modal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarangList', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/modal', [], true)
+ 5 APPPATH\Views\pages\admin\penjualan\list.php(47): view('pages/admin/penjualan/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 9 APPPATH\Controllers\Admin\PenjualanController.php(20): view('pages/admin/penjualan/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 20:36:38 --> ErrorException: Undefined variable $tipeBarangList
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\modal.php on line 22.
+ 1 APPPATH\Views\pages\admin\penjualan\modal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarangList', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/modal', [], true)
+ 5 APPPATH\Views\pages\admin\penjualan\list.php(47): view('pages/admin/penjualan/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 9 APPPATH\Controllers\Admin\PenjualanController.php(20): view('pages/admin/penjualan/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 20:37:03 --> ErrorException: Undefined variable $tipeBarangList
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\modal.php on line 22.
+ 1 APPPATH\Views\pages\admin\penjualan\modal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarangList', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/modal', [], true)
+ 5 APPPATH\Views\pages\admin\penjualan\list.php(47): view('pages/admin/penjualan/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 9 APPPATH\Controllers\Admin\PenjualanController.php(20): view('pages/admin/penjualan/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 20:38:34 --> ErrorException: Undefined variable $tipeBarangList
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\modal.php on line 22.
+ 1 APPPATH\Views\pages\admin\penjualan\modal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarangList', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/modal', [], true)
+ 5 APPPATH\Views\pages\admin\penjualan\list.php(47): view('pages/admin/penjualan/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 9 APPPATH\Controllers\Admin\PenjualanController.php(20): view('pages/admin/penjualan/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 20:39:26 --> ErrorException: Undefined variable $tipeBarangList
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\modal.php on line 22.
+ 1 APPPATH\Views\pages\admin\penjualan\modal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarangList', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/modal', [], true)
+ 5 APPPATH\Views\pages\admin\penjualan\list.php(47): view('pages/admin/penjualan/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 9 APPPATH\Controllers\Admin\PenjualanController.php(21): view('pages/admin/penjualan/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 20:40:50 --> ErrorException: Undefined variable $tipeBarangList
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\modal.php on line 22.
+ 1 APPPATH\Views\pages\admin\penjualan\modal.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeBarangList', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/modal', [], true)
+ 5 APPPATH\Views\pages\admin\penjualan\list.php(47): view('pages/admin/penjualan/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 9 APPPATH\Controllers\Admin\PenjualanController.php(21): view('pages/admin/penjualan/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 21:05:09 --> Error: Class "App\Controllers\Admin\DetailPembelianModel" not found
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 21:05:39 --> Error: Class "App\Controllers\Admin\DetailPembelianModel" not found
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 23:18:54 --> ErrorException: include(menu.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 34.
+ 1 APPPATH\Views\auth\login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(menu.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 34)
+ 2 APPPATH\Views\auth\login.php(34): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 23:54:34 --> Error: Class "App\Controllers\UserModel" not found
+[Method: POST, Route: auth/dologin]
+in APPPATH\Controllers\AuthController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->doLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-01 23:54:50 --> Error: Class "App\Controllers\UserModel" not found
+[Method: POST, Route: auth/dologin]
+in APPPATH\Controllers\AuthController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->doLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')

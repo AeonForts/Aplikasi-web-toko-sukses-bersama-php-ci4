@@ -1,0 +1,808 @@
+INFO - 2024-12-05 13:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-05 13:03:51 --> Sale Error: Pembayaran kurang dari total harga
+INFO - 2024-12-05 13:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-05 13:04:15 --> Sale Error: Pembayaran kurang dari total harga
+INFO - 2024-12-05 13:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-05 13:04:26 --> Sale Error: Pembayaran kurang dari total harga
+INFO - 2024-12-05 13:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:07:01 --> Total Amount: 22500
+DEBUG - 2024-12-05 13:07:01 --> Payment Amount: 4500
+ERROR - 2024-12-05 13:07:01 --> Sale Error: Pembayaran kurang dari total harga
+INFO - 2024-12-05 13:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:09:20 --> Processing id_tipe: 12
+INFO - 2024-12-05 13:09:20 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 7.50, status: 1
+INFO - 2024-12-05 13:09:20 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-05","id_tipe":"12","total_harga_jual":22500,"total_harga_modal":45000,"total_untung":-22500,"total_barang_keluar":"7.50"}
+INFO - 2024-12-05 13:09:20 --> New penjualan record created with id_penjualan: 4
+DEBUG - 2024-12-05 13:09:20 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":45000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 13:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:09:32 --> Processing id_tipe: 12
+INFO - 2024-12-05 13:09:32 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 7.50, status: 1
+INFO - 2024-12-05 13:09:32 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 13:09:32 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":45000,"total_harga_modal":90000,"total_untung":-45000,"total_barang_keluar":15}
+DEBUG - 2024-12-05 13:09:32 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":45000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 13:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 13:15:12 --> Error: Class "App\Controllers\Admin\InvoiceModel" not found
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 180.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 13:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:18:02 --> Processing id_tipe: 11
+INFO - 2024-12-05 13:18:02 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.00, status: 1
+INFO - 2024-12-05 13:18:02 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-05","id_tipe":"11","total_harga_jual":30000,"total_harga_modal":15000,"total_untung":15000,"total_barang_keluar":"2.00"}
+INFO - 2024-12-05 13:18:02 --> New penjualan record created with id_penjualan: 5
+DEBUG - 2024-12-05 13:18:02 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":15000,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 13:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:42:24 --> Processing id_tipe: 11
+INFO - 2024-12-05 13:42:24 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.87, status: 1
+INFO - 2024-12-05 13:42:24 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 13:42:24 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":58050,"total_harga_modal":29025,"total_untung":29025,"total_barang_keluar":3.87}
+DEBUG - 2024-12-05 13:42:24 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":14025,"id_tipe":"11","detail_penjualan_status":"1"}
+DEBUG - 2024-12-05 13:42:24 --> Processing id_tipe: 12
+INFO - 2024-12-05 13:42:24 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-05 13:42:24 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 13:42:24 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":60000,"total_harga_modal":120000,"total_untung":-60000,"total_barang_keluar":20}
+DEBUG - 2024-12-05 13:42:24 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":30000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 13:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:43:03 --> Processing id_tipe: 12
+INFO - 2024-12-05 13:43:03 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-05 13:43:03 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 13:43:03 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":75000,"total_harga_modal":150000,"total_untung":-75000,"total_barang_keluar":25}
+DEBUG - 2024-12-05 13:43:03 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":30000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 13:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:50:57 --> Processing id_tipe: 12
+INFO - 2024-12-05 13:50:57 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-05 13:50:57 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 13:50:57 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":90000,"total_harga_modal":180000,"total_untung":-90000,"total_barang_keluar":30}
+DEBUG - 2024-12-05 13:50:57 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":30000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 13:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:51:15 --> Processing id_tipe: 12
+INFO - 2024-12-05 13:51:15 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-05 13:51:15 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 13:51:15 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":105000,"total_harga_modal":210000,"total_untung":-105000,"total_barang_keluar":35}
+DEBUG - 2024-12-05 13:51:15 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":30000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 13:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 13:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 13:52:00 --> Processing id_tipe: 12
+INFO - 2024-12-05 13:52:00 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 75.00, status: 1
+INFO - 2024-12-05 13:52:00 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 13:52:00 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":330000,"total_harga_modal":660000,"total_untung":-330000,"total_barang_keluar":110}
+DEBUG - 2024-12-05 13:52:00 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":450000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 13:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 14:00:18 --> Processing id_tipe: 11
+INFO - 2024-12-05 14:00:18 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-05 14:00:18 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 14:00:18 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":133050,"total_harga_modal":66525,"total_untung":66525,"total_barang_keluar":8.870000000000001}
+DEBUG - 2024-12-05 14:00:18 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":37500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 14:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 14:00:50 --> Processing id_tipe: 11
+INFO - 2024-12-05 14:00:50 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.77, status: 1
+INFO - 2024-12-05 14:00:50 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 14:00:50 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":144600,"total_harga_modal":72300,"total_untung":72300,"total_barang_keluar":9.639999999999999}
+DEBUG - 2024-12-05 14:00:50 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":5775,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 14:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 14:03:41 --> Processing id_tipe: 11
+INFO - 2024-12-05 14:03:41 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-05 14:03:41 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 14:03:41 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":219600,"total_harga_modal":109800,"total_untung":109800,"total_barang_keluar":14.64}
+DEBUG - 2024-12-05 14:03:41 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":37500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 14:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 14:09:00 --> Processing id_tipe: 11
+INFO - 2024-12-05 14:09:00 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.50, status: 1
+INFO - 2024-12-05 14:09:00 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 14:09:00 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":227100,"total_harga_modal":113550,"total_untung":113550,"total_barang_keluar":15.14}
+DEBUG - 2024-12-05 14:09:00 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":3750,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 14:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 14:12:51 --> Processing id_tipe: 11
+INFO - 2024-12-05 14:12:51 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.50, status: 1
+INFO - 2024-12-05 14:12:51 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 14:12:51 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":249600,"total_harga_modal":124800,"total_untung":124800,"total_barang_keluar":16.64}
+DEBUG - 2024-12-05 14:12:51 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":11250,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 14:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 14:20:55 --> Processing id_tipe: 11
+INFO - 2024-12-05 14:20:55 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 15.00, status: 1
+INFO - 2024-12-05 14:20:55 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 14:20:55 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":474600,"total_harga_modal":237300,"total_untung":237300,"total_barang_keluar":31.64}
+DEBUG - 2024-12-05 14:20:55 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":112500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 14:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 14:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 15:36:23 --> ParseError: syntax error, unexpected single-quoted string "id_method", expecting "]"
+[Method: GET, Route: admin/penjualan/getTipeBarang]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 251.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\PenjualanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PenjualanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PenjualanController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PenjualanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-12-05 15:36:30 --> ParseError: syntax error, unexpected single-quoted string "id_method", expecting "]"
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 251.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\PenjualanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PenjualanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PenjualanController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PenjualanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-12-05 15:37:10 --> ParseError: syntax error, unexpected single-quoted string "id_method", expecting "]"
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 251.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\PenjualanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PenjualanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PenjualanController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PenjualanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 15:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 15:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 15:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 15:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 15:38:58 --> Processing id_tipe: 12
+INFO - 2024-12-05 15:38:58 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-05 15:38:58 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 15:38:58 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":354990,"total_harga_modal":709980,"total_untung":-354990,"total_barang_keluar":118.33}
+DEBUG - 2024-12-05 15:38:58 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 15:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 15:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 15:39:14 --> Processing id_tipe: 12
+INFO - 2024-12-05 15:39:14 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-05 15:39:14 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 15:39:14 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":354990,"total_harga_modal":709980,"total_untung":-354990,"total_barang_keluar":118.33}
+DEBUG - 2024-12-05 15:39:14 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 15:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 15:41:26 --> Processing id_tipe: 12
+INFO - 2024-12-05 15:41:26 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-05 15:41:26 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 15:41:26 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":354990,"total_harga_modal":709980,"total_untung":-354990,"total_barang_keluar":118.33}
+DEBUG - 2024-12-05 15:41:26 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 15:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 15:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 15:51:31 --> Processing id_tipe: 12
+INFO - 2024-12-05 15:51:31 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-05 15:51:31 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 15:51:31 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":379980,"total_harga_modal":759960,"total_untung":-379980,"total_barang_keluar":126.66}
+DEBUG - 2024-12-05 15:51:31 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 15:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 16:29:54 --> Processing id_tipe: 12
+INFO - 2024-12-05 16:29:54 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-05 16:29:54 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 16:29:54 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":404970,"total_harga_modal":809940,"total_untung":-404970,"total_barang_keluar":134.99}
+DEBUG - 2024-12-05 16:29:54 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 16:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 16:30:56 --> Processing id_tipe: 11
+INFO - 2024-12-05 16:30:56 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 15.00, status: 1
+INFO - 2024-12-05 16:30:56 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 16:30:56 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":699600,"total_harga_modal":349800,"total_untung":349800,"total_barang_keluar":46.64}
+DEBUG - 2024-12-05 16:30:56 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":112500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 16:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 16:31:55 --> Processing id_tipe: 11
+INFO - 2024-12-05 16:31:55 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.67, status: 1
+INFO - 2024-12-05 16:31:55 --> Found existing penjualan record with id_penjualan: 5
+INFO - 2024-12-05 16:31:55 --> Updated existing penjualan record with id_penjualan: 5. New totals: {"total_harga_jual":724650,"total_harga_modal":362325,"total_untung":362325,"total_barang_keluar":48.31}
+DEBUG - 2024-12-05 16:31:55 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":12525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-05 16:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 16:34:31 --> Processing id_tipe: 12
+INFO - 2024-12-05 16:34:31 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 75.00, status: 1
+INFO - 2024-12-05 16:34:31 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 16:34:31 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":629970,"total_harga_modal":1259940,"total_untung":-629970,"total_barang_keluar":209.99}
+DEBUG - 2024-12-05 16:34:31 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":450000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 16:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 16:36:27 --> Processing id_tipe: 12
+INFO - 2024-12-05 16:36:27 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-05 16:36:27 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 16:36:27 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":654960,"total_harga_modal":1309920,"total_untung":-654960,"total_barang_keluar":218.32000000000002}
+DEBUG - 2024-12-05 16:36:27 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 16:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 16:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-05 16:36:45 --> Processing id_tipe: 12
+INFO - 2024-12-05 16:36:45 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-05 16:36:45 --> Found existing penjualan record with id_penjualan: 4
+INFO - 2024-12-05 16:36:45 --> Updated existing penjualan record with id_penjualan: 4. New totals: {"total_harga_jual":679950,"total_harga_modal":1359900,"total_untung":-679950,"total_barang_keluar":226.65}
+DEBUG - 2024-12-05 16:36:45 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-05 16:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 18:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 18:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:20:38 --> ParseError: syntax error, unexpected token "use", expecting ";"
+[Method: GET, Route: admin/invoice]
+in APPPATH\Controllers\Admin\InvoiceController.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\InvoiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\InvoiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\InvoiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\InvoiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:21:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/admin/invoices/list.php"
+[Method: GET, Route: admin/invoice]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/invoices/list.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/invoices/list', [], true)
+ 3 APPPATH\Controllers\Admin\InvoiceController.php(21): view('pages/admin/invoices/list')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:34:19 --> ErrorException: Undefined variable $invoiceModel
+[Method: POST, Route: admin/invoice/datatables]
+in APPPATH\Controllers\Admin\InvoiceController.php on line 38.
+ 1 APPPATH\Controllers\Admin\InvoiceController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\InvoiceController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->getDatatables()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:35:12 --> ErrorException: Undefined variable $invoiceModel
+[Method: POST, Route: admin/invoice/datatables]
+in APPPATH\Controllers\Admin\InvoiceController.php on line 38.
+ 1 APPPATH\Controllers\Admin\InvoiceController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\InvoiceController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->getDatatables()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:37:43 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php on line 930
+[Method: POST, Route: admin/invoice/datatables]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1509.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->limit('10', '0')
+ 2 APPPATH\Controllers\Admin\InvoiceController.php(64): CodeIgniter\Model->__call('limit', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:38:26 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php on line 930
+[Method: POST, Route: admin/invoice/datatables]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1509.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->limit('10', '0')
+ 2 APPPATH\Controllers\Admin\InvoiceController.php(64): CodeIgniter\Model->__call('limit', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:39:44 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php on line 930
+[Method: POST, Route: admin/invoice/datatables]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1509.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->limit('10', '0')
+ 2 APPPATH\Controllers\Admin\InvoiceController.php(64): CodeIgniter\Model->__call('limit', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:40:42 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php on line 930
+[Method: POST, Route: admin/invoice/datatables]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1509.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->limit('10', '0')
+ 2 APPPATH\Controllers\Admin\InvoiceController.php(64): CodeIgniter\Model->__call('limit', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 19:59:33 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/invoice/detail/21]
+in APPPATH\Controllers\Admin\InvoiceController.php on line 28.
+ 1 APPPATH\Controllers\Admin\InvoiceController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\InvoiceController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->detail('21')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 19:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 19:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 20:00:02 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/invoice/detail/18]
+in APPPATH\Controllers\Admin\InvoiceController.php on line 28.
+ 1 APPPATH\Controllers\Admin\InvoiceController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\InvoiceController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->detail('18')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 20:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 20:00:05 --> ErrorException: Undefined variable $invoiceModel
+[Method: GET, Route: admin/invoice/detail/18]
+in APPPATH\Controllers\Admin\InvoiceController.php on line 28.
+ 1 APPPATH\Controllers\Admin\InvoiceController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoiceModel', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\InvoiceController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->detail('18')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 20:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 20:01:12 --> ErrorException: Undefined array key "unit_price"
+[Method: GET, Route: admin/invoice/detail/18]
+in APPPATH\Views\pages\admin\invoice\detail.php on line 83.
+ 1 APPPATH\Views\pages\admin\invoice\detail.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unit_price"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\invoice\\detail.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\invoice\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/invoice/detail', [], true)
+ 5 APPPATH\Controllers\Admin\InvoiceController.php(42): view('pages/admin/invoice/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->detail('18')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 20:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 20:01:15 --> ErrorException: Undefined array key "unit_price"
+[Method: GET, Route: admin/invoice/detail/22]
+in APPPATH\Views\pages\admin\invoice\detail.php on line 83.
+ 1 APPPATH\Views\pages\admin\invoice\detail.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "unit_price"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\invoice\\detail.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\invoice\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/invoice/detail', [], true)
+ 5 APPPATH\Controllers\Admin\InvoiceController.php(42): view('pages/admin/invoice/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->detail('22')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 20:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 20:02:00 --> ErrorException: Undefined array key "total_price"
+[Method: GET, Route: admin/invoice/detail/22]
+in APPPATH\Views\pages\admin\invoice\detail.php on line 85.
+ 1 APPPATH\Views\pages\admin\invoice\detail.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_price"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\invoice\\detail.php', 85)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\invoice\\detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/invoice/detail', [], true)
+ 5 APPPATH\Controllers\Admin\InvoiceController.php(42): view('pages/admin/invoice/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->detail('22')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 20:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 20:11:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/admin/invoice/invoice_receipt.php"
+[Method: GET, Route: admin/invoice/print/22]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/invoice/invoice_receipt.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/invoice/invoice_receipt', [], true)
+ 3 APPPATH\Controllers\Admin\InvoiceController.php(148): view('pages/admin/invoice/invoice_receipt', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->printInvoice('22')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 20:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 20:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 21:04:36 --> Error: Call to a member function join() on string
+[Method: GET, Route: admin/invoice/print/22]
+in APPPATH\Controllers\Admin\InvoiceController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->printInvoice('22')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 21:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 21:04:43 --> Error: Call to a member function join() on string
+[Method: GET, Route: admin/invoice/print/19]
+in APPPATH\Controllers\Admin\InvoiceController.php on line 135.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->printInvoice('19')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 21:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-05 21:05:23 --> mysqli_sql_exception: Unknown column 'tbl_invoice_item.id_method' in 'on clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_inv...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_inv...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_inv...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_inv...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\InvoiceController.php(137): CodeIgniter\BaseModel->findAll()
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->printInvoice('21')
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2024-12-05 21:05:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_invoice_item.id_method' in 'on clause'
+[Method: GET, Route: admin/invoice/print/21]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_invoice_items`.*, `tb`.`jenis_barang`, `ub`.`tipe_unit`, `tbl_payment_method`.`nama_method`
+FROM `tbl_invoice_items`
+JOIN `tbl_tipe_barang` `tb` ON `tbl_invoice_items`.`id_tipe` = `tb`.`id_tipe`
+JOIN `tbl_unit_barang` `ub` ON `tbl_invoice_items`.`id_unit` = `ub`.`id_unit`
+LEFT JOIN `tbl_payment_method` ON `tbl_payment_method`.`id_method` = `tbl_invoice_item`.`id_method`
+WHERE `id_invoice` = :id_invoice:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Admin\InvoiceController.php(137): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->printInvoice('21')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-12-05 21:05:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_invoice_item.id_method' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_invoice_items`.*, `tb`.`jenis_barang`, `ub`.`tipe_unit`, `tbl_payment_method`.`nama_method`
+FROM `tbl_invoice_items`
+JOIN `tbl_tipe_barang` `tb` ON `tbl_invoice_items`.`id_tipe` = `tb`.`id_tipe`
+JOIN `tbl_unit_barang` `ub` ON `tbl_invoice_items`.`id_unit` = `ub`.`id_unit`
+LEFT JOIN `tbl_payment_method` ON `tbl_payment_method`.`id_method` = `tbl_invoice_item`.`id_method`
+WHERE `id_invoice` = \'21\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_invoice_items`.*, `tb`.`jenis_barang`, `ub`.`tipe_unit`, `tbl_payment_method`.`nama_method`
+FROM `tbl_invoice_items`
+JOIN `tbl_tipe_barang` `tb` ON `tbl_invoice_items`.`id_tipe` = `tb`.`id_tipe`
+JOIN `tbl_unit_barang` `ub` ON `tbl_invoice_items`.`id_unit` = `ub`.`id_unit`
+LEFT JOIN `tbl_payment_method` ON `tbl_payment_method`.`id_method` = `tbl_invoice_item`.`id_method`
+WHERE `id_invoice` = \'21\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_invoice_items`.*, `tb`.`jenis_barang`, `ub`.`tipe_unit`, `tbl_payment_method`.`nama_method`
+FROM `tbl_invoice_items`
+JOIN `tbl_tipe_barang` `tb` ON `tbl_invoice_items`.`id_tipe` = `tb`.`id_tipe`
+JOIN `tbl_unit_barang` `ub` ON `tbl_invoice_items`.`id_unit` = `ub`.`id_unit`
+LEFT JOIN `tbl_payment_method` ON `tbl_payment_method`.`id_method` = `tbl_invoice_item`.`id_method`
+WHERE `id_invoice` = :id_invoice:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Admin\InvoiceController.php(137): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->printInvoice('21')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-12-05 21:05:23 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_invoice_item.id_method' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_invoice_items`.*, `tb`.`jenis_barang`, `ub`.`tipe_unit`, `tbl_payment_method`.`nama_method`
+FROM `tbl_invoice_items`
+JOIN `tbl_tipe_barang` `tb` ON `tbl_invoice_items`.`id_tipe` = `tb`.`id_tipe`
+JOIN `tbl_unit_barang` `ub` ON `tbl_invoice_items`.`id_unit` = `ub`.`id_unit`
+LEFT JOIN `tbl_payment_method` ON `tbl_payment_method`.`id_method` = `tbl_invoice_item`.`id_method`
+WHERE `id_invoice` = \'21\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_invoice_items`.*, `tb`.`jenis_barang`, `ub`.`tipe_unit`, `tbl_payment_method`.`nama_method`
+FROM `tbl_invoice_items`
+JOIN `tbl_tipe_barang` `tb` ON `tbl_invoice_items`.`id_tipe` = `tb`.`id_tipe`
+JOIN `tbl_unit_barang` `ub` ON `tbl_invoice_items`.`id_unit` = `ub`.`id_unit`
+LEFT JOIN `tbl_payment_method` ON `tbl_payment_method`.`id_method` = `tbl_invoice_item`.`id_method`
+WHERE `id_invoice` = \'21\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_invoice_items`.*, `tb`.`jenis_barang`, `ub`.`tipe_unit`, `tbl_payment_method`.`nama_method`
+FROM `tbl_invoice_items`
+JOIN `tbl_tipe_barang` `tb` ON `tbl_invoice_items`.`id_tipe` = `tb`.`id_tipe`
+JOIN `tbl_unit_barang` `ub` ON `tbl_invoice_items`.`id_unit` = `ub`.`id_unit`
+LEFT JOIN `tbl_payment_method` ON `tbl_payment_method`.`id_method` = `tbl_invoice_item`.`id_method`
+WHERE `id_invoice` = \'21\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_invoice_items`.*, `tb`.`jenis_barang`, `ub`.`tipe_unit`, `tbl_payment_method`.`nama_method`
+FROM `tbl_invoice_items`
+JOIN `tbl_tipe_barang` `tb` ON `tbl_invoice_items`.`id_tipe` = `tb`.`id_tipe`
+JOIN `tbl_unit_barang` `ub` ON `tbl_invoice_items`.`id_unit` = `ub`.`id_unit`
+LEFT JOIN `tbl_payment_method` ON `tbl_payment_method`.`id_method` = `tbl_invoice_item`.`id_method`
+WHERE `id_invoice` = :id_invoice:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Admin\InvoiceController.php(137): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\InvoiceController->printInvoice('21')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\InvoiceController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 21:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 21:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 22:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 23:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 23:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 23:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 23:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 23:57:13 --> Error: Class "App\Controllers\Admin\PenjualanModel" not found
+[Method: POST, Route: admin/dashboard/getDailyBarChartData]
+in APPPATH\Controllers\Admin\DashboardController.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DashboardController->getDailyBarChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 23:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 23:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 23:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 23:57:18 --> Error: Class "App\Controllers\Admin\PenjualanModel" not found
+[Method: POST, Route: admin/dashboard/getDailyBarChartData]
+in APPPATH\Controllers\Admin\DashboardController.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DashboardController->getDailyBarChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 23:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 23:57:19 --> Error: Class "App\Controllers\Admin\PenjualanModel" not found
+[Method: POST, Route: admin/dashboard/getDailyBarChartData]
+in APPPATH\Controllers\Admin\DashboardController.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DashboardController->getDailyBarChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 23:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 23:57:20 --> Error: Class "App\Controllers\Admin\PenjualanModel" not found
+[Method: POST, Route: admin/dashboard/getDailyBarChartData]
+in APPPATH\Controllers\Admin\DashboardController.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DashboardController->getDailyBarChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 23:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 23:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-05 23:58:10 --> Error: Class "App\Controllers\Admin\PenjualanModel" not found
+[Method: POST, Route: admin/dashboard/getDailyBarChartData]
+in APPPATH\Controllers\Admin\DashboardController.php on line 130.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\DashboardController->getDailyBarChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-05 23:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-05 23:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

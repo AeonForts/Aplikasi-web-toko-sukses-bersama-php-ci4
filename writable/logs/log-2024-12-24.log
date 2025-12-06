@@ -1,0 +1,1388 @@
+INFO - 2024-12-24 08:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:10 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"5","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"2","jumlah":"150000"}]}
+INFO - 2024-12-24 08:30:10 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 08:30:10 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:30:10 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 5, status: 1
+INFO - 2024-12-24 08:30:10 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-24","id_tipe":"7","total_harga_jual":150000,"total_harga_modal":135000,"total_untung":15000,"total_barang_keluar":5}
+INFO - 2024-12-24 08:30:10 --> New penjualan record created with id_penjualan: 75
+DEBUG - 2024-12-24 08:30:10 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":135000,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-24 08:30:10 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41437121.26,"current_status":"0"}
+INFO - 2024-12-24 08:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:28 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2.066667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"2","jumlah":"62000"}]}
+INFO - 2024-12-24 08:30:28 --> Received date: 2024-12-24
+WARNING - 2024-12-24 08:30:28 --> [DEPRECATED] Implicit conversion from float 62000.009999999995 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(62000.009999999995)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 08:30:28 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:30:28 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2.066667, status: 1
+INFO - 2024-12-24 08:30:28 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:30:28 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":212000.01,"total_harga_modal":190800.009,"total_untung":21200.000999999997,"total_barang_keluar":7.066667}
+DEBUG - 2024-12-24 08:30:28 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":55800.009,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-24 08:30:28 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41492921.269,"current_status":"0"}
+WARNING - 2024-12-24 08:30:28 --> [DEPRECATED] Implicit conversion from float 62000.009999999995 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(62000.009999999995)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 08:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:41 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 08:30:41 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 08:30:41 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:30:41 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 08:30:41 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:30:41 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":242000.01,"total_harga_modal":217800.01,"total_untung":24200,"total_barang_keluar":8.066666999999999}
+DEBUG - 2024-12-24 08:30:41 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:30:41 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41519921.27,"current_status":"0"}
+INFO - 2024-12-24 08:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:54 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 08:30:54 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 08:30:54 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:30:54 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 08:30:54 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:30:54 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":272000.01,"total_harga_modal":244800.01,"total_untung":27200,"total_barang_keluar":9.066667}
+DEBUG - 2024-12-24 08:30:54 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:30:54 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41546921.27,"current_status":"0"}
+INFO - 2024-12-24 08:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:45:02 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.166667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"35000"}]}
+INFO - 2024-12-24 08:45:02 --> Received date: 2024-12-24
+WARNING - 2024-12-24 08:45:02 --> [DEPRECATED] Implicit conversion from float 35000.009999999995 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(35000.009999999995)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 08:45:02 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:45:02 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.166667, status: 1
+INFO - 2024-12-24 08:45:02 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:45:02 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":307000.02,"total_harga_modal":276300.01900000003,"total_untung":30700.000999999997,"total_barang_keluar":10.233334000000001}
+DEBUG - 2024-12-24 08:45:02 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":31500.009,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:45:02 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41578421.27900001,"current_status":"0"}
+WARNING - 2024-12-24 08:45:02 --> [DEPRECATED] Implicit conversion from float 35000.009999999995 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(35000.009999999995)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 08:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:46:30 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 08:46:30 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 08:46:30 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:46:30 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 08:46:30 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:46:30 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":337000.02,"total_harga_modal":303300.02,"total_untung":33700,"total_barang_keluar":11.233334}
+DEBUG - 2024-12-24 08:46:30 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:46:30 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41605421.28,"current_status":"0"}
+INFO - 2024-12-24 08:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:49:10 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 08:49:10 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 08:49:10 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:49:10 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 08:49:10 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:49:10 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":367000.02,"total_harga_modal":330300.02,"total_untung":36700,"total_barang_keluar":12.233334}
+DEBUG - 2024-12-24 08:49:10 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:49:10 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41632421.28,"current_status":"0"}
+INFO - 2024-12-24 08:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:49:33 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 08:49:33 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 08:49:33 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:49:33 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 08:49:33 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:49:33 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":397000.02,"total_harga_modal":357300.02,"total_untung":39700,"total_barang_keluar":13.233334}
+DEBUG - 2024-12-24 08:49:33 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:49:33 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41659421.28,"current_status":"0"}
+INFO - 2024-12-24 08:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:07 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.883333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"56500"}]}
+INFO - 2024-12-24 08:50:07 --> Received date: 2024-12-24
+WARNING - 2024-12-24 08:50:07 --> [DEPRECATED] Implicit conversion from float 56499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(56499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 08:50:07 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:50:07 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.883333, status: 1
+INFO - 2024-12-24 08:50:07 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:50:07 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":453500.01,"total_harga_modal":408150.011,"total_untung":45349.999,"total_barang_keluar":15.116667}
+DEBUG - 2024-12-24 08:50:07 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":50849.990999999995,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:50:07 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41710271.271,"current_status":"0"}
+WARNING - 2024-12-24 08:50:07 --> [DEPRECATED] Implicit conversion from float 56499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(56499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 08:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:24 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.333333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"40000"}]}
+INFO - 2024-12-24 08:50:24 --> Received date: 2024-12-24
+WARNING - 2024-12-24 08:50:24 --> [DEPRECATED] Implicit conversion from float 39999.990000000005 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(39999.990000000005)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 08:50:24 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:50:24 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.333333, status: 1
+INFO - 2024-12-24 08:50:24 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:50:24 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":493500,"total_harga_modal":444150.001,"total_untung":49349.999,"total_barang_keluar":16.45}
+DEBUG - 2024-12-24 08:50:24 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":35999.991,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:50:24 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41746271.261,"current_status":"0"}
+WARNING - 2024-12-24 08:50:24 --> [DEPRECATED] Implicit conversion from float 39999.990000000005 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(39999.990000000005)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 08:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:52 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"3.333333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"100000"}]}
+INFO - 2024-12-24 08:50:52 --> Received date: 2024-12-24
+WARNING - 2024-12-24 08:50:52 --> [DEPRECATED] Implicit conversion from float 99999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(99999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 08:50:52 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:50:52 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 3.333333, status: 1
+INFO - 2024-12-24 08:50:52 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:50:52 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":593499.99,"total_harga_modal":534149.991,"total_untung":59349.998999999996,"total_barang_keluar":19.783333}
+DEBUG - 2024-12-24 08:50:52 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":89999.99100000001,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:50:52 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41836271.250999995,"current_status":"0"}
+WARNING - 2024-12-24 08:50:52 --> [DEPRECATED] Implicit conversion from float 99999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(99999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 08:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:03 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"3","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"90000"}]}
+INFO - 2024-12-24 08:51:03 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 08:51:03 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:51:03 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 3, status: 1
+INFO - 2024-12-24 08:51:03 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:51:03 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":683499.99,"total_harga_modal":615149.99,"total_untung":68350,"total_barang_keluar":22.783333}
+DEBUG - 2024-12-24 08:51:03 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":81000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:51:03 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":41917271.25,"current_status":"0"}
+INFO - 2024-12-24 08:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:38 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"4","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"1","jumlah":"120000"}]}
+INFO - 2024-12-24 08:51:38 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 08:51:38 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:51:38 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 4, status: 0
+INFO - 2024-12-24 08:51:38 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:51:38 --> Status is 0 (belum lunas). Returning existing id_penjualan: 75
+DEBUG - 2024-12-24 08:51:38 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":108000,"id_tipe":"7","payment_method":"1"}
+DEBUG - 2024-12-24 08:51:38 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42025271.25,"current_status":"0"}
+INFO - 2024-12-24 08:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:54:28 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.066667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"32000"}]}
+INFO - 2024-12-24 08:54:28 --> Received date: 2024-12-24
+WARNING - 2024-12-24 08:54:28 --> [DEPRECATED] Implicit conversion from float 32000.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(32000.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 08:54:28 --> Processing id_tipe: 7
+INFO - 2024-12-24 08:54:28 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.066667, status: 1
+INFO - 2024-12-24 08:54:28 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 08:54:28 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":715500,"total_harga_modal":643949.999,"total_untung":71550.001,"total_barang_keluar":23.849999999999998}
+DEBUG - 2024-12-24 08:54:28 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":28800.009000000002,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 08:54:28 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42054071.259,"current_status":"0"}
+WARNING - 2024-12-24 08:54:28 --> [DEPRECATED] Implicit conversion from float 32000.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(32000.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 08:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 08:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:26:54 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 09:26:54 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 09:26:54 --> Processing id_tipe: 7
+INFO - 2024-12-24 09:26:54 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 09:26:54 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 09:26:54 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":745500,"total_harga_modal":670950,"total_untung":74550,"total_barang_keluar":24.85}
+DEBUG - 2024-12-24 09:26:54 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 09:26:54 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42081071.26,"current_status":"0"}
+INFO - 2024-12-24 09:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:47:19 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 09:47:19 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 09:47:19 --> Processing id_tipe: 7
+INFO - 2024-12-24 09:47:19 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 09:47:19 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 09:47:19 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":775500,"total_harga_modal":697950,"total_untung":77550,"total_barang_keluar":25.85}
+DEBUG - 2024-12-24 09:47:19 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 09:47:19 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42108071.26,"current_status":"0"}
+INFO - 2024-12-24 09:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:54:57 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.066667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"32000"}]}
+INFO - 2024-12-24 09:54:57 --> Received date: 2024-12-24
+WARNING - 2024-12-24 09:54:57 --> [DEPRECATED] Implicit conversion from float 32000.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(32000.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 09:54:57 --> Processing id_tipe: 7
+INFO - 2024-12-24 09:54:57 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.066667, status: 1
+INFO - 2024-12-24 09:54:57 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 09:54:57 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":807500.01,"total_harga_modal":726750.009,"total_untung":80750.001,"total_barang_keluar":26.916667}
+DEBUG - 2024-12-24 09:54:57 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":28800.009000000002,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 09:54:57 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42136871.269,"current_status":"0"}
+WARNING - 2024-12-24 09:54:57 --> [DEPRECATED] Implicit conversion from float 32000.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(32000.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 09:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:55:31 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.666667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"20000"}]}
+INFO - 2024-12-24 09:55:31 --> Received date: 2024-12-24
+WARNING - 2024-12-24 09:55:31 --> [DEPRECATED] Implicit conversion from float 20000.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(20000.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 09:55:31 --> Processing id_tipe: 7
+INFO - 2024-12-24 09:55:31 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.666667, status: 1
+INFO - 2024-12-24 09:55:31 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 09:55:31 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":827500.02,"total_harga_modal":744750.019,"total_untung":82750.001,"total_barang_keluar":27.583334}
+DEBUG - 2024-12-24 09:55:31 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":18000.009000000002,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 09:55:31 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42154871.27900001,"current_status":"0"}
+WARNING - 2024-12-24 09:55:31 --> [DEPRECATED] Implicit conversion from float 20000.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(20000.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 09:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:58:57 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 09:58:57 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 09:58:57 --> Processing id_tipe: 7
+INFO - 2024-12-24 09:58:57 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 09:58:57 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 09:58:57 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":857500.02,"total_harga_modal":771750.02,"total_untung":85750,"total_barang_keluar":28.583334}
+DEBUG - 2024-12-24 09:58:57 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 09:58:57 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42181871.28,"current_status":"0"}
+INFO - 2024-12-24 09:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 09:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:02:25 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"60000"}]}
+INFO - 2024-12-24 10:02:25 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 10:02:25 --> Processing id_tipe: 7
+INFO - 2024-12-24 10:02:25 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2, status: 1
+INFO - 2024-12-24 10:02:25 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 10:02:25 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":917500.02,"total_harga_modal":825750.02,"total_untung":91750,"total_barang_keluar":30.583334}
+DEBUG - 2024-12-24 10:02:25 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":54000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 10:02:25 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42235871.28,"current_status":"0"}
+INFO - 2024-12-24 10:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:06:08 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2.033333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran om zaki","id_method":"1","jumlah":"61000"}]}
+INFO - 2024-12-24 10:06:08 --> Received date: 2024-12-24
+WARNING - 2024-12-24 10:06:08 --> [DEPRECATED] Implicit conversion from float 60999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(60999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 10:06:08 --> Processing id_tipe: 7
+INFO - 2024-12-24 10:06:08 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2.033333, status: 0
+INFO - 2024-12-24 10:06:08 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 10:06:08 --> Status is 0 (belum lunas). Returning existing id_penjualan: 75
+DEBUG - 2024-12-24 10:06:08 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":54899.990999999995,"id_tipe":"7","payment_method":"1"}
+DEBUG - 2024-12-24 10:06:08 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42290771.271,"current_status":"0"}
+WARNING - 2024-12-24 10:06:08 --> [DEPRECATED] Implicit conversion from float 60999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(60999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 10:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:36:13 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"10","name":"telur orange                                                 (15 KG)","quantity":"15","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"Teh sarah","id_method":"3","jumlah":"435000"}]}
+INFO - 2024-12-24 10:36:13 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 10:36:13 --> Processing id_tipe: 7
+INFO - 2024-12-24 10:36:13 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 15, status: 1
+INFO - 2024-12-24 10:36:13 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 10:36:13 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1352500.02,"total_harga_modal":1230750.02,"total_untung":121750,"total_barang_keluar":45.583334}
+DEBUG - 2024-12-24 10:36:13 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":405000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 10:36:13 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42695771.27,"current_status":"0"}
+INFO - 2024-12-24 10:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 10:36:15 --> Invoice retrieved: {"id_invoice":"459","customer_name":"Teh sarah","total_amount":"435000.00","payment_amount":"435000.00","change_amount":"0.00","invoice_date":"2024-12-24 10:36:13"}
+INFO - 2024-12-24 10:36:15 --> Invoice items retrieved: [{"id_invoice_item":"1269","id_invoice":"459","id_tipe":"7","id_unit":"10","id_method":"3","quantity":"15.00","price":"29000.00","total":"435000.00","jenis_barang":"telur orange","satuan_dasar":"kg","tipe_unit":"15 KG","standar_jumlah_barang":"1.00"}]
+INFO - 2024-12-24 11:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:01:46 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.533333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"46000"}]}
+INFO - 2024-12-24 11:01:46 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:01:46 --> [DEPRECATED] Implicit conversion from float 45999.990000000005 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(45999.990000000005)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:01:46 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:01:46 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.533333, status: 1
+INFO - 2024-12-24 11:01:46 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:01:46 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1398500.01,"total_harga_modal":1272150.011,"total_untung":126349.99900000001,"total_barang_keluar":47.116667}
+DEBUG - 2024-12-24 11:01:46 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":41399.991,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:01:46 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42737171.261,"current_status":"0"}
+WARNING - 2024-12-24 11:01:46 --> [DEPRECATED] Implicit conversion from float 45999.990000000005 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(45999.990000000005)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:03:11 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.883333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"26500"}]}
+INFO - 2024-12-24 11:03:11 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:03:11 --> [DEPRECATED] Implicit conversion from float 26499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(26499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:03:11 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:03:11 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.883333, status: 1
+INFO - 2024-12-24 11:03:11 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:03:11 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1425000,"total_harga_modal":1296000.001,"total_untung":128999.999,"total_barang_keluar":48}
+DEBUG - 2024-12-24 11:03:11 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":23849.991,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:03:11 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42761021.250999995,"current_status":"0"}
+WARNING - 2024-12-24 11:03:11 --> [DEPRECATED] Implicit conversion from float 26499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(26499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:04:15 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 11:04:15 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 11:04:15 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:04:15 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 11:04:15 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:04:15 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1455000,"total_harga_modal":1323000,"total_untung":132000,"total_barang_keluar":49}
+DEBUG - 2024-12-24 11:04:15 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:04:15 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42788021.25,"current_status":"0"}
+INFO - 2024-12-24 11:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:04:48 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.383333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"11500"}]}
+INFO - 2024-12-24 11:04:48 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:04:48 --> [DEPRECATED] Implicit conversion from float 11499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(11499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:04:48 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:04:48 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.383333, status: 1
+INFO - 2024-12-24 11:04:48 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:04:48 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1466499.99,"total_harga_modal":1333349.991,"total_untung":133149.999,"total_barang_keluar":49.383333}
+DEBUG - 2024-12-24 11:04:48 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":10349.991,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:04:48 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42798371.241,"current_status":"0"}
+WARNING - 2024-12-24 11:04:48 --> [DEPRECATED] Implicit conversion from float 11499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(11499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:05:13 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 11:05:13 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 11:05:13 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:05:13 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 11:05:13 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:05:13 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1496499.99,"total_harga_modal":1360349.99,"total_untung":136150,"total_barang_keluar":50.383333}
+DEBUG - 2024-12-24 11:05:13 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:05:13 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42825371.24,"current_status":"0"}
+INFO - 2024-12-24 11:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:05:42 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2.983333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"89500"}]}
+INFO - 2024-12-24 11:05:42 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:05:42 --> [DEPRECATED] Implicit conversion from float 89499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(89499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:05:42 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:05:42 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2.983333, status: 1
+INFO - 2024-12-24 11:05:42 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:05:42 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1585999.98,"total_harga_modal":1440899.981,"total_untung":145099.999,"total_barang_keluar":53.366666}
+DEBUG - 2024-12-24 11:05:42 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":80549.991,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:05:42 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42905921.231,"current_status":"0"}
+WARNING - 2024-12-24 11:05:42 --> [DEPRECATED] Implicit conversion from float 89499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(89499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:06:21 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.55","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"16500"}]}
+INFO - 2024-12-24 11:06:21 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 11:06:21 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:06:21 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.55, status: 1
+INFO - 2024-12-24 11:06:21 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:06:21 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1602499.98,"total_harga_modal":1455749.98,"total_untung":146750,"total_barang_keluar":53.916666}
+DEBUG - 2024-12-24 11:06:21 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":14850.000000000002,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:06:21 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42920771.23,"current_status":"0"}
+INFO - 2024-12-24 11:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:09:39 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.333333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"40000"}]}
+INFO - 2024-12-24 11:09:39 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:09:39 --> [DEPRECATED] Implicit conversion from float 39999.990000000005 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(39999.990000000005)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:09:39 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:09:39 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.333333, status: 1
+INFO - 2024-12-24 11:09:39 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:09:39 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1642499.97,"total_harga_modal":1491749.971,"total_untung":150749.999,"total_barang_keluar":55.249999}
+DEBUG - 2024-12-24 11:09:39 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":35999.991,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:09:39 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42956771.22099999,"current_status":"0"}
+WARNING - 2024-12-24 11:09:39 --> [DEPRECATED] Implicit conversion from float 39999.990000000005 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(39999.990000000005)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:26:21 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.678571","price":"28000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"retak","id_method":"3","jumlah":"19000"}]}
+INFO - 2024-12-24 11:26:21 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:26:21 --> [DEPRECATED] Implicit conversion from float 18999.988 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(18999.988)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:26:21 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:26:21 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.678571, status: 1
+INFO - 2024-12-24 11:26:21 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:26:21 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1661499.9579999999,"total_harga_modal":1510071.3869999999,"total_untung":151428.571,"total_barang_keluar":55.92857}
+DEBUG - 2024-12-24 11:26:21 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":18321.417,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:26:21 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":42975092.637,"current_status":"0"}
+WARNING - 2024-12-24 11:26:21 --> [DEPRECATED] Implicit conversion from float 18999.988 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(18999.988)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:27:11 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"3.333333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"100000"}]}
+INFO - 2024-12-24 11:27:11 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:27:11 --> [DEPRECATED] Implicit conversion from float 99999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(99999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:27:11 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:27:11 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 3.333333, status: 1
+INFO - 2024-12-24 11:27:11 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:27:11 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1761499.95,"total_harga_modal":1600071.3809999998,"total_untung":161428.56900000002,"total_barang_keluar":59.261903000000004}
+DEBUG - 2024-12-24 11:27:11 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":89999.99100000001,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:27:11 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43065092.631,"current_status":"0"}
+WARNING - 2024-12-24 11:27:11 --> [DEPRECATED] Implicit conversion from float 99999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(99999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:35:16 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 11:35:16 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 11:35:16 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:35:16 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 11:35:16 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:35:16 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1791499.95,"total_harga_modal":1627071.38,"total_untung":164428.57,"total_barang_keluar":60.261903}
+DEBUG - 2024-12-24 11:35:16 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:35:16 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43092092.63,"current_status":"0"}
+INFO - 2024-12-24 11:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:35:41 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 11:35:41 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 11:35:41 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:35:41 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 11:35:41 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:35:41 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1821499.95,"total_harga_modal":1654071.38,"total_untung":167428.57,"total_barang_keluar":61.261903}
+DEBUG - 2024-12-24 11:35:41 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:35:41 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43119092.63,"current_status":"0"}
+INFO - 2024-12-24 11:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:36:18 --> Sanitized Input: {"cart":[{"id_tipe":"3","id_unit":"3","name":"telur ayam kampung super                                                 (butir)","quantity":"6","price":"4000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"24000"}]}
+INFO - 2024-12-24 11:36:18 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 11:36:18 --> Processing id_tipe: 3
+INFO - 2024-12-24 11:36:18 --> updateOrCreatePenjualan called with id_tipe: 3, jumlah_keluar: 6, status: 1
+INFO - 2024-12-24 11:36:18 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-24","id_tipe":"3","total_harga_jual":24000,"total_harga_modal":16200,"total_untung":7800,"total_barang_keluar":6}
+INFO - 2024-12-24 11:36:18 --> New penjualan record created with id_penjualan: 76
+DEBUG - 2024-12-24 11:36:18 --> updateLatestTerkumpul Input: {"id_pembelian":"12","totalHargaModal":16200,"id_tipe":"3","payment_method":"3"}
+DEBUG - 2024-12-24 11:36:18 --> Status Calculation: {"total_meity":"675000.00","terkumpul":629100,"current_status":"0"}
+INFO - 2024-12-24 11:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:36:48 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.45","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"13500"}]}
+INFO - 2024-12-24 11:36:48 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 11:36:48 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:36:48 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.45, status: 1
+INFO - 2024-12-24 11:36:48 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:36:48 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1834999.95,"total_harga_modal":1666221.38,"total_untung":168778.57,"total_barang_keluar":61.711903}
+DEBUG - 2024-12-24 11:36:48 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":12150,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:36:48 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43131242.63,"current_status":"0"}
+INFO - 2024-12-24 11:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:37:29 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.816667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"24500"}]}
+INFO - 2024-12-24 11:37:29 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:37:29 --> [DEPRECATED] Implicit conversion from float 24500.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(24500.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:37:29 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:37:29 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.816667, status: 1
+INFO - 2024-12-24 11:37:29 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:37:29 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1859499.96,"total_harga_modal":1688271.389,"total_untung":171228.571,"total_barang_keluar":62.52857}
+DEBUG - 2024-12-24 11:37:29 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":22050.009000000002,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:37:29 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43153292.639000006,"current_status":"0"}
+WARNING - 2024-12-24 11:37:29 --> [DEPRECATED] Implicit conversion from float 24500.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(24500.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:53:49 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.666667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"20000"}]}
+INFO - 2024-12-24 11:53:49 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:53:49 --> [DEPRECATED] Implicit conversion from float 20000.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(20000.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:53:49 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:53:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.666667, status: 1
+INFO - 2024-12-24 11:53:49 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:53:49 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1879499.97,"total_harga_modal":1706271.399,"total_untung":173228.571,"total_barang_keluar":63.195237}
+DEBUG - 2024-12-24 11:53:49 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":18000.009000000002,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:53:49 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43171292.649000004,"current_status":"0"}
+WARNING - 2024-12-24 11:53:49 --> [DEPRECATED] Implicit conversion from float 20000.010000000002 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(20000.010000000002)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:54:11 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.466667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"14000"}]}
+INFO - 2024-12-24 11:54:11 --> Received date: 2024-12-24
+WARNING - 2024-12-24 11:54:11 --> [DEPRECATED] Implicit conversion from float 14000.01 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(14000.01)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 11:54:11 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:54:11 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.466667, status: 1
+INFO - 2024-12-24 11:54:11 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:54:11 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1893499.98,"total_harga_modal":1718871.409,"total_untung":174628.571,"total_barang_keluar":63.661904}
+DEBUG - 2024-12-24 11:54:11 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":12600.009,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:54:11 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43183892.659,"current_status":"0"}
+WARNING - 2024-12-24 11:54:11 --> [DEPRECATED] Implicit conversion from float 14000.01 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(14000.01)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 11:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:54:49 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.5","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"15000"}]}
+INFO - 2024-12-24 11:54:49 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 11:54:49 --> Processing id_tipe: 7
+INFO - 2024-12-24 11:54:49 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.5, status: 1
+INFO - 2024-12-24 11:54:49 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 11:54:49 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1908499.98,"total_harga_modal":1732371.41,"total_untung":176128.57,"total_barang_keluar":64.16190399999999}
+DEBUG - 2024-12-24 11:54:49 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":13500,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 11:54:49 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43197392.66,"current_status":"0"}
+INFO - 2024-12-24 11:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:13:57 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 12:13:57 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 12:13:57 --> Processing id_tipe: 7
+INFO - 2024-12-24 12:13:57 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 12:13:57 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 12:13:57 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1938499.98,"total_harga_modal":1759371.41,"total_untung":179128.57,"total_barang_keluar":65.161904}
+DEBUG - 2024-12-24 12:13:57 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 12:13:57 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43224392.66,"current_status":"0"}
+INFO - 2024-12-24 12:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:25 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.05","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"31500"}]}
+INFO - 2024-12-24 12:14:25 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 12:14:25 --> Processing id_tipe: 7
+INFO - 2024-12-24 12:14:25 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.05, status: 1
+INFO - 2024-12-24 12:14:25 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 12:14:25 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":1969999.98,"total_harga_modal":1787721.41,"total_untung":182278.57,"total_barang_keluar":66.211904}
+DEBUG - 2024-12-24 12:14:25 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":28350,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 12:14:25 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43252742.66,"current_status":"0"}
+INFO - 2024-12-24 12:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:43 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.966667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"59000"}]}
+INFO - 2024-12-24 12:14:43 --> Received date: 2024-12-24
+WARNING - 2024-12-24 12:14:43 --> [DEPRECATED] Implicit conversion from float 59000.009999999995 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(59000.009999999995)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 12:14:43 --> Processing id_tipe: 7
+INFO - 2024-12-24 12:14:43 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.966667, status: 1
+INFO - 2024-12-24 12:14:43 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 12:14:43 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2028999.99,"total_harga_modal":1840821.419,"total_untung":188178.571,"total_barang_keluar":68.178571}
+DEBUG - 2024-12-24 12:14:43 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":53100.009,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 12:14:43 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43305842.669,"current_status":"0"}
+WARNING - 2024-12-24 12:14:43 --> [DEPRECATED] Implicit conversion from float 59000.009999999995 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(59000.009999999995)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 12:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:22:40 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2.016667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"60500"}]}
+INFO - 2024-12-24 12:22:40 --> Received date: 2024-12-24
+WARNING - 2024-12-24 12:22:40 --> [DEPRECATED] Implicit conversion from float 60500.01 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(60500.01)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 12:22:40 --> Processing id_tipe: 7
+INFO - 2024-12-24 12:22:40 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2.016667, status: 1
+INFO - 2024-12-24 12:22:40 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 12:22:40 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2089500,"total_harga_modal":1895271.429,"total_untung":194228.571,"total_barang_keluar":70.195238}
+DEBUG - 2024-12-24 12:22:40 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":54450.009,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 12:22:40 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43360292.679000005,"current_status":"0"}
+WARNING - 2024-12-24 12:22:40 --> [DEPRECATED] Implicit conversion from float 60500.01 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(60500.01)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 12:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:22:56 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 12:22:56 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 12:22:56 --> Processing id_tipe: 7
+INFO - 2024-12-24 12:22:56 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 12:22:56 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 12:22:56 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2119500,"total_harga_modal":1922271.43,"total_untung":197228.57,"total_barang_keluar":71.195238}
+DEBUG - 2024-12-24 12:22:56 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 12:22:56 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43387292.68,"current_status":"0"}
+INFO - 2024-12-24 12:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:24:12 --> Sanitized Input: {"cart":[{"id_tipe":"10","id_unit":"14","name":"telur puyuh                                                 (10 btr)","quantity":"10","price":"600","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"6000"}]}
+INFO - 2024-12-24 12:24:12 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 12:24:12 --> Processing id_tipe: 10
+INFO - 2024-12-24 12:24:12 --> updateOrCreatePenjualan called with id_tipe: 10, jumlah_keluar: 10, status: 1
+INFO - 2024-12-24 12:24:12 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-24","id_tipe":"10","total_harga_jual":6000,"total_harga_modal":3560,"total_untung":2440,"total_barang_keluar":10}
+INFO - 2024-12-24 12:24:12 --> New penjualan record created with id_penjualan: 77
+DEBUG - 2024-12-24 12:24:12 --> updateLatestTerkumpul Input: {"id_pembelian":"15","totalHargaModal":3560,"id_tipe":"10","payment_method":"3"}
+DEBUG - 2024-12-24 12:24:12 --> Status Calculation: {"total_meity":"320400.00","terkumpul":80812.01,"current_status":"0"}
+INFO - 2024-12-24 12:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:25:20 --> Sanitized Input: {"cart":[{"id_tipe":"10","id_unit":"15","name":"telur puyuh                                                 (15 btr)","quantity":"15","price":"600","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"9000"}]}
+INFO - 2024-12-24 12:25:20 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 12:25:20 --> Processing id_tipe: 10
+INFO - 2024-12-24 12:25:20 --> updateOrCreatePenjualan called with id_tipe: 10, jumlah_keluar: 15, status: 1
+INFO - 2024-12-24 12:25:20 --> Found existing penjualan record with id_penjualan: 77
+INFO - 2024-12-24 12:25:20 --> Updated existing penjualan record with id_penjualan: 77. New totals: {"total_harga_jual":15000,"total_harga_modal":8900,"total_untung":6100,"total_barang_keluar":25}
+DEBUG - 2024-12-24 12:25:20 --> updateLatestTerkumpul Input: {"id_pembelian":"15","totalHargaModal":5340,"id_tipe":"10","payment_method":"3"}
+DEBUG - 2024-12-24 12:25:20 --> Status Calculation: {"total_meity":"320400.00","terkumpul":86152.01,"current_status":"0"}
+INFO - 2024-12-24 12:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:11:06 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"10","name":"telur orange                                                 (15 KG)","quantity":"15","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"Kedai Soto Ibu Rahayu","id_method":"3","jumlah":"435000"}]}
+INFO - 2024-12-24 13:11:06 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 13:11:06 --> Processing id_tipe: 7
+INFO - 2024-12-24 13:11:06 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 15, status: 1
+INFO - 2024-12-24 13:11:06 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 13:11:06 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2554500,"total_harga_modal":2327271.4299999997,"total_untung":227228.57,"total_barang_keluar":86.195238}
+DEBUG - 2024-12-24 13:11:06 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":405000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 13:11:06 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43792292.68,"current_status":"0"}
+INFO - 2024-12-24 13:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:11:08 --> Invoice retrieved: {"id_invoice":"485","customer_name":"Kedai Soto Ibu Rahayu","total_amount":"435000.00","payment_amount":"435000.00","change_amount":"0.00","invoice_date":"2024-12-24 13:11:06"}
+INFO - 2024-12-24 13:11:08 --> Invoice items retrieved: [{"id_invoice_item":"1295","id_invoice":"485","id_tipe":"7","id_unit":"10","id_method":"3","quantity":"15.00","price":"29000.00","total":"435000.00","jenis_barang":"telur orange","satuan_dasar":"kg","tipe_unit":"15 KG","standar_jumlah_barang":"1.00"}]
+INFO - 2024-12-24 13:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:09:09 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.683333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"20500"}]}
+INFO - 2024-12-24 14:09:09 --> Received date: 2024-12-24
+WARNING - 2024-12-24 14:09:09 --> [DEPRECATED] Implicit conversion from float 20499.989999999998 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(20499.989999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 14:09:09 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:09:09 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.683333, status: 1
+INFO - 2024-12-24 14:09:09 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:09:09 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2574999.99,"total_harga_modal":2345721.421,"total_untung":229278.56900000002,"total_barang_keluar":86.87857100000001}
+DEBUG - 2024-12-24 14:09:09 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":18449.990999999998,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:09:09 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43810742.671,"current_status":"0"}
+WARNING - 2024-12-24 14:09:09 --> [DEPRECATED] Implicit conversion from float 20499.989999999998 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(20499.989999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 14:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:10:19 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.666667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"2","jumlah":"50000"}]}
+INFO - 2024-12-24 14:10:19 --> Received date: 2024-12-24
+WARNING - 2024-12-24 14:10:19 --> [DEPRECATED] Implicit conversion from float 50000.009999999995 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(50000.009999999995)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 14:10:19 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:10:19 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.666667, status: 1
+INFO - 2024-12-24 14:10:19 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:10:19 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2625000,"total_harga_modal":2390721.429,"total_untung":234278.571,"total_barang_keluar":88.545238}
+DEBUG - 2024-12-24 14:10:19 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":45000.009,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-24 14:10:19 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43855742.679000005,"current_status":"0"}
+WARNING - 2024-12-24 14:10:19 --> [DEPRECATED] Implicit conversion from float 50000.009999999995 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(50000.009999999995)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 14:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:11:00 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"2","jumlah":"30000"}]}
+INFO - 2024-12-24 14:11:00 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 14:11:00 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:11:00 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 14:11:00 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:11:00 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2655000,"total_harga_modal":2417721.43,"total_untung":237278.57,"total_barang_keluar":89.545238}
+DEBUG - 2024-12-24 14:11:00 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-24 14:11:00 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43882742.68,"current_status":"0"}
+INFO - 2024-12-24 14:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:11:53 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.65","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"49500"}]}
+INFO - 2024-12-24 14:11:53 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 14:11:53 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:11:53 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.65, status: 1
+INFO - 2024-12-24 14:11:53 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:11:53 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2704500,"total_harga_modal":2462271.43,"total_untung":242228.57,"total_barang_keluar":91.195238}
+DEBUG - 2024-12-24 14:11:53 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":44550,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:11:53 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43927292.68,"current_status":"0"}
+INFO - 2024-12-24 14:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:12:05 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"2","jumlah":"60000"}]}
+INFO - 2024-12-24 14:12:05 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 14:12:05 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:12:05 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2, status: 1
+INFO - 2024-12-24 14:12:05 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:12:05 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2764500,"total_harga_modal":2516271.43,"total_untung":248228.57,"total_barang_keluar":93.195238}
+DEBUG - 2024-12-24 14:12:05 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":54000,"id_tipe":"7","payment_method":"2"}
+DEBUG - 2024-12-24 14:12:05 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":43981292.68,"current_status":"0"}
+INFO - 2024-12-24 14:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:13:09 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.383333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"41500"}]}
+INFO - 2024-12-24 14:13:09 --> Received date: 2024-12-24
+WARNING - 2024-12-24 14:13:09 --> [DEPRECATED] Implicit conversion from float 41499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(41499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 14:13:09 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:13:09 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.383333, status: 1
+INFO - 2024-12-24 14:13:09 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:13:09 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2805999.99,"total_harga_modal":2553621.421,"total_untung":252378.56900000002,"total_barang_keluar":94.578571}
+DEBUG - 2024-12-24 14:13:09 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":37349.990999999995,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:13:09 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44018642.671,"current_status":"0"}
+WARNING - 2024-12-24 14:13:09 --> [DEPRECATED] Implicit conversion from float 41499.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(41499.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 14:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:13:56 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"5","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"Jebus","id_method":"3","jumlah":"150000"}]}
+INFO - 2024-12-24 14:13:56 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 14:13:56 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:13:56 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 5, status: 1
+INFO - 2024-12-24 14:13:56 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:13:56 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":2955999.99,"total_harga_modal":2688621.42,"total_untung":267378.57,"total_barang_keluar":99.578571}
+DEBUG - 2024-12-24 14:13:56 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":135000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:13:56 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44153642.67,"current_status":"0"}
+INFO - 2024-12-24 14:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:40 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2.033333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"61000"}]}
+INFO - 2024-12-24 14:14:40 --> Received date: 2024-12-24
+WARNING - 2024-12-24 14:14:40 --> [DEPRECATED] Implicit conversion from float 60999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(60999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 14:14:40 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:14:40 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2.033333, status: 1
+INFO - 2024-12-24 14:14:40 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:14:40 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":3016999.9800000004,"total_harga_modal":2743521.411,"total_untung":273478.569,"total_barang_keluar":101.611904}
+DEBUG - 2024-12-24 14:14:40 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":54899.990999999995,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:14:40 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44208542.661,"current_status":"0"}
+WARNING - 2024-12-24 14:14:40 --> [DEPRECATED] Implicit conversion from float 60999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(60999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 14:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:39:38 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.366667","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"11000"}]}
+INFO - 2024-12-24 14:39:38 --> Received date: 2024-12-24
+WARNING - 2024-12-24 14:39:38 --> [DEPRECATED] Implicit conversion from float 11000.01 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(11000.01)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 14:39:38 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:39:38 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.366667, status: 1
+INFO - 2024-12-24 14:39:38 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:39:38 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":3027999.9899999998,"total_harga_modal":2753421.419,"total_untung":274578.571,"total_barang_keluar":101.978571}
+DEBUG - 2024-12-24 14:39:38 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":9900.009,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:39:38 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44218442.669,"current_status":"0"}
+WARNING - 2024-12-24 14:39:38 --> [DEPRECATED] Implicit conversion from float 11000.01 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(11000.01)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 14:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:40:14 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"30000"}]}
+INFO - 2024-12-24 14:40:14 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 14:40:14 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:40:14 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1, status: 1
+INFO - 2024-12-24 14:40:14 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:40:14 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":3057999.99,"total_harga_modal":2780421.42,"total_untung":277578.57,"total_barang_keluar":102.978571}
+DEBUG - 2024-12-24 14:40:14 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:40:14 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44245442.67,"current_status":"0"}
+INFO - 2024-12-24 14:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:40:44 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.533333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"16000"}]}
+INFO - 2024-12-24 14:40:44 --> Received date: 2024-12-24
+WARNING - 2024-12-24 14:40:44 --> [DEPRECATED] Implicit conversion from float 15999.989999999998 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(15999.989999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 14:40:44 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:40:44 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.533333, status: 1
+INFO - 2024-12-24 14:40:44 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:40:44 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":3073999.9800000004,"total_harga_modal":2794821.411,"total_untung":279178.569,"total_barang_keluar":103.511904}
+DEBUG - 2024-12-24 14:40:44 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":14399.990999999998,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:40:44 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44259842.661,"current_status":"0"}
+WARNING - 2024-12-24 14:40:44 --> [DEPRECATED] Implicit conversion from float 15999.989999999998 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(15999.989999999998)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 14:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:41:27 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.35","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"40500"}]}
+INFO - 2024-12-24 14:41:27 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 14:41:27 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:41:27 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.35, status: 1
+INFO - 2024-12-24 14:41:27 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:41:27 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":3114499.98,"total_harga_modal":2831271.41,"total_untung":283228.57,"total_barang_keluar":104.861904}
+DEBUG - 2024-12-24 14:41:27 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":36450,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:41:27 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44296292.66,"current_status":"0"}
+INFO - 2024-12-24 14:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:51:58 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.5","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"15000"}]}
+INFO - 2024-12-24 14:51:58 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 14:51:58 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:51:58 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.5, status: 1
+INFO - 2024-12-24 14:51:58 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:51:58 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":3129499.98,"total_harga_modal":2844771.41,"total_untung":284728.57,"total_barang_keluar":105.361904}
+DEBUG - 2024-12-24 14:51:58 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":13500,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:51:58 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44309792.66,"current_status":"0"}
+INFO - 2024-12-24 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:59:03 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"1.033333","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"31000"}]}
+INFO - 2024-12-24 14:59:03 --> Received date: 2024-12-24
+WARNING - 2024-12-24 14:59:03 --> [DEPRECATED] Implicit conversion from float 30999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(215): App\Controllers\Petugas\roundToNearestFiveHundred(30999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+DEBUG - 2024-12-24 14:59:03 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:59:03 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 1.033333, status: 1
+INFO - 2024-12-24 14:59:03 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:59:03 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":3160499.97,"total_harga_modal":2872671.401,"total_untung":287828.569,"total_barang_keluar":106.395237}
+DEBUG - 2024-12-24 14:59:03 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":27899.991,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:59:03 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44337692.65099999,"current_status":"0"}
+WARNING - 2024-12-24 14:59:03 --> [DEPRECATED] Implicit conversion from float 30999.99 to int loses precision in APPPATH\Controllers\Petugas\PenjualanController.php on line 172.
+ 1 APPPATH\Controllers\Petugas\PenjualanController.php(325): App\Controllers\Petugas\roundToNearestFiveHundred(30999.99)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Petugas\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Petugas\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-24 14:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:59:36 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"10","name":"telur orange                                                 (15 KG)","quantity":"15","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"435000"}]}
+INFO - 2024-12-24 14:59:36 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 14:59:36 --> Processing id_tipe: 7
+INFO - 2024-12-24 14:59:36 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 15, status: 1
+INFO - 2024-12-24 14:59:36 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 14:59:36 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":3595499.97,"total_harga_modal":3277671.4,"total_untung":317828.57,"total_barang_keluar":121.395237}
+DEBUG - 2024-12-24 14:59:36 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":405000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 14:59:36 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":44742692.65,"current_status":"0"}
+INFO - 2024-12-24 14:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 14:59:38 --> Invoice retrieved: {"id_invoice":"500","customer_name":"eceran","total_amount":"435000.00","payment_amount":"435000.00","change_amount":"0.00","invoice_date":"2024-12-24 14:59:36"}
+INFO - 2024-12-24 14:59:38 --> Invoice items retrieved: [{"id_invoice_item":"1310","id_invoice":"500","id_tipe":"7","id_unit":"10","id_method":"3","quantity":"15.00","price":"29000.00","total":"435000.00","jenis_barang":"telur orange","satuan_dasar":"kg","tipe_unit":"15 KG","standar_jumlah_barang":"1.00"}]
+INFO - 2024-12-24 15:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:18:23 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"10","name":"telur orange                                                 (15 KG)","quantity":"15","price":"29000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"warung sayur salsa","id_method":"3","jumlah":"435000"}]}
+INFO - 2024-12-24 15:18:23 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 15:18:23 --> Processing id_tipe: 7
+INFO - 2024-12-24 15:18:23 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 15, status: 1
+INFO - 2024-12-24 15:18:23 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 15:18:23 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":4030499.97,"total_harga_modal":3682671.4,"total_untung":347828.57,"total_barang_keluar":136.395237}
+DEBUG - 2024-12-24 15:18:23 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":405000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 15:18:23 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":45147692.65,"current_status":"0"}
+INFO - 2024-12-24 15:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:18:25 --> Invoice retrieved: {"id_invoice":"501","customer_name":"warung sayur salsa","total_amount":"435000.00","payment_amount":"435000.00","change_amount":"0.00","invoice_date":"2024-12-24 15:18:23"}
+INFO - 2024-12-24 15:18:25 --> Invoice items retrieved: [{"id_invoice_item":"1311","id_invoice":"501","id_tipe":"7","id_unit":"10","id_method":"3","quantity":"15.00","price":"29000.00","total":"435000.00","jenis_barang":"telur orange","satuan_dasar":"kg","tipe_unit":"15 KG","standar_jumlah_barang":"1.00"}]
+INFO - 2024-12-24 15:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:22:27 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"0.95","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"28500"}]}
+INFO - 2024-12-24 15:22:27 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 15:22:27 --> Processing id_tipe: 7
+INFO - 2024-12-24 15:22:27 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 0.95, status: 1
+INFO - 2024-12-24 15:22:27 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 15:22:27 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":4058999.97,"total_harga_modal":3708321.4,"total_untung":350678.57,"total_barang_keluar":137.345237}
+DEBUG - 2024-12-24 15:22:27 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":25650,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 15:22:27 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":45173342.65,"current_status":"0"}
+INFO - 2024-12-24 15:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:26:51 --> Sanitized Input: {"cart":[{"id_tipe":"7","id_unit":"7","name":"telur orange                                                 (kg)","quantity":"2","price":"30000","standar_jumlah_barang":"1","tgl_penjualan":"2024-12-24","nama_customer":"eceran","id_method":"3","jumlah":"60000"}]}
+INFO - 2024-12-24 15:26:51 --> Received date: 2024-12-24
+DEBUG - 2024-12-24 15:26:51 --> Processing id_tipe: 7
+INFO - 2024-12-24 15:26:51 --> updateOrCreatePenjualan called with id_tipe: 7, jumlah_keluar: 2, status: 1
+INFO - 2024-12-24 15:26:51 --> Found existing penjualan record with id_penjualan: 75
+INFO - 2024-12-24 15:26:51 --> Updated existing penjualan record with id_penjualan: 75. New totals: {"total_harga_jual":4118999.97,"total_harga_modal":3762321.4,"total_untung":356678.57,"total_barang_keluar":139.345237}
+DEBUG - 2024-12-24 15:26:51 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":54000,"id_tipe":"7","payment_method":"3"}
+DEBUG - 2024-12-24 15:26:51 --> Status Calculation: {"total_meity":"45360000.00","terkumpul":45227342.65,"current_status":"0"}
+INFO - 2024-12-24 15:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 15:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

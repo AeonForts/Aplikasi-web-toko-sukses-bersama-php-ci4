@@ -1,0 +1,152 @@
+ERROR - 2024-11-13 20:04:37 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_uni...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_uni...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_uni...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_uni...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BarangController.php(149): CodeIgniter\Model->update()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BarangController->update()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-13 20:04:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: admin/barang/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_unit_barang` SET `tipe_unit` = :tipe_unit:, `standar_jumlah_barang` = :standar_jumlah_barang:, `standar_harga_jual` = :standar_harga_jual:
+WHERE `id` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Admin\BarangController.php(149): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-13 20:04:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_unit_barang` SET `tipe_unit` = :tipe_unit:, `standar_jumlah_barang` = :standar_jumlah_barang:, `standar_harga_jual` = :standar_harga_jual:
+WHERE `id` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Admin\BarangController.php(149): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-13 20:04:37 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_unit_barang` SET `tipe_unit` = :tipe_unit:, `standar_jumlah_barang` = :standar_jumlah_barang:, `standar_harga_jual` = :standar_harga_jual:
+WHERE `id` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Admin\BarangController.php(149): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-11-13 20:04:46 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_uni...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_uni...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_uni...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_uni...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(NULL, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BarangController.php(149): CodeIgniter\Model->update()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BarangController->update()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-13 20:04:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+[Method: POST, Route: admin/barang/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_unit_barang` SET `tipe_unit` = :tipe_unit:, `standar_jumlah_barang` = :standar_jumlah_barang:, `standar_harga_jual` = :standar_harga_jual:
+WHERE `id` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 5 APPPATH\Controllers\Admin\BarangController.php(149): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-13 20:04:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_unit_barang` SET `tipe_unit` = :tipe_unit:, `standar_jumlah_barang` = :standar_jumlah_barang:, `standar_harga_jual` = :standar_harga_jual:
+WHERE `id` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 7 APPPATH\Controllers\Admin\BarangController.php(149): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->update()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-13 20:04:46 --> [Caused by] mysqli_sql_exception: Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_unit_barang` SET `tipe_unit` = \'peti\', `standar_jumlah_barang` = \'15.00\', `standar_harga_jual` = \'1500.00\'
+WHERE `id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_unit_barang` SET `tipe_unit` = :tipe_unit:, `standar_jumlah_barang` = :standar_jumlah_barang:, `standar_harga_jual` = :standar_harga_jual:
+WHERE `id` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Admin\BarangController.php(149): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->update()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-11-13 22:28:42 --> ErrorException: Cannot redeclare App\Controllers\Admin\BarangController::save()
+[Method: GET, Route: admin/barang]
+in APPPATH\Controllers\Admin\BarangController.php on line 75.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

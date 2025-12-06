@@ -1,0 +1,592 @@
+CRITICAL - 2024-09-29 01:44:55 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:45:16 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\PengeluaranController::getDetail(), 0 passed in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:45:18 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\PengeluaranController::getDetail(), 0 passed in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:45:19 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\PengeluaranController::getDetail(), 0 passed in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:45:39 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\PengeluaranController::getDetail(), 0 passed in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:45:50 --> ArgumentCountError: Too few arguments to function App\Controllers\Admin\PengeluaranController::getDetail(), 0 passed in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-29 01:56:25 --> mysqli_sql_exception: Unknown column 'tbl_pengeluaran.id' in 'where clause' in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, '13')
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('13')
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-29 01:56:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '13')
+ 4 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('13')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:56:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'13\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'13\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '13')
+ 6 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('13')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:56:25 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'13\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'13\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'13\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '13')
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('13')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-29 01:56:27 --> mysqli_sql_exception: Unknown column 'tbl_pengeluaran.id' in 'where clause' in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, '16')
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('16')
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-29 01:56:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '16')
+ 4 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('16')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:56:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'16\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '16')
+ 6 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('16')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:56:27 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'16\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'16\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'16\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '16')
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('16')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-29 01:56:29 --> mysqli_sql_exception: Unknown column 'tbl_pengeluaran.id' in 'where clause' in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, '12')
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('12')
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-29 01:56:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '12')
+ 4 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('12')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:56:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'12\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'12\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '12')
+ 6 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('12')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:56:29 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'12\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '12')
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('12')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+ERROR - 2024-09-29 01:59:21 --> mysqli_sql_exception: Unknown column 'tbl_pengeluaran.id' in 'where clause' in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, '10')
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\app\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('10')
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2024-09-29 01:59:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+[Method: GET, Route: admin/pengeluaran/getDetail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:59:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 01:59:21 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_pengeluaran.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_pengeluaran`
+WHERE `tbl_pengeluaran`.`id` = :tbl_pengeluaran.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(68): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->getDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 05:58:28 --> ErrorException: Undefined variable $startDate
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 18.
+ 1 APPPATH\Controllers\Admin\PengeluaranController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startDate', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PengeluaranController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 05:58:29 --> ErrorException: Undefined variable $startDate
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 18.
+ 1 APPPATH\Controllers\Admin\PengeluaranController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startDate', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PengeluaranController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 05:58:49 --> ErrorException: Undefined variable $startDate
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 18.
+ 1 APPPATH\Controllers\Admin\PengeluaranController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startDate', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PengeluaranController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 05:58:50 --> ErrorException: Undefined variable $startDate
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 18.
+ 1 APPPATH\Controllers\Admin\PengeluaranController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startDate', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PengeluaranController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 07:44:01 --> ErrorException: Undefined array key "total_barang_keluar"
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\list.php on line 42.
+ 1 APPPATH\Views\pages\admin\pembelian\list.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_barang_keluar"', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(19): view('pages/admin/pembelian/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 07:46:21 --> ErrorException: Undefined array key "jenis_barang"
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\list.php on line 42.
+ 1 APPPATH\Views\pages\admin\pembelian\list.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis_barang"', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 5 APPPATH\Controllers\Admin\PembelianController.php(19): view('pages/admin/pembelian/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 09:36:51 --> ErrorException: Undefined variable $detail
+[Method: GET, Route: admin/barang]
+in APPPATH\Views\pages\admin\barang\list.php on line 29.
+ 1 APPPATH\Views\pages\admin\barang\list.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detail', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\barang\\list.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\barang\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 5 APPPATH\Controllers\Admin\BarangController.php(17): view('pages/admin/barang/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 14:39:55 --> ErrorException: Undefined variable $page
+[Method: GET, Route: admin/pengeluaran]
+in APPPATH\Controllers\Admin\PengeluaranController.php on line 19.
+ 1 APPPATH\Controllers\Admin\PengeluaranController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Controllers\\Admin\\PengeluaranController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 14:42:28 --> CodeIgniter\Pager\Exceptions\PagerException: "pagination-primary justify-content-center" is not a valid Pager template.
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('pagination-primary justify-content-center')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('admin/pengeluaran/list', 'pagination-primary justify-content-center')
+ 3 APPPATH\Controllers\Admin\PengeluaranController.php(24): CodeIgniter\Pager\Pager->links('admin/pengeluaran/list', 'pagination-primary justify-content-center')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 14:59:31 --> CodeIgniter\Pager\Exceptions\PagerException: "custom_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('custom_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_pagination')
+ 3 APPPATH\Views\pages\admin\pengeluaran\list.php(49): CodeIgniter\Pager\Pager->links('default', 'custom_pagination')
+ 4 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(19): view('pages/admin/pengeluaran/list', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 15:02:09 --> CodeIgniter\Pager\Exceptions\PagerException: "pages/admin/pengeluaran/custom_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('pages/admin/pengeluaran/custom_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'pages/admin/pengeluaran/custom_pagination')
+ 3 APPPATH\Views\pages\admin\pengeluaran\list.php(49): CodeIgniter\Pager\Pager->links('default', 'pages/admin/pengeluaran/custom_pagination')
+ 4 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(19): view('pages/admin/pengeluaran/list', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 15:02:25 --> CodeIgniter\Pager\Exceptions\PagerException: "pages\admin\pengeluaran\custom_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('pages\\admin\\pengeluaran\\custom_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'pages\\admin\\pengeluaran\\custom_pagination')
+ 3 APPPATH\Views\pages\admin\pengeluaran\list.php(49): CodeIgniter\Pager\Pager->links('default', 'pages\\admin\\pengeluaran\\custom_pagination')
+ 4 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(19): view('pages/admin/pengeluaran/list', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 15:03:37 --> CodeIgniter\Pager\Exceptions\PagerException: "App\Views\pages\admin\pengeluaran\custom_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('App\\Views\\pages\\admin\\pengeluaran\\custom_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'App\\Views\\pages\\admin\\pengeluaran\\custom_pagination')
+ 3 APPPATH\Views\pages\admin\pengeluaran\list.php(49): CodeIgniter\Pager\Pager->links('default', 'App\\Views\\pages\\admin\\pengeluaran\\custom_pagination')
+ 4 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(19): view('pages/admin/pengeluaran/list', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 15:05:00 --> CodeIgniter\Pager\Exceptions\PagerException: "pages/admin/pengeluaran/custom_pagination" is not a valid Pager template.
+[Method: GET, Route: admin/pengeluaran]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('pages/admin/pengeluaran/custom_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('default', 'pages/admin/pengeluaran/custom_pagination')
+ 3 APPPATH\Views\pages\admin\pengeluaran\list.php(49): CodeIgniter\Pager\Pager->links('default', 'pages/admin/pengeluaran/custom_pagination')
+ 4 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\pages\\admin\\pengeluaran\\list.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pengeluaran/list', [], true)
+ 7 APPPATH\Controllers\Admin\PengeluaranController.php(19): view('pages/admin/pengeluaran/list', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PengeluaranController->list()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PengeluaranController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-29 22:51:23 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')

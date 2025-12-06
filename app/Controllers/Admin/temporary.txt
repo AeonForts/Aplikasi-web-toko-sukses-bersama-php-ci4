@@ -1,0 +1,775 @@
+    public function detail($id)
+    {
+        $data['vw_detail_penjualan'] = $this->viewDetailPenjualanModel->getDetailByPenjualanId($id);
+        return view('pages/admin/penjualan/detail', $data);
+    }
+
+    public function save()
+    {
+        $this->db->transStart();
+        
+        try {
+            $input = $this->validateInput();
+            $customer = $this->getOrCreateCustomer($input['nama_customer']);
+            $pembelian = $this->getLatestPembelian($input['id_tipe']);
+            
+            $totals = $this->calculateTotals($input['jumlah_keluar'], $input['harga_jual'], $pembelian['harga_modal_barang']);
+            $id_penjualan = $this->updateOrCreatePenjualan($input['id_tipe'], $input['jumlah_keluar'], $totals);
+            
+            $this->insertDetailPenjualan($id_penjualan, $customer['id_customer'], $input, $pembelian['id_pembelian']);
+
+            $this->db->transComplete();
+            return $this->successResponse();
+        } catch (Exception $e) {
+            $this->db->transRollback();
+            return $this->errorResponse($e->getMessage());
+        }
+    }
+    
+    public function getTipeBarang()
+    {
+        $barangModel = new BarangModel();
+        $data = $barangModel->findAll();
+        $options = [];
+        
+        foreach ($data as $item) {
+            $options[] = [
+                'id' => (int) $item['id_tipe'],
+                'jenis_barang' => $item['jenis_barang'],
+                'satuan_barang' => $item['satuan_barang']
+            ];
+        }
+        
+        // Ensure to return an empty array instead of an error message if no data is found
+        return $this->response->setJSON($options);
+    }
+
+    private function validateInput()
+    {
+        $input = $this->request->getPost([
+            'nama_customer', 'id_tipe', 'jumlah_keluar', 'harga_jual', 'keterangan'
+        ]);
+
+        if (empty($input['nama_customer']) || empty($input['id_tipe']) || empty($input['jumlah_keluar'])) {
+            throw new Exception("Customer name, product type, and quantity are required.");
+        }
+
+        return $input;
+    }
+
+    private function getOrCreateCustomer($nama_customer)
+    {
+        $customer = $this->customerModel->where('nama_customer', $nama_customer)->first();
+        if (!$customer) {
+            $this->customerModel->insert(['nama_customer' => $nama_customer]);
+            $customer = ['id_customer' => $this->customerModel->getInsertID()];
+        }
+        return $customer;
+    }
+
+    private function getLatestPembelian($id_tipe)
+    {
+        $pembelian = $this->detailPembelianModel
+            ->join('tbl_transaksi_pembelian tp', 'tbl_detail_pembelian.id_pembelian = tp.id_pembelian')
+            ->where('id_tipe', $id_tipe)
+            ->orderBy('tp.tgl_masuk', 'DESC')
+            ->first();
+
+        if (!$pembelian) {
+            throw new Exception("No stock available for this item type.");
+        }
+
+        return $pembelian;
+    }
+
+    private function calculateTotals($jumlah_keluar, $harga_jual, $harga_modal_barang)
+    {
+        $total_harga_jual = $harga_jual * $jumlah_keluar;
+        $total_harga_modal = $harga_modal_barang * $jumlah_keluar;
+        return [
+            'total_harga_jual' => $total_harga_jual,
+            'total_harga_modal' => $total_harga_modal,
+            'total_untung' => $total_harga_jual - $total_harga_modal
+        ];
+    }
+
+    private function updateOrCreatePenjualan($id_tipe, $jumlah_keluar, $totals)
+    {
+        $penjualan = $this->penjualanModel
+            ->where('tgl_penjualan', date('Y-m-d'))
+            ->where('id_tipe', $id_tipe)
+            ->first();
+
+        if ($penjualan) {
+            $this->penjualanModel->update($penjualan['id_penjualan'], [
+                'total_barang_keluar' => $penjualan['total_barang_keluar'] + $jumlah_keluar,
+                'total_harga_jual' => $penjualan['total_harga_jual'] + $totals['total_harga_jual'],
+                'total_harga_modal' => $penjualan['total_harga_modal'] + $totals['total_harga_modal'],
+                'total_untung' => $penjualan['total_untung'] + $totals['total_untung']
+            ]);
+            return $penjualan['id_penjualan'];
+        } else {
+            $this->penjualanModel->insert([
+                'tgl_penjualan' => date('Y-m-d'),
+                'total_barang_keluar' => $jumlah_keluar,
+                'total_harga_jual' => $totals['total_harga_jual'],
+                'total_harga_modal' => $totals['total_harga_modal'],
+                'total_untung' => $totals['total_untung'],
+                'id_tipe' => $id_tipe
+            ]);
+            return $this->penjualanModel->getInsertID();
+        }
+    }
+
+    private function insertDetailPenjualan($id_penjualan, $id_customer, $input, $id_pembelian)
+    {
+        // Insert payment record
+        $id_payment = $this->insertPayment($input['jumlah_keluar'], $input['id_method'], $id_customer, $id_penjualan);
+
+        $this->detailPenjualanModel->insert([
+            'id_customer' => $id_customer,
+            'id_penjualan' => $id_penjualan,
+            'jumlah_keluar' => $input['jumlah_keluar'],
+            'harga_jual' => $input['harga_jual'],
+            'keterangan' => $input['keterangan'],
+            'id_pembelian' => $id_pembelian,
+            'id_tipe' => $input['id_tipe'],
+            'id_payment' => $id_payment // Include payment ID
+        ]);
+    }
+
+    private function insertPayment($jumlah, $id_method, $id_customer, $id_penjualan)
+    {
+        $this->paymentModel->insert([
+            'id_customer' => $id_customer, // Now this variable is available
+            'id_total' => $id_penjualan, // Use the id_penjualan as total ID
+            'id_method' => $id_method,
+            'tgl' => date('Y-m-d H:i:s'),
+            'jumlah' => $jumlah
+        ]);
+        return $this->paymentModel->getInsertID();
+    }
+
+    private function successResponse()
+    {
+        return $this->response->setJSON([
+            'success' => true,
+            'message' => 'Transaction successfully recorded.'
+        ]);
+    }
+
+    private function errorResponse($message)
+    {
+        return $this->response->setJSON([
+            'success' => false,
+            'message' => $message
+        ]);
+    }
+
+
+
+
+
+    <?php
+
+namespace App\Controllers\Admin;
+
+use App\Controllers\BaseController;
+use App\Models\{PenjualanModel, DetailPembelianModel, DetailPenjualanModel, ViewDetailPenjualanModel,UnitBarangModel, BarangModel, CustomerModel,PaymentModel, PaymentMethodModel};
+use CodeIgniter\HTTP\ResponseInterface;
+use Exception;
+
+class PenjualanController extends BaseController
+{
+    private $db;
+    private $penjualanModel;
+    private $customerModel;
+    private $detailPembelianModel;
+    private $detailPenjualanModel;
+    private $viewDetailPenjualanModel;
+    private $paymentModel;
+    private $paymentMethodModel;
+    private $barangModel;
+    private $unitBarangModel;
+
+    public function __construct()
+    {
+        $this->db = \Config\Database::connect();
+        $this->penjualanModel = new PenjualanModel();
+        $this->customerModel = new CustomerModel();
+        $this->detailPembelianModel = new DetailPembelianModel();
+        $this->detailPenjualanModel = new DetailPenjualanModel();
+        $this->viewDetailPenjualanModel = new ViewDetailPenjualanModel();
+        $this->paymentModel = new PaymentModel();
+        $this->paymentMethodModel = new PaymentMethodModel();
+        $this->barangModel = new BarangModel();
+        $this->unitBarangModel = new UnitBarangModel();
+    }
+
+    public function list()
+    {
+        $data = [
+            'penjualan' => $this->penjualanModel->paginate(10),
+            'pager' => $this->penjualanModel->pager,
+            'tipeBarangList' => $this->barangModel->findAll()
+        ];
+
+        return view('pages/admin/penjualan/list', $data);
+    }
+
+    public function detail($id)
+    {
+        $data['vw_detail_penjualan'] = $this->viewDetailPenjualanModel->getDetailByPenjualanId($id);
+        return view('pages/admin/penjualan/detail', $data);
+    }
+
+    public function save()
+    {
+        $this->db->transStart();
+        
+        try {
+            // Check if cart data is provided
+            if ($this->request->getPost('cart')) {
+                $cartItems = $this->request->getPost('cart');
+                foreach ($cartItems as $item) {
+                    // Ensure id_tipe is being set correctly
+                    $input = [
+                        'nama_customer' => $this->request->getPost('nama_customer'),
+                        'id_tipe' => $item['id_tipe'], // Ensure this is set correctly
+                        'jumlah_keluar' => $item['quantity'],
+                        'harga_jual' => $item['price'],
+                        'jumlah' => $this->request->getPost('jumlah'),
+                        'keterangan' => $this->request->getPost('keterangan'),
+                        'id_method' => $this->request->getPost('id_method')
+                    ];
+
+                    // Log the input for debugging
+                    log_message('debug', 'Input data: ' . json_encode($input));
+
+                    $customer = $this->getOrCreateCustomer($input['nama_customer']);
+                    $pembelian = $this->getLatestPembelian($input['id_tipe']);
+                    
+                    $totals = $this->calculateTotals($input['jumlah_keluar'], $input['harga_jual'], $pembelian['harga_modal_barang']);
+                    $id_penjualan = $this->updateOrCreatePenjualan($input['id_tipe'], $input['jumlah_keluar'], $totals);
+                    
+                    $this->insertDetailPenjualan($id_penjualan, $customer['id_customer'], $input, $pembelian['id_pembelian']);
+                }
+            } else {
+                // Existing save logic for single item
+                $input = $this->validateInput();
+                $customer = $this->getOrCreateCustomer($input['nama_customer']);
+                $pembelian = $this->getLatestPembelian($input['id_tipe']);
+                
+                $totals = $this->calculateTotals($input['jumlah_keluar'], $input['harga_jual'], $pembelian['harga_modal_barang']);
+                $id_penjualan = $this->updateOrCreatePenjualan($input['id_tipe'], $input['jumlah_keluar'], $totals);
+                
+                $this->insertDetailPenjualan($id_penjualan, $customer['id_customer'], $input, $pembelian['id_pembelian']);
+            }
+
+            $this->db->transComplete();
+            return $this->successResponse();
+        } catch (Exception $e) {
+            $this->db->transRollback();
+            return $this->errorResponse($e->getMessage());
+        }
+    }
+    
+    public function getTipeBarang()
+    {
+        $barangModel = new BarangModel();
+        $data = $barangModel->findAll();
+        $options = [];
+        
+        foreach ($data as $item) {
+            $options[] = [
+                'id' => (int) $item['id_tipe'],
+                'jenis_barang' => $item['jenis_barang'],
+                'satuan_barang' => $item['satuan_barang'],
+                'standar_harga_jual' => $item['standar_harga_jual']
+            ];
+        }
+        
+        // Ensure to return an empty array instead of an error message if no data is found
+        return $this->response->setJSON($options);
+    }
+
+    private function validateInput()
+    {
+        $input = $this->request->getPost([
+            'nama_customer', 'id_tipe', 'jumlah_keluar', 'harga_jual', 'keterangan', 'id_method', 'jumlah' // Added 'jumlah'
+        ]);
+    
+        if (empty($input['nama_customer']) || empty($input['id_tipe']) || empty($input['jumlah_keluar']) || empty($input['id_method']) || empty($input['jumlah'])) { // Check for 'jumlah'
+            throw new Exception("Customer name, product type, quantity, payment method, and amount are required.");
+        }
+    
+        return $input;
+    }
+
+    private function getOrCreateCustomer($nama_customer)
+    {
+        $customer = $this->customerModel->where('nama_customer', $nama_customer)->first();
+        if (!$customer) {
+            $this->customerModel->insert(['nama_customer' => $nama_customer]);
+            $customer = ['id_customer' => $this->customerModel->getInsertID()];
+        }
+        return $customer;
+    }
+
+    private function getLatestPembelian($id_tipe)
+    {
+        // Debugging: Log the id_tipe being processed
+        log_message('debug', 'Processing id_tipe: ' . $id_tipe);
+
+        $pembelian = $this->detailPembelianModel
+            ->join('tbl_pembelian tp', 'tbl_detail_pembelian.id_pembelian = tp.id_pembelian')
+            ->where('id_tipe', $id_tipe)
+            ->orderBy('tp.tgl_masuk', 'DESC')
+            ->first();
+
+        // Check if the query returned false
+        if ($pembelian === false) {
+            throw new Exception("Query failed: No stock available for this item type or invalid query.");
+        }
+
+        if (!$pembelian) {
+            throw new Exception("No stock available for this item type.");
+        }
+
+        return $pembelian;
+    }
+
+    private function calculateTotals($jumlah_keluar, $harga_jual, $harga_modal_barang)
+    {
+        $total_harga_jual = $harga_jual * $jumlah_keluar;
+        $total_harga_modal = $harga_modal_barang * $jumlah_keluar;
+        return [
+            'total_harga_jual' => $total_harga_jual,
+            'total_harga_modal' => $total_harga_modal,
+            'total_untung' => $total_harga_jual - $total_harga_modal
+        ];
+    }
+
+    private function updateOrCreatePenjualan($id_tipe, $jumlah_keluar, $totals)
+    {
+        // Calculate the cumulative total_barang_keluar
+        // $total_barang_keluar = $this->calculateTotalBarangKeluar($id_tipe) + $jumlah_keluar;
+
+        // Assuming you have a PenjualanModel for handling penjualan records
+        $penjualanData = [
+            'tgl_penjualan' => date('Y-m-d'),
+            'id_tipe' => $id_tipe,
+            // 'jumlah_keluar' => $jumlah_keluar,
+            'total_harga_jual' => $totals['total_harga_jual'],
+            'total_harga_modal' => $totals['total_harga_modal'],
+            'total_untung' => $totals['total_untung'],
+            // 'total_barang_keluar' => $total_barang_keluar // Include the cumulative total
+            // Add other necessary fields here
+        ];
+
+        // Insert the record and get the ID
+        $id_penjualan = $this->penjualanModel->insert($penjualanData);
+
+        // Check if the insertion was successful
+        if (!$id_penjualan) {
+            throw new Exception("Failed to create penjualan record.");
+        }
+
+        // Return the ID of the newly created record
+        return $this->penjualanModel->getInsertID();
+    }
+
+
+
+    private function insertDetailPenjualan($id_penjualan, $id_customer, $input, $id_pembelian)
+    {
+        // Insert payment record
+        $id_payment = $this->insertPayment($input['jumlah'], $input['id_method'], $id_customer, $id_penjualan); 
+
+        $this->detailPenjualanModel->insert([
+            'id_customer' => $id_customer,
+            'id_penjualan' => $id_penjualan,
+            'jumlah_keluar' => $input['jumlah_keluar'],
+            'harga_jual' => $input['harga_jual'],
+            'keterangan' => $input['keterangan'],
+            'id_pembelian' => $id_pembelian,
+            'id_tipe' => $input['id_tipe'],
+            'id_payment' => $id_payment // Include payment ID
+        ]);
+    }
+
+    private function insertPayment($jumlah, $id_method, $id_customer, $id_penjualan)
+    {
+        $this->paymentModel->insert([
+            'id_customer' => $id_customer, // Now this variable is available
+            'id_method' => $id_method,
+            'tgl' => date('Y-m-d'),
+            'jumlah' => $jumlah
+        ]);
+        return $this->paymentModel->getInsertID();
+    }
+
+    private function successResponse()
+    {
+        return $this->response->setJSON([
+            'status' => 'success',  // Ensure 'status' is present
+            'message' => 'Transaction successfully recorded.'
+        ]);
+    }
+    
+
+    private function errorResponse($message)
+    {
+        return $this->response->setJSON([
+            'status' => 'error',  // Ensure 'status' is present
+            'message' => $message
+        ]);
+    }
+    
+}
+
+
+<?php
+
+namespace App\Controllers\Admin;
+
+use App\Controllers\BaseController;
+use App\Models\{
+    BarangModel,
+    PembelianModel,
+    DetailPembelianModel,
+    MeityModel,
+    ViewMeityModel,
+    SupplierModel,
+    SisaTerkumpulModel,
+    StockBarangModel
+};
+use CodeIgniter\Exceptions\PageNotFoundException;
+
+class PembelianController extends BaseController
+{
+    private $viewMeityModel;
+    private $pembelianModel;
+    private $detailPembelianModel;
+    private $meityModel;
+    private $supplierModel;
+    private $barangModel;
+    private $stockBarangModel;
+    private $sisaTerkumpulModel;
+
+    public function __construct() 
+    {
+        $this->viewMeityModel = new ViewMeityModel();
+        $this->pembelianModel = new PembelianModel();
+        $this->detailPembelianModel = new DetailPembelianModel();
+        $this->meityModel = new MeityModel();
+        $this->supplierModel = new SupplierModel();
+        $this->barangModel = new BarangModel();
+        $this->stockBarangModel = new StockBarangModel();
+        $this->sisaTerkumpulModel = new  SisaTerkumpulModel();
+    }
+
+    public function list() 
+    {
+        return view('pages/admin/pembelian/list', [
+            'pembelian' => $this->viewMeityModel->paginate(10),
+            'pager' => $this->viewMeityModel->pager
+        ]);
+    }
+
+    public function detail($id) 
+    {
+        $pembelian = $this->pembelianModel->getPembelianDetail($id);
+        
+        if (empty($pembelian)) {
+            throw new PageNotFoundException("Pembelian with ID $id not found.");
+        }
+        
+        return view('pages/admin/pembelian/detail', [
+            'pembelian' => $pembelian,
+            'tipe_barang' => $this->pembelianModel->getTipeBarang(),
+            'view_meity' => $this->viewMeityModel->getMeityByPembelian($id)
+        ]);
+    }
+
+    public function getTipeBarang() 
+    {
+        $barangList = $this->barangModel->findAll();
+        $options = [];
+        
+        foreach ($barangList as $item) {
+            $options[] = [
+                'id' => (int) $item['id_tipe'],
+                'jenis_barang' => $item['jenis_barang'],
+                'satuan_barang' => $item['satuan_barang']
+            ];
+        }
+        
+        return $this->response->setJSON($options);
+    }
+
+    public function save() 
+    {
+        $input = $this->request->getPost();
+        
+        if (!$this->validateInput($input)) {
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => 'Invalid input data'
+            ]);
+        }
+
+        $db = \Config\Database::connect();
+        $db->transStart();
+
+        try {
+            $data = $this->processPembelian($input);
+            
+            $db->transComplete();
+
+            return $this->response->setJSON([
+                'status' => 'success',
+                'message' => 'Data inserted successfully',
+                'data' => $data
+            ]);
+
+        } catch (\Exception $e) {
+            $db->transRollback();
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => $e->getMessage()
+            ]);
+        }
+    }
+
+    public function delete($id_pembelian) 
+    {
+        $db = \Config\Database::connect();
+        $db->transStart();
+
+        try {
+            $this->deleteRelatedRecords($id_pembelian);
+            
+            $db->transComplete();
+
+            return $this->response->setJSON([
+                'status' => 'success',
+                'message' => 'Record deleted successfully'
+            ]);
+
+        } catch (\Exception $e) {
+            $db->transRollback();
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => $e->getMessage()
+            ]);
+        }
+    }
+
+    private function validateInput($input) 
+    {
+        $requiredFields = [
+            'nama_supplier',
+            'id_tipe',
+            'barang_masuk',
+            'harga_modal_barang'
+        ];
+
+        foreach ($requiredFields as $field) {
+            if (empty($input[$field])) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private function processPembelian($input) 
+    {
+        $id_supplier = $this->getOrCreateSupplier($input['nama_supplier']);
+        $total_meity = $this->calculateTotalMeity($input);
+        
+        $id_pembelian = $this->createPembelian($id_supplier, $total_meity);
+        
+        if (!$id_pembelian) {
+            throw new \Exception('Failed to create Pembelian.');
+        }
+
+        $this->createDetailPembelian($id_pembelian, $input);
+        $this->createMeity($id_pembelian, $input);
+        $this->createStock($input);
+
+        return [
+            'id_pembelian' => $id_pembelian,
+            'id_supplier' => $id_supplier,
+            'total_meity' => $total_meity
+        ];
+    }
+
+    private function calculateTotalMeity($input) 
+    {
+        return $input['barang_masuk'] * $input['harga_modal_barang'];
+    }
+
+    private function getOrCreateSupplier($nama_supplier) 
+    {
+        $existingSupplier = $this->supplierModel
+            ->where('nama_supplier', $nama_supplier)
+            ->first();
+        
+        if ($existingSupplier) {
+            return $existingSupplier['id_supplier'];
+        }
+        
+        $this->supplierModel->insert(['nama_supplier' => $nama_supplier]);
+        return $this->supplierModel->insertID();
+    }
+
+    private function createPembelian($id_supplier, $total_meity) 
+    {
+        $this->pembelianModel->insert([
+            'tgl_masuk' => date('Y-m-d'),
+            'id_supplier' => $id_supplier,
+            'total_meity' => $total_meity
+        ]);
+        
+        return $this->pembelianModel->insertID();
+    }
+
+    private function createDetailPembelian($id_pembelian, $input) 
+    {
+        $this->detailPembelianModel->insert([
+            'id_pembelian' => $id_pembelian,
+            'barang_masuk' => $input['barang_masuk'],
+            'harga_modal_barang' => $input['harga_modal_barang'],
+            'id_tipe' => (int) $input['id_tipe']
+        ]);
+    }
+
+    private function createMeity($id_pembelian, $input) 
+    {
+        $total_meity = $this->calculateTotalMeity($input);
+        $terkumpul = $input['terkumpul'] ?? 0;
+        
+        // If terkumpul is more than total_meity
+        if ($terkumpul > $total_meity) {
+            $sisa = $terkumpul - $total_meity;
+            // Set terkumpul to exactly match total_meity
+            $terkumpul = $total_meity;
+            
+            // Store excess in sisa_terkumpul
+            $this->sisaTerkumpulModel->insert([
+                'id_meity' => $id_pembelian,
+                'sisa_terkumpul' => $sisa,
+                'tgl_sisa_terkumpul' => date('Y-m-d')
+            ]);
+        }
+    
+        $status = $this->calculateStatus($total_meity, $terkumpul);
+        
+        $this->meityModel->insert([
+            'id_pembelian' => $id_pembelian,
+            'terkumpul' => $terkumpul,
+            'sudah_setor' => null,
+            'keterangan' => $input['keterangan'] ?? '',
+            'id_tipe' => (int) $input['id_tipe'],
+            'status' => $status
+        ]);
+    }
+
+    public function updateTerkumpul($id_pembelian, $new_terkumpul)
+    {
+        $meity = $this->meityModel->where('id_pembelian', $id_pembelian)->first();
+        if (!$meity) {
+            throw new \Exception('Record not found');
+        }
+    
+        $total_meity = $meity['total_meity'];
+        $new_status = $this->calculateStatus($total_meity, $new_terkumpul);
+    
+        // Debugging log (if needed)
+        // error_log("Updating terkumpul: ID=$id_pembelian, New Value=$new_terkumpul, New Status=$new_status");
+    
+        $this->meityModel->update($meity['id_meity'], [
+            'terkumpul' => $new_terkumpul,
+            'status' => $new_status
+        ]);
+    }
+    
+
+    private function calculateStatus($total_meity, $terkumpul) 
+    {
+        if ($terkumpul == 0) {
+            return 0; // Not lunas
+        } elseif ($terkumpul >= $total_meity) { // Changed to >=
+            return 1; // Waiting confirmation
+        } else {
+            return 0; // Still not lunas because partial payment
+        }
+    }
+    
+
+    private function getStatusText($status) 
+    {
+        switch ($status) {
+            case 0:
+                return 'Belum Lunas';
+            case 1:
+                return 'Menunggu Konfirmasi';
+            case 2:
+                return 'Lunas';
+            default:
+                return 'Unknown Status';
+        }
+    }
+        
+    public function confirmPayment($id_pembelian)
+    {
+        // Use the model instance to retrieve the record
+        $meity = $this->meityModel->where('id_pembelian', $id_pembelian)->first();
+        
+        if (!$meity) {
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Record not found'
+            ])->setStatusCode(404);
+        }
+    
+        // Check if the status is 1 (Menunggu Konfirmasi)
+        if ($meity['status'] != 1) {
+            return $this->response->setJSON([
+                'success' => false,
+                'message' => 'Invalid status for confirmation'
+            ])->setStatusCode(400);
+        }
+    
+        // Update the status to "Lunas"
+        $this->meityModel->update($meity['id_meity'], [
+            'status' => 2, // Lunas
+            'sudah_setor' => date('Y-m-d') // Confirmation timestamp
+        ]);
+    
+        return $this->response->setJSON(['success' => true]);
+    }
+    
+    private function createStock($input) 
+    {
+        try {
+            $this->stockBarangModel->insert([
+                'id_tipe' => $input['id_tipe'],
+                'tgl_stock' => date('Y-m-d'),
+                'stock_barang' => $input['barang_masuk']
+            ]);
+        } catch (\Exception $e) {
+            log_message('error', 'Failed to create stock: ' . $e->getMessage());
+            throw $e;
+        }
+    }
+
+    private function deleteRelatedRecords($id_pembelian) 
+    {
+        $this->detailPembelianModel->where('id_pembelian', $id_pembelian)->delete();
+        $this->meityModel->where('id_pembelian', $id_pembelian)->delete();
+        $this->pembelianModel->delete($id_pembelian);
+    }
+}

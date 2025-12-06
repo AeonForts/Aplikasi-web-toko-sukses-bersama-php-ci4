@@ -1,0 +1,45 @@
+CRITICAL - 2024-09-21 18:24:07 --> ParseError: syntax error, unexpected end of file
+[Method: CLI, Route: make:model/User]
+in APPPATH\Config\Routes.php on line 11.
+ 1 SYSTEMPATH\CLI\Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 3 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 4 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2024-09-21 19:36:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', '', '', 'db_tokoko', 3306, '', 0)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Commands\Database\ShowTableInfo.php(120): CodeIgniter\Database\BaseConnection->listTables()
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\ShowTableInfo->run(Array)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('db:table', Array)
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Commands\Database\ShowTableInfo.php(120): CodeIgniter\Database\BaseConnection->listTables()
+#4 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\ShowTableInfo->run(Array)
+#5 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('db:table', Array)
+#6 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#7 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#8 E:\XAMPP\htdocs\codeigniter4-framework-2849e7f\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#9 {main}
+CRITICAL - 2024-09-21 19:36:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: CLI, Route: db:table/tbl_user]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FROM `db_tokoko`')
+ 3 SYSTEMPATH\Commands\Database\ShowTableInfo.php(120): CodeIgniter\Database\BaseConnection->listTables()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Database\ShowTableInfo->run([...])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('db:table', [...])
+ 6 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))

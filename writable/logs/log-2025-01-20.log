@@ -1,0 +1,1453 @@
+INFO - 2025-01-20 09:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 09:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 09:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 09:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-20 09:58:33 --> ErrorException: Undefined property: App\Controllers\Admin\BulekController::$bulekDetailModel
+[Method: POST, Route: admin/bulek/datatableDetail]
+in APPPATH\Controllers\Admin\BulekController.php on line 69.
+ 1 APPPATH\Controllers\Admin\BulekController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\BulekController::$bulekDetailModel', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\BulekController.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 09:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 09:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-20 10:00:36 --> ErrorException: Undefined property: App\Controllers\Admin\BulekController::$bulekDetailModel
+[Method: POST, Route: admin/bulek/datatableDetail]
+in APPPATH\Controllers\Admin\BulekController.php on line 69.
+ 1 APPPATH\Controllers\Admin\BulekController.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\BulekController::$bulekDetailModel', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\BulekController.php', 69)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 10:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 10:47:35 --> mysqli_sql_exception: Unknown column 'tgl_penjualan' in 'order clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BulekController.php(134): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-20 10:47:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tgl_penjualan' in 'order clause'
+[Method: POST, Route: admin/bulek/datatableDetail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Admin\BulekController.php(134): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 10:47:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tgl_penjualan' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 APPPATH\Controllers\Admin\BulekController.php(134): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 10:47:35 --> [Caused by] mysqli_sql_exception: Unknown column 'tgl_penjualan' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Controllers\Admin\BulekController.php(134): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 10:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 10:51:02 --> mysqli_sql_exception: Unknown column 'tgl_penjualan' in 'order clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BulekController.php(134): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-20 10:51:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tgl_penjualan' in 'order clause'
+[Method: POST, Route: admin/bulek/datatableDetail]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Admin\BulekController.php(134): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 10:51:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tgl_penjualan' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 APPPATH\Controllers\Admin\BulekController.php(134): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 10:51:02 --> [Caused by] mysqli_sql_exception: Unknown column 'tgl_penjualan' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vw_bulek_totals`
+ORDER BY `tgl_penjualan` DESC
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Controllers\Admin\BulekController.php(134): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatableDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 10:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 10:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:14 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"","regex":"false"},"draw":"1","start":"0","length":"10"}
+INFO - 2025-01-20 11:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:35 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"t","regex":"false"},"draw":"2","start":"0","length":"10"}
+INFO - 2025-01-20 11:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:36 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"test","regex":"false"},"draw":"3","start":"0","length":"10"}
+INFO - 2025-01-20 11:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:38 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"o","regex":"false"},"draw":"4","start":"0","length":"10"}
+INFO - 2025-01-20 11:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:38 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"oran","regex":"false"},"draw":"5","start":"0","length":"10"}
+INFO - 2025-01-20 11:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:39 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"orange","regex":"false"},"draw":"6","start":"0","length":"10"}
+INFO - 2025-01-20 11:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:43 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"2","regex":"false"},"draw":"7","start":"0","length":"10"}
+INFO - 2025-01-20 11:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:44 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"2000","regex":"false"},"draw":"9","start":"0","length":"10"}
+INFO - 2025-01-20 11:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:25:45 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"200","regex":"false"},"draw":"8","start":"0","length":"10"}
+INFO - 2025-01-20 11:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-20 11:30:15 --> Error: Call to a member function findAll() on null
+[Method: GET, Route: admin/bulek/getTipeBarang]
+in APPPATH\Controllers\Admin\BulekController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->getTipeBarang()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 11:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:30:15 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"","regex":"false"},"draw":"1","start":"0","length":"10"}
+INFO - 2025-01-20 11:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:31:15 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"","regex":"false"},"draw":"1","start":"0","length":"10"}
+INFO - 2025-01-20 11:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:31:36 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"","regex":"false"},"draw":"1","start":"0","length":"10"}
+INFO - 2025-01-20 11:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:31:43 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"7","search":{"value":"","regex":"false"},"draw":"2","start":"0","length":"10"}
+INFO - 2025-01-20 11:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:31:52 --> Incoming Filter Params: {"start_date":"2025-01-06","end_date":"2025-01-16","jenis_barang":"7","search":{"value":"","regex":"false"},"draw":"3","start":"0","length":"10"}
+INFO - 2025-01-20 11:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:34:10 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"","regex":"false"},"draw":"1","start":"0","length":"10"}
+INFO - 2025-01-20 11:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:34:16 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"2","search":{"value":"","regex":"false"},"draw":"2","start":"0","length":"10"}
+INFO - 2025-01-20 11:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:35:56 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"","search":{"value":"","regex":"false"}}
+INFO - 2025-01-20 11:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 11:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:35:59 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"7","search":{"value":"","regex":"false"}}
+INFO - 2025-01-20 11:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 11:36:03 --> Incoming Filter Params: {"start_date":"","end_date":"","jenis_barang":"7","search":{"value":"","regex":"false"}}
+INFO - 2025-01-20 12:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:24:03 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:24:03 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:24:21 --> Raw Filter Params: {"startDate":"2025-01-01","endDate":"2025-01-07","jenisBarang":"7"}
+DEBUG - 2025-01-20 12:24:21 --> Applied start date filter: 2025-01-01
+DEBUG - 2025-01-20 12:24:21 --> Applied end date filter: 2025-01-07
+DEBUG - 2025-01-20 12:24:21 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 12:24:21 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `tgl_penjualan` >= '2025-01-01'
+AND `tgl_penjualan` <= '2025-01-07'
+AND `id_tipe` = 7
+INFO - 2025-01-20 12:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:24:26 --> Raw Filter Params: {"startDate":"2025-01-01","endDate":"2025-01-07","jenisBarang":""}
+DEBUG - 2025-01-20 12:24:26 --> Applied start date filter: 2025-01-01
+DEBUG - 2025-01-20 12:24:26 --> Applied end date filter: 2025-01-07
+DEBUG - 2025-01-20 12:24:26 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `tgl_penjualan` >= '2025-01-01'
+AND `tgl_penjualan` <= '2025-01-07'
+INFO - 2025-01-20 12:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:24:40 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:24:40 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:24:42 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:24:42 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:24:57 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 12:24:57 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 12:24:57 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+INFO - 2025-01-20 12:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:12 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:25:12 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:13 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:25:13 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:14 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:25:14 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:17 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:25:17 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:25 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:25:25 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:25 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:25:25 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:26 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:25:26 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:42 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 12:25:42 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 12:25:42 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+INFO - 2025-01-20 12:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:57 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 12:25:57 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 12:25:57 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+INFO - 2025-01-20 12:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:25:59 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 12:25:59 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 12:25:59 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+INFO - 2025-01-20 12:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:26:19 --> Raw Filter Params: {"startDate":"2024-12-12","endDate":"2024-12-18","jenisBarang":"7"}
+DEBUG - 2025-01-20 12:26:19 --> Applied start date filter: 2024-12-12
+DEBUG - 2025-01-20 12:26:19 --> Applied end date filter: 2024-12-18
+DEBUG - 2025-01-20 12:26:19 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 12:26:19 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `tgl_penjualan` >= '2024-12-12'
+AND `tgl_penjualan` <= '2024-12-18'
+AND `id_tipe` = 7
+INFO - 2025-01-20 12:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:37:25 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:37:25 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:37:25 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:37:25 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:37:52 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:37:52 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:37:57 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:37:57 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:38:02 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:38:02 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:38:20 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:38:20 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+INFO - 2025-01-20 12:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:40:26 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:40:26 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 12:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:40:29 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:40:29 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 12:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:40:31 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:40:31 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 12:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:40:35 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 12:40:35 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 12:40:35 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 12:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 12:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 12:47:14 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 12:47:14 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 12:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:01:49 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:01:49 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:02:43 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:02:43 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:04:00 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:04:00 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:04:04 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:04:04 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:04:51 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:04:51 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:06:04 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:06:04 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:06:26 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:06:26 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:06:34 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:06:34 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:06:34 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:06:34 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:06:35 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:06:35 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:06:40 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 14:06:40 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 14:06:40 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:06:44 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 14:06:44 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 14:06:44 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:13:17 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:13:17 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:13:23 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 14:13:23 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 14:13:23 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 14:13:52 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 14:13:53 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 14:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 14:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 15:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 15:05:31 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 15:05:31 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 15:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 15:05:44 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 15:05:44 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 15:05:44 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 15:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 15:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 15:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 16:20:29 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 16:20:29 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 16:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 16:21:21 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 16:21:21 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 16:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 16:48:27 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 16:48:27 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 16:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 16:57:56 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 16:57:56 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 16:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 16:58:43 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 16:58:43 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 16:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 16:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-20 17:01:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Deletes are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: admin/bulek/delete/89]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2814.
+ 1 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Admin\BulekController.php(302): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->delete('89')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 17:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:05:48 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:05:48 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:06:22 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:06:22 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:06:52 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:06:52 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:08:07 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:08:07 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:08:23 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:08:23 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:48:24 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:48:24 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:48:58 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:48:58 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:49:07 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:49:07 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:49:07 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:49:11 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:49:11 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:49:11 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:52:28 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:52:28 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:52:43 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:52:43 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:52:43 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:52:48 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:52:48 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:52:48 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:53:21 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:53:21 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:53:27 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:53:27 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:53:27 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:53:28 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:53:28 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:53:28 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:56:48 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:56:48 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:56:54 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:56:54 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:56:54 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:56:57 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:56:57 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:56:57 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:57:23 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 17:57:23 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 17:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:57:28 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:57:28 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:57:28 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 17:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 17:57:33 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 17:57:33 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 17:57:33 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:22:59 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:22:59 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:07 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 18:23:07 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 18:23:07 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:07 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 18:23:07 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 18:23:07 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:08 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 18:23:08 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 18:23:08 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:14 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:14 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:15 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:15 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:16 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:16 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:16 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:16 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:17 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:17 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:17 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:17 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:18 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:18 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:19 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:19 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:21 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:21 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:22 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:22 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:22 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:22 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:23 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:23 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:26 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:26 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:28 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:28 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:28 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:28 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:29 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:29 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:30 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:30 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:30 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:30 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:30 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:30 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:31 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:31 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:31 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:31 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:31 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:31 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:32 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:32 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:32 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:32 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:38 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 18:23:38 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 18:23:38 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:40 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":"7"}
+DEBUG - 2025-01-20 18:23:40 --> Applied jenis barang filter: 7
+DEBUG - 2025-01-20 18:23:40 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+WHERE `id_tipe` = 7
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:23:52 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:23:52 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:27:14 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:27:14 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-20 18:27:14 --> Error: Call to undefined method App\Controllers\Admin\BulekController::countAllResults()
+[Method: POST, Route: admin/bulek/datatables]
+in APPPATH\Controllers\Admin\BulekController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 18:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:30:50 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:30:50 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-20 18:30:50 --> Error: Call to undefined method App\Controllers\Admin\BulekController::where()
+[Method: POST, Route: admin/bulek/datatables]
+in APPPATH\Controllers\Admin\BulekController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 18:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:31:05 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:31:05 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-20 18:31:06 --> Error: Call to undefined method App\Controllers\Admin\BulekController::where()
+[Method: POST, Route: admin/bulek/datatables]
+in APPPATH\Controllers\Admin\BulekController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 18:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:33:07 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:33:07 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 18:33:07 --> mysqli_sql_exception: Unknown column 'jenis_barang' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `jenis_b...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_b...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_b...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_b...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-20 18:33:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jenis_barang' in 'field list'
+[Method: POST, Route: admin/bulek/datatables]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 18:33:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jenis_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 18:33:07 --> [Caused by] mysqli_sql_exception: Unknown column 'jenis_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 18:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:33:33 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:33:33 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 18:33:33 --> mysqli_sql_exception: Unknown column 'jenis_barang' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `jenis_b...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_b...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_b...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_b...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-20 18:33:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jenis_barang' in 'field list'
+[Method: POST, Route: admin/bulek/datatables]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 18:33:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jenis_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 18:33:33 --> [Caused by] mysqli_sql_exception: Unknown column 'jenis_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 18:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:34:45 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:34:45 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-20 18:34:45 --> mysqli_sql_exception: Unknown column 'jenis_barang' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `jenis_b...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_b...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_b...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_b...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+CRITICAL - 2025-01-20 18:34:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jenis_barang' in 'field list'
+[Method: POST, Route: admin/bulek/datatables]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 18:34:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jenis_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2025-01-20 18:34:45 --> [Caused by] mysqli_sql_exception: Unknown column 'jenis_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `jenis_barang`, `total_keseluruhan`, `total_disetor`, `total_sisa_profit`
+FROM `vw_bulek_totals`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 APPPATH\Controllers\Admin\BulekController.php(76): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BulekController->datatables()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BulekController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-20 18:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:39:21 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:39:21 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 18:39:35 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 18:39:35 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 18:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 18:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 19:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 19:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 19:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-20 19:23:05 --> Raw Filter Params: {"startDate":"","endDate":"","jenisBarang":""}
+DEBUG - 2025-01-20 19:23:05 --> Generated SQL: SELECT `id_penjualan`, `tgl_penjualan`, `id_tipe`, `total_harga_modal`, `total_harga_jual`, `total_untung`, `id_bulek`, `tgl_setor`, `jumlah_setor`, `total_setor`, `keterangan`, `sisa_profit`
+FROM `vw_bulek_detail`
+ORDER BY `tgl_penjualan` DESC
+INFO - 2025-01-20 19:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-20 19:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

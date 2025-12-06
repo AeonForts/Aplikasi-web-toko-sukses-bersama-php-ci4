@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: 58mm auto; /* Fixed width, dynamic height */
+            margin: 0;
+        }
+
+        body {
+            width: 58mm;
+            max-width: 58mm;
+            font-family: monospace;
+            font-size: 10px;
+            line-height: 1.2;
+            padding: 5mm;
+            overflow: hidden;
+        }
+
+        .receipt {
+            width: 58mm;
+            max-width: 58mm;
+            font-family: monospace;
+            font-size: 10px;
+            line-height: 1.2;
+            padding: 5mm;
+            overflow: hidden;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 5mm;
+        }
+
+        .store-name {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 2mm;
+        }
+
+        .separator {
+            border-top: 1px dashed #000;
+            margin: 2mm 0;
+        }
+
+        .item-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 2mm;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 8px;
+            margin-top: 5mm;
+        }
+
+        .totals {
+            margin-top: 5mm;
+        }
+
+        @media print {
+            body {
+                width: 58mm;
+                max-width: 58mm;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .receipt {
+                width: 58mm;
+                max-width: 58mm;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt">
+        <!-- Store Header -->
+        <div class="header">
+            <div class="store-name">Your Store Name</div>
+            <div>123 Main St</div>
+            <div>(123) 456-7890</div>
+        </div>
+
+        <!-- Separator -->
+        <div class="separator"></div>
+
+        <!-- Transaction Details -->
+        <div class="transaction-details">
+            <div>Date: <?= date('d/m/Y H:i:s') ?></div>
+        </div>
+
+        <!-- Separator -->
+        <div class="separator"></div>
+
+        <!-- Items -->
+        <div class="items">
+            <div class="item-row">
+                <span>Item 1 (1 @ Rp10,000)</span>
+                <span>Rp10,000</span>
+            </div>
+            <div class="item-row">
+                <span>Item 2 (2 @ Rp5,000)</span>
+                <span>Rp10,000</span>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+
+        <!-- Separator -->
+        <div class="separator"></div>
+
+        <!-- Totals -->
+        <div class="totals">
+            <div class="item-row">
+                <span>Sub Total</span>
+                <span>Rp20,000</span>
+            </div>
+            <div class="item-row">
+                <span>TOTAL</span>
+                <span>Rp20,000</span>
+            </div>
+            <div class="item-row">
+                <span>BAYAR</span>
+                <span>Rp20,000</span>
+            </div>
+            <div class="item-row">
+                <span>KEMBALI</span>
+                <span>Rp0</span>
+            </div>
+        </div>
+
+        <!-- Separator -->
+        <div class="separator"></div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>Thank you for shopping with us!</div>
+            <div>Have a great day!</div>
+        </div>
+    </div>
+</body>
+</html>

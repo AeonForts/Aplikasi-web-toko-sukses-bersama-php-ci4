@@ -1,0 +1,26 @@
+CRITICAL - 2024-09-30 00:23:30 --> Error: Call to undefined method App\Controllers\Admin\BarangController::insert()
+[Method: POST, Route: admin/barang/save]
+in APPPATH\Controllers\Admin\BarangController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-09-30 09:04:49 --> ErrorException: include(koneksi.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\auth\login.php on line 3.
+ 1 APPPATH\Views\auth\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(koneksi.php): Failed to open stream: No such file or directory', 'E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php', 3)
+ 2 APPPATH\Views\auth\login.php(3): include()
+ 3 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\app\\Views\\auth\\login.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('auth/login', [], true)
+ 6 APPPATH\Controllers\AuthController.php(12): view('auth/login')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\codeigniter4-framework-2849e7f\\public\\index.php')

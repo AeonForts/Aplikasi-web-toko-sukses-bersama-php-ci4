@@ -1,0 +1,68 @@
+    public function getDatatables()
+    {
+        $request = service('request');
+        $penjualanModel = new PenjualanModel();
+
+        // Get parameters for DataTables
+        $draw = $request->getPost('draw');
+        $start = $request->getPost('start');
+        $length = $request->getPost('length');
+        $searchValue = $request->getPost('search')['value'];
+        
+        // Get start and end date filters if provided
+        $startDate = $request->getPost('start_date');
+        $endDate = $request->getPost('end_date');
+
+        // Base query with join to get barang details if needed
+        $query = $penjualanModel
+            ->select('tbl_penjualan.*, tb.jenis_barang')
+            ->join('tbl_tipe_barang tb', 'tbl_penjualan.id_tipe = tb.id_tipe', 'left')
+            ->orderBy('tgl_penjualan', 'DESC');
+
+        // Apply date filter if dates are provided
+        if (!empty($startDate) && !empty($endDate)) {
+            $query->where('tgl_penjualan >=', $startDate)
+                ->where('tgl_penjualan <=', $endDate);
+        }
+
+        // Apply search if search value exists
+        if (!empty($searchValue)) {
+            $query->groupStart()
+                ->like('tgl_penjualan', $searchValue)
+                ->orLike('tb.jenis_barang', $searchValue)
+                ->orLike('total_barang_keluar', $searchValue)
+                ->orLike('total_harga_jual', $searchValue)
+                ->groupEnd();
+        }
+
+        // Get total records
+        $totalRecords = $penjualanModel->countAllResults(false);
+
+        // Get filtered records
+        $filteredRecords = $query->countAllResults(false);
+
+        // Get data for current page
+        $data = $query->findAll($length, $start);
+
+        // Prepare response for DataTables
+        $response = [
+            'draw' => $draw,
+            'recordsTotal' => $totalRecords,
+            'recordsFiltered' => $filteredRecords,
+            'data' => array_map(function($item) {
+                return [
+                    'no' => '', // This will be populated by DataTables
+                    'tgl_penjualan' => date('d-m-Y', strtotime($item['tgl_penjualan'])),
+                    'jenis_barang' => $item['jenis_barang'] ?? 'N/A',
+                    'total_barang_keluar' => number_format($item['total_barang_keluar'], 2, ',', '.'),
+                    'total_harga_modal' => 'Rp. ' . number_format($item['total_harga_modal'], 2, ',', '.'),
+                    'total_harga_jual' => 'Rp. ' . number_format($item['total_harga_jual'], 2, ',', '.'),
+                    'total_untung' => 'Rp. ' . number_format($item['total_untung'], 2, ',', '.'),
+                    'action' => '<a href="' . base_url('admin/penjualan/detail/' . $item['id_penjualan']) . '" class="btn btn-info text-white">Detail</a>'
+                ];
+            }, $data)
+        ];
+
+        return $this->response->setJSON($response);
+    }
+

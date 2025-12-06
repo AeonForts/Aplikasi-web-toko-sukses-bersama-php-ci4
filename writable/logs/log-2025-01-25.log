@@ -1,0 +1,371 @@
+CRITICAL - 2025-01-25 04:29:32 --> ParseError: syntax error, unexpected variable "$new_payment_id"
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Services\PenjualanService.php on line 274.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Services\\PenjualanService.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Services\\PenjualanService')
+ 3 APPPATH\Controllers\Admin\PenjualanController.php(56): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Services\\PenjualanService')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin\PenjualanController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-25 04:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:33:35 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-25","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 04:33:35 --> Received date: 2025-01-25
+INFO - 2025-01-25 04:33:35 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 04:33:35 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 04:33:35 --> New penjualan record created with id_penjualan: 99
+CRITICAL - 2025-01-25 04:33:36 --> Error: Call to undefined method App\Services\PaymentService::where()
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Services\PenjualanService.php on line 267.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(347): App\Services\PenjualanService->updateLatestTerkumpul('29', 45000.0, '2', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-25 04:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:34:35 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-25","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 04:34:35 --> Received date: 2025-01-25
+INFO - 2025-01-25 04:34:35 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 04:34:35 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 04:34:35 --> New penjualan record created with id_penjualan: 100
+CRITICAL - 2025-01-25 04:34:35 --> Error: Call to undefined method App\Services\PaymentService::where()
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Services\PenjualanService.php on line 267.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(347): App\Services\PenjualanService->updateLatestTerkumpul('29', 45000.0, '2', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-25 04:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:37:23 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-25","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 04:37:23 --> Received date: 2025-01-25
+INFO - 2025-01-25 04:37:23 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 04:37:23 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 04:37:23 --> New penjualan record created with id_penjualan: 101
+ERROR - 2025-01-25 04:37:23 --> mysqli_sql_exception: Unknown column 'id_detail_penjualan' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Services\PenjualanService.php(272): CodeIgniter\BaseModel->first()
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(347): App\Services\PenjualanService->updateLatestTerkumpul('29', 45000.0, '2', '3')
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2025-01-25 04:37:23 --> Error: Call to a member function getFirstRow() on bool
+[Method: POST, Route: admin/penjualan/save]
+in SYSTEMPATH\Model.php on line 330.
+ 1 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Services\PenjualanService.php(272): CodeIgniter\BaseModel->first()
+ 3 APPPATH\Controllers\Admin\PenjualanController.php(347): App\Services\PenjualanService->updateLatestTerkumpul('29', 45000.0, '2', '3')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-25 04:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:38:37 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-25","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 04:38:37 --> Received date: 2025-01-25
+INFO - 2025-01-25 04:38:37 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 04:38:37 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 04:38:37 --> New penjualan record created with id_penjualan: 102
+ERROR - 2025-01-25 04:38:37 --> mysqli_sql_exception: Unknown column 'id_penjualan' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(930): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\app\Services\PenjualanService.php(272): CodeIgniter\Model->__call('get', Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(347): App\Services\PenjualanService->updateLatestTerkumpul('29', 45000.0, '2', '3')
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#14 {main}
+ERROR - 2025-01-25 04:38:37 --> Latest Payment Query Details: {"id_customer":"1","id_penjualan":"102","payment_query_result":"No results"}
+DEBUG - 2025-01-25 04:38:37 --> Status Calculation: {"total_meity":"22500.00","terkumpul":40000,"current_status":"0"}
+DEBUG - 2025-01-25 04:38:37 --> Status Calculation: {"total_meity":"22500.00","terkumpul":"22500.00","current_status":"0"}
+INFO - 2025-01-25 04:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:03 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 04:45:03 --> Received date: 2025-01-20
+INFO - 2025-01-25 04:45:03 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 04:45:03 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 04:45:03 --> New penjualan record created with id_penjualan: 103
+DEBUG - 2025-01-25 04:45:03 --> Status Calculation: {"total_meity":"22500.00","terkumpul":40000,"current_status":"0"}
+DEBUG - 2025-01-25 04:45:03 --> Status Calculation: {"total_meity":"22500.00","terkumpul":"22500.00","current_status":"0"}
+INFO - 2025-01-25 04:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:49:23 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 04:49:23 --> Received date: 2025-01-20
+INFO - 2025-01-25 04:49:23 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+ERROR - 2025-01-25 04:49:23 --> Sale Transaction Error: Undefined array key "id_pembelian"
+INFO - 2025-01-25 04:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:51:14 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 04:51:14 --> Received date: 2025-01-20
+INFO - 2025-01-25 04:51:14 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1, totals: {"total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000}
+INFO - 2025-01-25 04:51:14 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 04:51:14 --> New penjualan record created with id_penjualan: 104
+DEBUG - 2025-01-25 04:51:14 --> Status Calculation: {"total_meity":"22500.00","terkumpul":40000,"current_status":"0"}
+DEBUG - 2025-01-25 04:51:14 --> Status Calculation: {"total_meity":"22500.00","terkumpul":"22500.00","current_status":"0"}
+INFO - 2025-01-25 04:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 04:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:51:03 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 19:51:03 --> Received date: 2025-01-20
+INFO - 2025-01-25 19:51:03 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 19:51:03 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 19:51:03 --> New penjualan record created with id_penjualan: 105
+CRITICAL - 2025-01-25 19:51:03 --> Error: Cannot use object of type mysqli as array
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Services\PenjualanService.php on line 353.
+ 1 APPPATH\Services\PenjualanService.php(272): App\Services\PenjualanService->recalculateTotals('105', '2')
+ 2 APPPATH\Controllers\Admin\PenjualanController.php(347): App\Services\PenjualanService->updateLatestTerkumpul('29', 45000.0, '2', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2025-01-25 19:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:52:16 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 19:52:16 --> Received date: 2025-01-20
+INFO - 2025-01-25 19:52:16 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 19:52:16 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 19:52:16 --> New penjualan record created with id_penjualan: 106
+ERROR - 2025-01-25 19:52:16 --> Failed to process split operation: Undefined array key "harga_modal_barang"
+ERROR - 2025-01-25 19:52:16 --> Sale Transaction Error: Undefined array key "harga_modal_barang"
+INFO - 2025-01-25 19:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 19:55:25 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 19:55:25 --> Received date: 2025-01-20
+INFO - 2025-01-25 19:55:25 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 19:55:25 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 19:55:25 --> New penjualan record created with id_penjualan: 107
+ERROR - 2025-01-25 19:55:26 --> Failed to process split operation: There is no data to update.
+ERROR - 2025-01-25 19:55:26 --> Sale Transaction Error: There is no data to update.
+INFO - 2025-01-25 20:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:24 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 20:13:24 --> Received date: 2025-01-20
+INFO - 2025-01-25 20:13:24 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 20:13:24 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 20:13:24 --> New penjualan record created with id_penjualan: 108
+INFO - 2025-01-25 20:13:24 --> Recalculated totals for id_penjualan: 108 - {"total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+DEBUG - 2025-01-25 20:13:24 --> Status Calculation: {"total_meity":"22500.00","terkumpul":40000,"current_status":"0"}
+DEBUG - 2025-01-25 20:13:24 --> Status Calculation: {"total_meity":"22500.00","terkumpul":"22500.00","current_status":"0"}
+INFO - 2025-01-25 20:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:22 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"10","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"400000"}]}
+INFO - 2025-01-25 20:15:22 --> Received date: 2025-01-20
+INFO - 2025-01-25 20:15:22 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 10, status: 1
+INFO - 2025-01-25 20:15:22 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":400000,"total_harga_modal":45000,"total_untung":355000,"total_barang_keluar":10}
+INFO - 2025-01-25 20:15:22 --> New penjualan record created with id_penjualan: 109
+INFO - 2025-01-25 20:15:22 --> Recalculated totals for id_penjualan: 109 - {"total_harga_jual":400000,"total_harga_modal":62500,"total_untung":337500,"total_barang_keluar":10}
+DEBUG - 2025-01-25 20:15:22 --> Status Calculation: {"total_meity":"22500.00","terkumpul":40000,"current_status":"0"}
+DEBUG - 2025-01-25 20:15:22 --> Status Calculation: {"total_meity":"22500.00","terkumpul":"22500.00","current_status":"0"}
+INFO - 2025-01-25 20:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:46 --> Sanitized Input: {"cart":[{"id_tipe":"2","id_unit":"2","name":"minyak bimoli 2l                                                 (2 liter)","quantity":"8","price":"40000","standar_jumlah_barang":"1","tgl_penjualan":"2025-01-20","nama_customer":"eceran","id_method":"3","jumlah":"320000"}]}
+INFO - 2025-01-25 20:18:46 --> Received date: 2025-01-20
+INFO - 2025-01-25 20:18:46 --> updateOrCreatePenjualan called with id_tipe: 2, jumlah_keluar: 8, status: 1
+INFO - 2025-01-25 20:18:46 --> Creating new penjualan record with totals: {"tgl_penjualan":"2025-01-25","id_tipe":"2","total_harga_jual":320000,"total_harga_modal":36000,"total_untung":284000,"total_barang_keluar":8}
+INFO - 2025-01-25 20:18:46 --> New penjualan record created with id_penjualan: 110
+INFO - 2025-01-25 20:18:46 --> Recalculated totals for id_penjualan: 110 - {"total_harga_jual":320000,"total_harga_modal":46500,"total_untung":273500,"total_barang_keluar":8}
+DEBUG - 2025-01-25 20:18:46 --> Status Calculation: {"total_meity":"22500.00","terkumpul":24000,"current_status":"0"}
+DEBUG - 2025-01-25 20:18:46 --> Status Calculation: {"total_meity":"22500.00","terkumpul":"22500.00","current_status":"0"}
+INFO - 2025-01-25 20:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-25 20:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

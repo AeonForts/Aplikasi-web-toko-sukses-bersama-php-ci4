@@ -1,0 +1,1335 @@
+INFO - 2024-12-04 04:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:09:56 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:09:56 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:09:56 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"1.67","totals":{"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525}}
+CRITICAL - 2024-12-04 04:09:56 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Services\PenjualanService.php on line 139.
+ 1 APPPATH\Services\PenjualanService.php(99): App\Services\PenjualanService->insertDetailPenjualan(100, '11', '1.67', [...])
+ 2 APPPATH\Controllers\Admin\PenjualanController.php(204): App\Services\PenjualanService->updateOrCreatePenjualan('11', '1.67', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-04 04:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:11:17 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:11:17 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:11:17 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"1.67","totals":{"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525}}
+DEBUG - 2024-12-04 04:11:17 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":12525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 04:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:19:00 --> Processing id_tipe: 11
+CRITICAL - 2024-12-04 04:19:00 --> ArgumentCountError: Too few arguments to function App\Services\PenjualanService::updateOrCreatePenjualan(), 3 passed in E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php on line 204 and exactly 4 expected
+[Method: POST, Route: admin/penjualan/save]
+in APPPATH\Services\PenjualanService.php on line 63.
+ 1 APPPATH\Controllers\Admin\PenjualanController.php(204): App\Services\PenjualanService->updateOrCreatePenjualan('11', '0.17', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-04 04:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:20:58 --> Processing id_tipe: 11
+INFO - 2024-12-04 04:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:21:26 --> Processing id_tipe: 11
+INFO - 2024-12-04 04:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:21:28 --> Processing id_tipe: 11
+INFO - 2024-12-04 04:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:22:58 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:22:58 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:22:58 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"0.17","totals":{"total_harga_jual":2550,"total_harga_modal":1275,"total_untung":1275}}
+DEBUG - 2024-12-04 04:22:58 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":1275,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 04:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:23:46 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:23:46 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:23:46 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"5.00","totals":{"total_harga_jual":75000,"total_harga_modal":37500,"total_untung":37500}}
+DEBUG - 2024-12-04 04:23:46 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":37500,"id_tipe":"11","detail_penjualan_status":"0"}
+INFO - 2024-12-04 04:23:46 --> Cannot update terkumpul: Transaction not Lunas
+INFO - 2024-12-04 04:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 04:29:33 --> ParseError: syntax error, unexpected identifier "detailInsertResult", expecting variable or "{" or "$"
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\PenjualanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PenjualanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PenjualanController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PenjualanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-12-04 04:30:39 --> ParseError: syntax error, unexpected identifier "detailInsertResult", expecting variable or "{" or "$"
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Controllers\Admin\PenjualanController.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Controllers\\Admin\\PenjualanController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\PenjualanController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\PenjualanController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\PenjualanController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+INFO - 2024-12-04 04:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:31:49 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:31:49 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:31:49 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"1.67","totals":{"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525}}
+INFO - 2024-12-04 04:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:32:13 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:32:13 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:32:13 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"1.67","totals":{"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525}}
+INFO - 2024-12-04 04:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:36:59 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:36:59 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:36:59 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"1.67","totals":{"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525},"status":"1"}
+DEBUG - 2024-12-04 04:36:59 --> Existing penjualan record found: {"id_penjualan":"101","tgl_penjualan":"2024-12-04","id_tipe":"11","total_harga_modal":"76350.00","total_harga_jual":"152700.00","total_untung":"76350.00","total_barang_keluar":"10.18"}
+DEBUG - 2024-12-04 04:36:59 --> Updating existing penjualan record with totals: {"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525}
+INFO - 2024-12-04 04:36:59 --> Successfully updated penjualan record: 101
+INFO - 2024-12-04 04:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:41:46 --> Processing id_tipe: 11
+INFO - 2024-12-04 04:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:48:06 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:48:06 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:48:06 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"4.00","status":{"total_harga_jual":60000,"total_harga_modal":30000,"total_untung":30000}}
+DEBUG - 2024-12-04 04:48:06 --> Existing penjualan record found: {"id_penjualan":"101","tgl_penjualan":"2024-12-04","id_tipe":"11","total_harga_modal":"88875.00","total_harga_jual":"177750.00","total_untung":"88875.00","total_barang_keluar":"11.85"}
+DEBUG - 2024-12-04 04:48:06 --> Updating existing penjualan record.
+INFO - 2024-12-04 04:48:07 --> Successfully updated penjualan record: 101
+DEBUG - 2024-12-04 04:48:07 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":30000,"id_tipe":"11","detail_penjualan_status":"0"}
+INFO - 2024-12-04 04:48:07 --> Cannot update terkumpul: Transaction not Lunas
+INFO - 2024-12-04 04:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:48:28 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:48:28 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:48:28 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"2.67","status":{"total_harga_jual":40050,"total_harga_modal":20025,"total_untung":20025}}
+DEBUG - 2024-12-04 04:48:28 --> Existing penjualan record found: {"id_penjualan":"101","tgl_penjualan":"2024-12-04","id_tipe":"11","total_harga_modal":"88875.00","total_harga_jual":"177750.00","total_untung":"88875.00","total_barang_keluar":"15.85"}
+DEBUG - 2024-12-04 04:48:28 --> Updating existing penjualan record.
+INFO - 2024-12-04 04:48:28 --> Successfully updated penjualan record: 101
+DEBUG - 2024-12-04 04:48:28 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":20025,"id_tipe":"11","detail_penjualan_status":"0"}
+INFO - 2024-12-04 04:48:28 --> Cannot update terkumpul: Transaction not Lunas
+INFO - 2024-12-04 04:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:50:34 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:50:34 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:50:34 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"5.00","status":{"total_harga_jual":75000,"total_harga_modal":37500,"total_untung":37500}}
+DEBUG - 2024-12-04 04:50:34 --> Existing penjualan record found: {"id_penjualan":"101","tgl_penjualan":"2024-12-04","id_tipe":"11","total_harga_modal":"88875.00","total_harga_jual":"177750.00","total_untung":"88875.00","total_barang_keluar":"18.52"}
+DEBUG - 2024-12-04 04:50:34 --> Updating existing penjualan record.
+INFO - 2024-12-04 04:50:34 --> Successfully updated penjualan record: 101
+DEBUG - 2024-12-04 04:50:34 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":37500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 04:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 04:51:06 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:51:06 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 04:51:06 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"1.67","status":{"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525}}
+DEBUG - 2024-12-04 04:51:06 --> Existing penjualan record found: {"id_penjualan":"101","tgl_penjualan":"2024-12-04","id_tipe":"11","total_harga_modal":"88875.00","total_harga_jual":"177750.00","total_untung":"88875.00","total_barang_keluar":"23.52"}
+DEBUG - 2024-12-04 04:51:06 --> Updating existing penjualan record.
+INFO - 2024-12-04 04:51:06 --> Successfully updated penjualan record: 101
+DEBUG - 2024-12-04 04:51:06 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":12525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 04:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 04:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:09:14 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 05:09:14 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 05:09:14 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"1.67","totals":{"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525},"status":1}
+DEBUG - 2024-12-04 05:09:14 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":12525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 05:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:09:31 --> Processing id_tipe: 11
+INFO - 2024-12-04 05:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:15:14 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 05:15:14 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 05:15:14 --> Input Parameters: {"id_tipe":"11","jumlah_keluar":"1.67","totals":{"total_harga_jual":25050,"total_harga_modal":12525,"total_untung":12525}}
+INFO - 2024-12-04 05:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:21:51 --> Processing id_tipe: 11
+INFO - 2024-12-04 05:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:29:48 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 05:29:48 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":1275,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 05:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:30:04 --> Processing id_tipe: 11
+INFO - 2024-12-04 05:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:51:21 --> Processing id_tipe: 11
+DEBUG - 2024-12-04 05:51:21 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":15000,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 05:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:51:38 --> Processing id_tipe: 11
+INFO - 2024-12-04 05:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 05:55:20 --> Processing id_tipe: 11
+INFO - 2024-12-04 05:55:20 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.20, status: 0
+INFO - 2024-12-04 05:55:20 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 05:55:20 --> Status is 0 (belum lunas). Returning existing id_penjualan: 1
+INFO - 2024-12-04 05:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 05:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-04 06:02:30 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(483): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-04 06:05:05 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(483): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-04 06:05:24 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(483): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-04 06:09:26 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(478): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:09:26 --> Updated penjualan totals: {"total_harga_jual":35550,"total_harga_modal":17775,"total_untung":17775,"total_barang_keluar":2.37}
+INFO - 2024-12-04 06:09:26 --> Marked detail penjualan as Lunas: id_detail_penjualan = 5
+INFO - 2024-12-04 06:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-04 06:09:39 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(478): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:09:39 --> Updated penjualan totals: {"total_harga_jual":62550,"total_harga_modal":31275,"total_untung":31275,"total_barang_keluar":4.17}
+INFO - 2024-12-04 06:09:39 --> Marked detail penjualan as Lunas: id_detail_penjualan = 4
+INFO - 2024-12-04 06:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-04 06:09:43 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(478): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:09:43 --> Updated penjualan totals: {"total_harga_jual":57600,"total_harga_modal":28800,"total_untung":28800,"total_barang_keluar":3.84}
+INFO - 2024-12-04 06:09:43 --> Marked detail penjualan as Lunas: id_detail_penjualan = 2
+INFO - 2024-12-04 06:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-04 06:13:00 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(480): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:13:00 --> Updated penjualan totals: {"total_harga_jual":35550,"total_harga_modal":17775,"total_untung":17775,"total_barang_keluar":2.37}
+INFO - 2024-12-04 06:13:00 --> Marked detail penjualan as Lunas: id_detail_penjualan = 5
+INFO - 2024-12-04 06:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-04 06:13:17 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(480): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:13:17 --> Updated penjualan totals: {"total_harga_jual":35550,"total_harga_modal":17775,"total_untung":17775,"total_barang_keluar":2.37}
+INFO - 2024-12-04 06:13:17 --> Marked detail penjualan as Lunas: id_detail_penjualan = 5
+INFO - 2024-12-04 06:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:16:54 --> Updating penjualan with ID: 1
+INFO - 2024-12-04 06:16:54 --> Updated totals: {"total_harga_jual":62550,"total_harga_modal":31275,"total_untung":31275,"total_barang_keluar":4.17}
+ERROR - 2024-12-04 06:16:54 --> mysqli_sql_exception: Unknown column 'tbl_penjualan.id' in 'where clause' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `tbl_pen...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pen...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pen...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pen...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate(Array, Array)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(865): CodeIgniter\BaseModel->update(Array, Array)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PenjualanController.php(483): CodeIgniter\Model->update('1', Array)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->markLunas()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#15 {main}
+INFO - 2024-12-04 06:16:54 --> Updated penjualan totals: {"total_harga_jual":62550,"total_harga_modal":31275,"total_untung":31275,"total_barang_keluar":4.17}
+INFO - 2024-12-04 06:16:54 --> Marked detail penjualan as Lunas: id_detail_penjualan = 4
+INFO - 2024-12-04 06:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:02 --> Updating penjualan with ID: 1
+INFO - 2024-12-04 06:24:02 --> Updated totals: {"total_harga_jual":35550,"total_harga_modal":17775,"total_untung":17775,"total_barang_keluar":2.37}
+INFO - 2024-12-04 06:24:02 --> Updated penjualan totals: {"total_harga_jual":35550,"total_harga_modal":17775,"total_untung":17775,"total_barang_keluar":2.37}
+INFO - 2024-12-04 06:24:02 --> Marked detail penjualan as Lunas: id_detail_penjualan = 5
+INFO - 2024-12-04 06:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:14 --> Updating penjualan with ID: 1
+INFO - 2024-12-04 06:24:14 --> Updated totals: {"total_harga_jual":65550,"total_harga_modal":32775,"total_untung":32775,"total_barang_keluar":4.37}
+INFO - 2024-12-04 06:24:14 --> Updated penjualan totals: {"total_harga_jual":65550,"total_harga_modal":32775,"total_untung":32775,"total_barang_keluar":4.37}
+INFO - 2024-12-04 06:24:14 --> Marked detail penjualan as Lunas: id_detail_penjualan = 4
+INFO - 2024-12-04 06:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:33 --> Updating penjualan with ID: 1
+INFO - 2024-12-04 06:24:33 --> Updated totals: {"total_harga_jual":90600,"total_harga_modal":45300,"total_untung":45300,"total_barang_keluar":6.04}
+INFO - 2024-12-04 06:24:33 --> Updated penjualan totals: {"total_harga_jual":90600,"total_harga_modal":45300,"total_untung":45300,"total_barang_keluar":6.04}
+INFO - 2024-12-04 06:24:33 --> Marked detail penjualan as Lunas: id_detail_penjualan = 2
+INFO - 2024-12-04 06:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 06:24:57 --> Processing id_tipe: 11
+INFO - 2024-12-04 06:24:57 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.50, status: 0
+INFO - 2024-12-04 06:24:57 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 06:24:57 --> Status is 0 (belum lunas). Returning existing id_penjualan: 1
+INFO - 2024-12-04 06:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 06:25:15 --> Processing id_tipe: 11
+INFO - 2024-12-04 06:25:15 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.50, status: 0
+INFO - 2024-12-04 06:25:15 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 06:25:15 --> Status is 0 (belum lunas). Returning existing id_penjualan: 1
+INFO - 2024-12-04 06:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:24 --> Updating penjualan with ID: 1
+INFO - 2024-12-04 06:25:24 --> Updated totals: {"total_harga_jual":113100,"total_harga_modal":56550,"total_untung":56550,"total_barang_keluar":7.54}
+INFO - 2024-12-04 06:25:24 --> Updated penjualan totals: {"total_harga_jual":113100,"total_harga_modal":56550,"total_untung":56550,"total_barang_keluar":7.54}
+INFO - 2024-12-04 06:25:24 --> Marked detail penjualan as Lunas: id_detail_penjualan = 6
+INFO - 2024-12-04 06:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:32:59 --> Updated existing penjualan record: {"total_harga_jual":135600,"total_harga_modal":67800,"total_untung":67800,"total_barang_keluar":9.04}
+INFO - 2024-12-04 06:32:59 --> Marked detail penjualan as Lunas: id_detail_penjualan = 7
+INFO - 2024-12-04 06:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 06:40:17 --> Processing id_tipe: 11
+INFO - 2024-12-04 06:40:17 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.67, status: 0
+INFO - 2024-12-04 06:40:17 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 06:40:17 --> Status is 0 (belum lunas). Returning existing id_penjualan: 1
+INFO - 2024-12-04 06:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:26 --> Updated existing penjualan record: {"total_harga_jual":160650,"total_harga_modal":80325,"total_untung":80325,"total_barang_keluar":10.709999999999999}
+INFO - 2024-12-04 06:40:26 --> Updated Meity terkumpul: 3012375
+INFO - 2024-12-04 06:40:26 --> Marked detail penjualan as Lunas: id_detail_penjualan = 8
+INFO - 2024-12-04 06:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 06:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 07:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 07:38:24 --> Processing id_tipe: 11
+INFO - 2024-12-04 07:38:24 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.00, status: 0
+INFO - 2024-12-04 07:38:24 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 07:38:24 --> Status is 0 (belum lunas). Returning existing id_penjualan: 1
+INFO - 2024-12-04 08:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 08:32:30 --> Processing id_tipe: 12
+INFO - 2024-12-04 08:32:30 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 0.83, status: 1
+INFO - 2024-12-04 08:32:30 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-04","id_tipe":"12","total_harga_jual":2490,"total_harga_modal":4980,"total_untung":-2490,"total_barang_keluar":"0.83"}
+INFO - 2024-12-04 08:32:30 --> New penjualan record created with id_penjualan: 2
+DEBUG - 2024-12-04 08:32:31 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":4980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 08:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 08:37:33 --> Processing id_tipe: 12
+INFO - 2024-12-04 08:37:33 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 0.50, status: 1
+INFO - 2024-12-04 08:37:33 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 08:37:33 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":3990,"total_harga_modal":7980,"total_untung":-3990,"total_barang_keluar":1.33}
+DEBUG - 2024-12-04 08:37:33 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":3000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 08:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 08:39:35 --> Processing id_tipe: 12
+INFO - 2024-12-04 08:39:35 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-04 08:39:35 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 08:39:36 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":28980,"total_harga_modal":57960,"total_untung":-28980,"total_barang_keluar":9.66}
+DEBUG - 2024-12-04 08:39:36 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 08:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 08:42:18 --> Processing id_tipe: 12
+INFO - 2024-12-04 08:42:18 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-04 08:42:18 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 08:42:18 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":53970,"total_harga_modal":107940,"total_untung":-53970,"total_barang_keluar":17.990000000000002}
+DEBUG - 2024-12-04 08:42:18 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 08:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 08:42:36 --> Processing id_tipe: 12
+INFO - 2024-12-04 08:42:36 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-04 08:42:36 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 08:42:36 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":78960,"total_harga_modal":157920,"total_untung":-78960,"total_barang_keluar":26.32}
+DEBUG - 2024-12-04 08:42:36 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 08:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 08:44:11 --> Processing id_tipe: 12
+INFO - 2024-12-04 08:44:11 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 10.00, status: 1
+INFO - 2024-12-04 08:44:11 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 08:44:11 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":108960,"total_harga_modal":217920,"total_untung":-108960,"total_barang_keluar":36.32}
+DEBUG - 2024-12-04 08:44:11 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":60000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 08:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 08:46:11 --> Processing id_tipe: 12
+INFO - 2024-12-04 08:46:11 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-04 08:46:11 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 08:46:11 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":123960,"total_harga_modal":247920,"total_untung":-123960,"total_barang_keluar":41.32}
+DEBUG - 2024-12-04 08:46:11 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":30000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 08:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 08:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 08:48:25 --> Processing id_tipe: 12
+INFO - 2024-12-04 08:48:25 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 11.67, status: 1
+INFO - 2024-12-04 08:48:25 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 08:48:25 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":158970,"total_harga_modal":317940,"total_untung":-158970,"total_barang_keluar":52.99}
+DEBUG - 2024-12-04 08:48:26 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":70020,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:02:19 --> Processing id_tipe: 12
+INFO - 2024-12-04 09:02:19 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 10.00, status: 1
+INFO - 2024-12-04 09:02:19 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 09:02:19 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":188970,"total_harga_modal":377940,"total_untung":-188970,"total_barang_keluar":62.99}
+DEBUG - 2024-12-04 09:02:19 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":60000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:03:50 --> Processing id_tipe: 12
+INFO - 2024-12-04 09:03:50 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 15.00, status: 1
+INFO - 2024-12-04 09:03:50 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 09:03:50 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":233970,"total_harga_modal":467940,"total_untung":-233970,"total_barang_keluar":77.99000000000001}
+DEBUG - 2024-12-04 09:03:50 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":90000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:07:41 --> Processing id_tipe: 11
+INFO - 2024-12-04 09:07:41 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.67, status: 1
+INFO - 2024-12-04 09:07:41 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 09:07:41 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":185700,"total_harga_modal":92850,"total_untung":92850,"total_barang_keluar":12.38}
+DEBUG - 2024-12-04 09:07:41 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":12525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:09:37 --> Processing id_tipe: 11
+INFO - 2024-12-04 09:09:37 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.00, status: 1
+INFO - 2024-12-04 09:09:37 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 09:09:37 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":215700,"total_harga_modal":107850,"total_untung":107850,"total_barang_keluar":14.38}
+DEBUG - 2024-12-04 09:09:37 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":15000,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:11:34 --> Processing id_tipe: 11
+INFO - 2024-12-04 09:11:34 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.07, status: 1
+INFO - 2024-12-04 09:11:34 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 09:11:34 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":216750,"total_harga_modal":108375,"total_untung":108375,"total_barang_keluar":14.450000000000001}
+DEBUG - 2024-12-04 09:11:34 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:22:45 --> Processing id_tipe: 12
+INFO - 2024-12-04 09:22:45 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-04 09:22:45 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 09:22:45 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":258960,"total_harga_modal":517920,"total_untung":-258960,"total_barang_keluar":86.32}
+DEBUG - 2024-12-04 09:22:45 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:36:05 --> Processing id_tipe: 11
+INFO - 2024-12-04 09:36:05 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.41, status: 1
+INFO - 2024-12-04 09:36:05 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 09:36:05 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":223720,"total_harga_modal":111450,"total_untung":112270,"total_barang_keluar":14.86}
+DEBUG - 2024-12-04 09:36:05 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":3075,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:37:07 --> Processing id_tipe: 11
+INFO - 2024-12-04 09:37:07 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.33, status: 1
+INFO - 2024-12-04 09:37:07 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 09:37:07 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":258670,"total_harga_modal":128925,"total_untung":129745,"total_barang_keluar":17.189999999999998}
+DEBUG - 2024-12-04 09:37:07 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":17475,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:40:02 --> Processing id_tipe: 13
+INFO - 2024-12-04 09:40:02 --> updateOrCreatePenjualan called with id_tipe: 13, jumlah_keluar: 1.33, status: 1
+INFO - 2024-12-04 09:40:02 --> Creating new penjualan record with totals: {"tgl_penjualan":"2024-12-04","id_tipe":"13","total_harga_jual":7980,"total_harga_modal":16625,"total_untung":-8645,"total_barang_keluar":"1.33"}
+INFO - 2024-12-04 09:40:02 --> New penjualan record created with id_penjualan: 3
+DEBUG - 2024-12-04 09:40:03 --> updateLatestTerkumpul Input: {"id_pembelian":"17","totalHargaModal":16625,"id_tipe":"13","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:41:12 --> Processing id_tipe: 11
+INFO - 2024-12-04 09:41:12 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.67, status: 1
+INFO - 2024-12-04 09:41:12 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 09:41:12 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":283720,"total_harga_modal":141450,"total_untung":142270,"total_barang_keluar":18.86}
+DEBUG - 2024-12-04 09:41:12 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":12525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 09:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 09:42:21 --> Processing id_tipe: 11
+INFO - 2024-12-04 09:42:21 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.50, status: 1
+INFO - 2024-12-04 09:42:21 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 09:42:21 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":306220,"total_harga_modal":152700,"total_untung":153520,"total_barang_keluar":20.36}
+DEBUG - 2024-12-04 09:42:21 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":11250,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:00:18 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:00:18 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.67, status: 1
+INFO - 2024-12-04 10:00:18 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:00:18 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":331270,"total_harga_modal":165225,"total_untung":166045,"total_barang_keluar":22.03}
+DEBUG - 2024-12-04 10:00:18 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":12525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:01:23 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:01:23 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.33, status: 1
+INFO - 2024-12-04 10:01:23 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:01:24 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":351220,"total_harga_modal":175200,"total_untung":176020,"total_barang_keluar":23.36}
+DEBUG - 2024-12-04 10:01:24 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":9975,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:03:57 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:03:57 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.67, status: 1
+INFO - 2024-12-04 10:03:57 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:03:57 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":376270,"total_harga_modal":187725,"total_untung":188545,"total_barang_keluar":25.03}
+DEBUG - 2024-12-04 10:03:57 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":12525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:06:54 --> Processing id_tipe: 12
+INFO - 2024-12-04 10:06:54 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 0.83, status: 1
+INFO - 2024-12-04 10:06:54 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 10:06:54 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":261450,"total_harga_modal":522900,"total_untung":-261450,"total_barang_keluar":87.14999999999999}
+DEBUG - 2024-12-04 10:06:54 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":4980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:08:11 --> Processing id_tipe: 12
+INFO - 2024-12-04 10:08:11 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 15.00, status: 1
+INFO - 2024-12-04 10:08:11 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 10:08:11 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":306450,"total_harga_modal":612900,"total_untung":-306450,"total_barang_keluar":102.15}
+DEBUG - 2024-12-04 10:08:11 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":90000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:08:47 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:08:47 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.17, status: 1
+INFO - 2024-12-04 10:08:47 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:08:47 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":408820,"total_harga_modal":204000,"total_untung":204820,"total_barang_keluar":27.200000000000003}
+DEBUG - 2024-12-04 10:08:47 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":16275,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:10:16 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:10:16 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.27, status: 1
+INFO - 2024-12-04 10:10:16 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:10:16 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":412870,"total_harga_modal":206025,"total_untung":206845,"total_barang_keluar":27.47}
+DEBUG - 2024-12-04 10:10:16 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":2025.0000000000002,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:12:25 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:12:25 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.67, status: 1
+INFO - 2024-12-04 10:12:25 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:12:25 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":452920,"total_harga_modal":226050,"total_untung":226870,"total_barang_keluar":30.14}
+DEBUG - 2024-12-04 10:12:25 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":20025,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:13:08 --> Processing id_tipe: 12
+INFO - 2024-12-04 10:13:08 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 13.33, status: 1
+INFO - 2024-12-04 10:13:08 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 10:13:09 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":346440,"total_harga_modal":692880,"total_untung":-346440,"total_barang_keluar":115.48}
+DEBUG - 2024-12-04 10:13:09 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":79980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:13:42 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:13:42 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.10, status: 1
+INFO - 2024-12-04 10:13:42 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:13:42 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":454420,"total_harga_modal":226800,"total_untung":227620,"total_barang_keluar":30.240000000000002}
+DEBUG - 2024-12-04 10:13:42 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":750,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:27:08 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:27:08 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.17, status: 1
+INFO - 2024-12-04 10:27:08 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:27:08 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":456970,"total_harga_modal":228075,"total_untung":228895,"total_barang_keluar":30.41}
+DEBUG - 2024-12-04 10:27:08 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":1275,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:28:48 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:28:48 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.10, status: 1
+INFO - 2024-12-04 10:28:48 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:28:48 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":458470,"total_harga_modal":228825,"total_untung":229645,"total_barang_keluar":30.51}
+DEBUG - 2024-12-04 10:28:48 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":750,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:39:09 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:39:09 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.33, status: 1
+INFO - 2024-12-04 10:39:09 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:39:09 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":478420,"total_harga_modal":238800,"total_untung":239620,"total_barang_keluar":31.840000000000003}
+DEBUG - 2024-12-04 10:39:09 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":9975,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:40:59 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:40:59 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.17, status: 1
+INFO - 2024-12-04 10:40:59 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:40:59 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":480970,"total_harga_modal":240075,"total_untung":240895,"total_barang_keluar":32.01}
+DEBUG - 2024-12-04 10:40:59 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":1275,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:41:19 --> Processing id_tipe: 12
+INFO - 2024-12-04 10:41:19 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 0.67, status: 1
+INFO - 2024-12-04 10:41:19 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 10:41:19 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":348450,"total_harga_modal":696900,"total_untung":-348450,"total_barang_keluar":116.15}
+DEBUG - 2024-12-04 10:41:19 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":4020.0000000000005,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:41:44 --> Processing id_tipe: 12
+INFO - 2024-12-04 10:41:44 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 10.00, status: 1
+INFO - 2024-12-04 10:41:44 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 10:41:44 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":378450,"total_harga_modal":756900,"total_untung":-378450,"total_barang_keluar":126.15}
+DEBUG - 2024-12-04 10:41:44 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":60000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 10:45:08 --> Processing id_tipe: 11
+INFO - 2024-12-04 10:45:08 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.23, status: 1
+INFO - 2024-12-04 10:45:08 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 10:45:08 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":484420,"total_harga_modal":241800,"total_untung":242620,"total_barang_keluar":32.239999999999995}
+DEBUG - 2024-12-04 10:45:08 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":1725,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 10:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 10:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 14:24:31 --> Processing id_tipe: 11
+INFO - 2024-12-04 14:24:31 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.50, status: 1
+INFO - 2024-12-04 14:24:31 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 14:24:31 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":506920,"total_harga_modal":253050,"total_untung":253870,"total_barang_keluar":33.74}
+DEBUG - 2024-12-04 14:24:32 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":11250,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 14:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 14:30:49 --> Processing id_tipe: 12
+INFO - 2024-12-04 14:30:49 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 10.00, status: 1
+INFO - 2024-12-04 14:30:49 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 14:30:50 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":408450,"total_harga_modal":816900,"total_untung":-408450,"total_barang_keluar":136.15}
+DEBUG - 2024-12-04 14:30:50 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":60000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 14:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 14:33:50 --> Processing id_tipe: 12
+INFO - 2024-12-04 14:33:50 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 6.67, status: 1
+INFO - 2024-12-04 14:33:50 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 14:33:50 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":428460,"total_harga_modal":856920,"total_untung":-428460,"total_barang_keluar":142.82}
+DEBUG - 2024-12-04 14:33:51 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":40020,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 14:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 14:34:51 --> Processing id_tipe: 11
+INFO - 2024-12-04 14:34:51 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.53, status: 1
+INFO - 2024-12-04 14:34:51 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 14:34:51 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":544870,"total_harga_modal":272025,"total_untung":272845,"total_barang_keluar":36.27}
+DEBUG - 2024-12-04 14:34:51 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":18975,"id_tipe":"11","detail_penjualan_status":"1"}
+DEBUG - 2024-12-04 14:34:51 --> Processing id_tipe: 11
+INFO - 2024-12-04 14:34:51 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.67, status: 1
+INFO - 2024-12-04 14:34:51 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 14:34:51 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":584920,"total_harga_modal":292050,"total_untung":292870,"total_barang_keluar":38.940000000000005}
+DEBUG - 2024-12-04 14:34:51 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":20025,"id_tipe":"11","detail_penjualan_status":"1"}
+DEBUG - 2024-12-04 14:34:51 --> Processing id_tipe: 12
+INFO - 2024-12-04 14:34:51 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 4.17, status: 1
+INFO - 2024-12-04 14:34:51 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 14:34:51 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":440970,"total_harga_modal":881940,"total_untung":-440970,"total_barang_keluar":146.98999999999998}
+DEBUG - 2024-12-04 14:34:51 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":25020,"id_tipe":"12","detail_penjualan_status":"1"}
+DEBUG - 2024-12-04 14:34:51 --> Processing id_tipe: 11
+INFO - 2024-12-04 14:34:51 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 15.00, status: 1
+INFO - 2024-12-04 14:34:51 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 14:34:51 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":809920,"total_harga_modal":404550,"total_untung":405370,"total_barang_keluar":53.94}
+DEBUG - 2024-12-04 14:34:51 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":112500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 14:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 14:37:40 --> Processing id_tipe: 12
+INFO - 2024-12-04 14:37:40 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 10.83, status: 1
+INFO - 2024-12-04 14:37:40 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 14:37:40 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":473460,"total_harga_modal":946920,"total_untung":-473460,"total_barang_keluar":157.82000000000002}
+DEBUG - 2024-12-04 14:37:40 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":64980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 14:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 14:39:20 --> Processing id_tipe: 12
+INFO - 2024-12-04 14:39:20 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 8.33, status: 1
+INFO - 2024-12-04 14:39:20 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 14:39:21 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":498450,"total_harga_modal":996900,"total_untung":-498450,"total_barang_keluar":166.15}
+DEBUG - 2024-12-04 14:39:21 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":49980,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 14:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 14:50:15 --> Processing id_tipe: 11
+INFO - 2024-12-04 14:50:15 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.13, status: 1
+INFO - 2024-12-04 14:50:15 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 14:50:15 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":826870,"total_harga_modal":413025,"total_untung":413845,"total_barang_keluar":55.07}
+DEBUG - 2024-12-04 14:50:15 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":8475,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 14:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 14:59:39 --> Processing id_tipe: 11
+INFO - 2024-12-04 14:59:39 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.07, status: 1
+INFO - 2024-12-04 14:59:39 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 14:59:39 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":827920,"total_harga_modal":413550,"total_untung":414370,"total_barang_keluar":55.14}
+DEBUG - 2024-12-04 14:59:39 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:02:19 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:02:19 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.74, status: 1
+INFO - 2024-12-04 15:02:19 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:02:19 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":839020,"total_harga_modal":419100,"total_untung":419920,"total_barang_keluar":55.88}
+DEBUG - 2024-12-04 15:02:19 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":5550,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:03:03 --> Processing id_tipe: 12
+INFO - 2024-12-04 15:03:03 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-04 15:03:03 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 15:03:03 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":513450,"total_harga_modal":1026900,"total_untung":-513450,"total_barang_keluar":171.15}
+DEBUG - 2024-12-04 15:03:03 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":30000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:03:56 --> Processing id_tipe: 12
+INFO - 2024-12-04 15:03:56 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 3.70, status: 1
+INFO - 2024-12-04 15:03:56 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 15:03:56 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":524550,"total_harga_modal":1049100,"total_untung":-524550,"total_barang_keluar":174.85}
+DEBUG - 2024-12-04 15:03:56 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":22200,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:07:04 --> Processing id_tipe: 12
+INFO - 2024-12-04 15:07:04 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 0.37, status: 1
+INFO - 2024-12-04 15:07:04 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 15:07:04 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":525660,"total_harga_modal":1051320,"total_untung":-525660,"total_barang_keluar":175.22}
+DEBUG - 2024-12-04 15:07:04 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":2220,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:11:31 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:11:31 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.08, status: 1
+INFO - 2024-12-04 15:11:31 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:11:31 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":840220,"total_harga_modal":419700,"total_untung":420520,"total_barang_keluar":55.96}
+DEBUG - 2024-12-04 15:11:31 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":600,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:12:45 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:12:45 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.07, status: 1
+INFO - 2024-12-04 15:12:45 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:12:45 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":841270,"total_harga_modal":420225,"total_untung":421045,"total_barang_keluar":56.03}
+DEBUG - 2024-12-04 15:12:45 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:15:18 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:15:18 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 3.00, status: 1
+INFO - 2024-12-04 15:15:18 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:15:18 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":886270,"total_harga_modal":442725,"total_untung":443545,"total_barang_keluar":59.03}
+DEBUG - 2024-12-04 15:15:18 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":22500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:19:50 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:19:50 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.11, status: 1
+INFO - 2024-12-04 15:19:50 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:19:50 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":887920,"total_harga_modal":443550,"total_untung":444370,"total_barang_keluar":59.14}
+DEBUG - 2024-12-04 15:19:50 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":825,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:22:37 --> Processing id_tipe: 12
+INFO - 2024-12-04 15:22:37 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 0.37, status: 1
+INFO - 2024-12-04 15:22:37 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 15:22:37 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":526770,"total_harga_modal":1053540,"total_untung":-526770,"total_barang_keluar":175.59}
+DEBUG - 2024-12-04 15:22:37 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":2220,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:28:20 --> Processing id_tipe: 12
+INFO - 2024-12-04 15:28:20 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 0.39, status: 1
+INFO - 2024-12-04 15:28:20 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 15:28:20 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":527940,"total_harga_modal":1055880,"total_untung":-527940,"total_barang_keluar":175.98}
+DEBUG - 2024-12-04 15:28:20 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":2340,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:28:57 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:28:57 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.07, status: 1
+INFO - 2024-12-04 15:28:57 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:28:57 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":888970,"total_harga_modal":444075,"total_untung":444895,"total_barang_keluar":59.21}
+DEBUG - 2024-12-04 15:28:57 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":525,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:32:50 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:32:50 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.00, status: 1
+INFO - 2024-12-04 15:32:50 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:32:50 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":903970,"total_harga_modal":451575,"total_untung":452395,"total_barang_keluar":60.21}
+DEBUG - 2024-12-04 15:32:50 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":7500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:35:30 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:35:30 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.00, status: 1
+INFO - 2024-12-04 15:35:30 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:35:30 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":918970,"total_harga_modal":459075,"total_untung":459895,"total_barang_keluar":61.21}
+DEBUG - 2024-12-04 15:35:30 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":7500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:35:45 --> Processing id_tipe: 12
+INFO - 2024-12-04 15:35:45 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 5.00, status: 1
+INFO - 2024-12-04 15:35:45 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 15:35:45 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":542940,"total_harga_modal":1085880,"total_untung":-542940,"total_barang_keluar":180.98}
+DEBUG - 2024-12-04 15:35:45 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":30000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 15:47:57 --> Processing id_tipe: 11
+INFO - 2024-12-04 15:47:57 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 1.00, status: 1
+INFO - 2024-12-04 15:47:57 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 15:47:57 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":933970,"total_harga_modal":466575,"total_untung":467395,"total_barang_keluar":62.21}
+DEBUG - 2024-12-04 15:47:57 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":7500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 15:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 16:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 16:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 16:00:06 --> Processing id_tipe: 12
+INFO - 2024-12-04 16:00:06 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 75.00, status: 1
+INFO - 2024-12-04 16:00:06 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 16:00:06 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":767940,"total_harga_modal":1535880,"total_untung":-767940,"total_barang_keluar":255.98}
+DEBUG - 2024-12-04 16:00:06 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":450000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 16:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 16:00:29 --> Processing id_tipe: 12
+INFO - 2024-12-04 16:00:29 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 75.00, status: 1
+INFO - 2024-12-04 16:00:29 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 16:00:29 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":992940,"total_harga_modal":1985880,"total_untung":-992940,"total_barang_keluar":330.98}
+DEBUG - 2024-12-04 16:00:29 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":450000,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 16:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 16:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 16:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 16:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 17:50:27 --> Processing id_tipe: 11
+INFO - 2024-12-04 17:50:27 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 2.53, status: 1
+INFO - 2024-12-04 17:50:27 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 17:50:27 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":971920,"total_harga_modal":485550,"total_untung":486370,"total_barang_keluar":64.74}
+DEBUG - 2024-12-04 17:50:28 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":18975,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 17:51:15 --> Processing id_tipe: 13
+INFO - 2024-12-04 17:51:15 --> updateOrCreatePenjualan called with id_tipe: 13, jumlah_keluar: 1.00, status: 0
+INFO - 2024-12-04 17:51:15 --> Found existing penjualan record with id_penjualan: 3
+INFO - 2024-12-04 17:51:15 --> Status is 0 (belum lunas). Returning existing id_penjualan: 3
+INFO - 2024-12-04 17:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:24 --> Updated existing penjualan record: {"total_harga_jual":13980,"total_harga_modal":29125,"total_untung":-15145,"total_barang_keluar":2.33}
+INFO - 2024-12-04 17:53:24 --> Updated Meity terkumpul: 29125
+INFO - 2024-12-04 17:53:24 --> Marked detail penjualan as Lunas: id_detail_penjualan = 75
+INFO - 2024-12-04 17:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 17:57:48 --> Processing id_tipe: 11
+INFO - 2024-12-04 17:57:48 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.20, status: 1
+INFO - 2024-12-04 17:57:48 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 17:57:48 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":974920,"total_harga_modal":487050,"total_untung":487870,"total_barang_keluar":64.94}
+DEBUG - 2024-12-04 17:57:48 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":1500,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 17:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 17:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 17:59:26 --> Processing id_tipe: 11
+INFO - 2024-12-04 17:59:26 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.01, status: 1
+INFO - 2024-12-04 17:59:26 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 17:59:26 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":975070,"total_harga_modal":487125,"total_untung":487945,"total_barang_keluar":64.95}
+DEBUG - 2024-12-04 17:59:26 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":75,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 18:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 18:05:04 --> Processing id_tipe: 12
+INFO - 2024-12-04 18:05:04 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 1.17, status: 1
+INFO - 2024-12-04 18:05:04 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 18:05:04 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":996450,"total_harga_modal":1992900,"total_untung":-996450,"total_barang_keluar":332.15000000000003}
+DEBUG - 2024-12-04 18:05:04 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":7020,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 18:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 18:06:11 --> Processing id_tipe: 11
+INFO - 2024-12-04 18:06:11 --> updateOrCreatePenjualan called with id_tipe: 11, jumlah_keluar: 0.01, status: 1
+INFO - 2024-12-04 18:06:11 --> Found existing penjualan record with id_penjualan: 1
+INFO - 2024-12-04 18:06:11 --> Updated existing penjualan record with id_penjualan: 1. New totals: {"total_harga_jual":975220,"total_harga_modal":487200,"total_untung":488020,"total_barang_keluar":64.96000000000001}
+DEBUG - 2024-12-04 18:06:11 --> updateLatestTerkumpul Input: {"id_pembelian":"14","totalHargaModal":75,"id_tipe":"11","detail_penjualan_status":"1"}
+INFO - 2024-12-04 18:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-12-04 18:07:32 --> Processing id_tipe: 12
+INFO - 2024-12-04 18:07:32 --> updateOrCreatePenjualan called with id_tipe: 12, jumlah_keluar: 11.67, status: 1
+INFO - 2024-12-04 18:07:32 --> Found existing penjualan record with id_penjualan: 2
+INFO - 2024-12-04 18:07:32 --> Updated existing penjualan record with id_penjualan: 2. New totals: {"total_harga_jual":1031460,"total_harga_modal":2062920,"total_untung":-1031460,"total_barang_keluar":343.82}
+DEBUG - 2024-12-04 18:07:32 --> updateLatestTerkumpul Input: {"id_pembelian":"16","totalHargaModal":70020,"id_tipe":"12","detail_penjualan_status":"1"}
+INFO - 2024-12-04 18:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 18:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

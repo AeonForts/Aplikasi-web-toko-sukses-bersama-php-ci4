@@ -1,0 +1,414 @@
+CRITICAL - 2024-10-30 14:29:53 --> ErrorException: Undefined array key "standar_harga_jual"
+[Method: GET, Route: admin/penjualan]
+in APPPATH\Views\pages\admin\penjualan\modal.php on line 28.
+ 1 APPPATH\Views\pages\admin\penjualan\modal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "standar_harga_jual"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\penjualan\\modal.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\penjualan\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/modal', [], true)
+ 5 APPPATH\Views\pages\admin\penjualan\list.php(49): view('pages/admin/penjualan/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\penjualan\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/penjualan/list', [], true)
+ 9 APPPATH\Controllers\Admin\PenjualanController.php(43): view('pages/admin/penjualan/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PenjualanController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PenjualanController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-10-30 14:30:09 --> mysqli_sql_exception: Unknown column 'tbl_unit_barang.satuan_barang' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tip...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tip...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tip...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tip...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#16 {main}
+CRITICAL - 2024-10-30 14:30:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.satuan_barang' in 'field list'
+[Method: GET, Route: admin/barang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 6 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 14:30:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.satuan_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 8 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 14:30:09 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_unit_barang.satuan_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 9 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-10-30 16:10:55 --> mysqli_sql_exception: Unknown column 'tbl_unit_barang.satuan_barang' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tip...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tip...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tip...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tip...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#16 {main}
+CRITICAL - 2024-10-30 16:10:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.satuan_barang' in 'field list'
+[Method: GET, Route: admin/barang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 6 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 16:10:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_unit_barang.satuan_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 8 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 16:10:55 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_unit_barang.satuan_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_unit_barang`.`satuan_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 9 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+ERROR - 2024-10-30 16:32:02 --> mysqli_sql_exception: Unknown column 'tbl_tipe_unit.jumlah_standar_barang' in 'field list' in E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tip...', 0)
+#1 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tip...')
+#2 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tip...')
+#3 E:\XAMPP\htdocs\toko_sukses_bersama\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tip...', Array, false)
+#4 E:\XAMPP\htdocs\toko_sukses_bersama\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+#6 E:\XAMPP\htdocs\toko_sukses_bersama\system\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+#7 E:\XAMPP\htdocs\toko_sukses_bersama\app\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+#8 E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+#9 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+#10 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+#11 E:\XAMPP\htdocs\toko_sukses_bersama\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 E:\XAMPP\htdocs\toko_sukses_bersama\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 E:\XAMPP\htdocs\toko_sukses_bersama\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 E:\XAMPP\htdocs\toko_sukses_bersama\system\rewrite.php(44): require_once('E:\\XAMPP\\htdocs...')
+#16 {main}
+CRITICAL - 2024-10-30 16:32:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_tipe_unit.jumlah_standar_barang' in 'field list'
+[Method: GET, Route: admin/barang]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_tipe_barang`.`satuan_barang`, `tbl_unit_barang`.`tipe_unit`, `tbl_tipe_unit`.`jumlah_standar_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 6 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 16:32:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tbl_tipe_unit.jumlah_standar_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_tipe_barang`.`satuan_barang`, `tbl_unit_barang`.`tipe_unit`, `tbl_tipe_unit`.`jumlah_standar_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_tipe_barang`.`satuan_barang`, `tbl_unit_barang`.`tipe_unit`, `tbl_tipe_unit`.`jumlah_standar_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_tipe_barang`.`satuan_barang`, `tbl_unit_barang`.`tipe_unit`, `tbl_tipe_unit`.`jumlah_standar_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 8 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 16:32:02 --> [Caused by] mysqli_sql_exception: Unknown column 'tbl_tipe_unit.jumlah_standar_barang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_tipe_barang`.`satuan_barang`, `tbl_unit_barang`.`tipe_unit`, `tbl_tipe_unit`.`jumlah_standar_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_tipe_barang`.`satuan_barang`, `tbl_unit_barang`.`tipe_unit`, `tbl_tipe_unit`.`jumlah_standar_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_tipe_barang`.`satuan_barang`, `tbl_unit_barang`.`tipe_unit`, `tbl_tipe_unit`.`jumlah_standar_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `tbl_tipe_barang`.`id_tipe`, `tbl_tipe_barang`.`jenis_barang`, `tbl_tipe_barang`.`satuan_barang`, `tbl_unit_barang`.`tipe_unit`, `tbl_tipe_unit`.`jumlah_standar_barang`, `tbl_unit_barang`.`standar_harga_jual`
+FROM `tbl_tipe_barang`
+JOIN `tbl_unit_barang` ON `tbl_unit_barang`.`id_tipe` = `tbl_tipe_barang`.`id_tipe`
+ LIMIT 10', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1288): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Models\BarangModel.php(33): CodeIgniter\BaseModel->paginate(10)
+ 9 APPPATH\Controllers\Admin\BarangController.php(24): App\Models\BarangModel->getBarangWithUnit()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 16:32:52 --> ErrorException: Undefined array key "standar_jumlah_barang"
+[Method: GET, Route: admin/barang]
+in APPPATH\Views\pages\admin\barang\list.php on line 34.
+ 1 APPPATH\Views\pages\admin\barang\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "standar_jumlah_barang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 5 APPPATH\Controllers\Admin\BarangController.php(27): view('pages/admin/barang/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 18:09:49 --> ErrorException: Undefined array key "jumlah_standar_barang"
+[Method: GET, Route: admin/barang]
+in APPPATH\Views\pages\admin\barang\list.php on line 34.
+ 1 APPPATH\Views\pages\admin\barang\list.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah_standar_barang"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\barang\\list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/barang/list', [], true)
+ 5 APPPATH\Controllers\Admin\BarangController.php(27): view('pages/admin/barang/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\BarangController->list()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 20:21:07 --> ErrorException: Undefined variable $id_tipe
+[Method: GET, Route: admin/pembelian/detail/1]
+in APPPATH\Models\PembelianModel.php on line 20.
+ 1 APPPATH\Models\PembelianModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_tipe', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Models\\PembelianModel.php', 20)
+ 2 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 20:22:13 --> ErrorException: Undefined variable $id_tipe
+[Method: GET, Route: admin/pembelian/detail/1]
+in APPPATH\Models\PembelianModel.php on line 20.
+ 1 APPPATH\Models\PembelianModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_tipe', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Models\\PembelianModel.php', 20)
+ 2 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 20:23:44 --> ErrorException: Undefined variable $id_tipe
+[Method: GET, Route: admin/pembelian/detail/1]
+in APPPATH\Models\PembelianModel.php on line 20.
+ 1 APPPATH\Models\PembelianModel.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_tipe', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Models\\PembelianModel.php', 20)
+ 2 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 20:30:05 --> ErrorException: Undefined variable $id_tipe
+[Method: GET, Route: admin/pembelian/detail/1]
+in APPPATH\Models\PembelianModel.php on line 21.
+ 1 APPPATH\Models\PembelianModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_tipe', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Models\\PembelianModel.php', 21)
+ 2 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 20:30:32 --> ErrorException: Undefined variable $id_tipe
+[Method: GET, Route: admin/pembelian/detail/1]
+in APPPATH\Models\PembelianModel.php on line 21.
+ 1 APPPATH\Models\PembelianModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_tipe', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Models\\PembelianModel.php', 21)
+ 2 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 20:31:45 --> ErrorException: Undefined variable $id_tipe
+[Method: GET, Route: admin/pembelian/detail/1]
+in APPPATH\Models\PembelianModel.php on line 21.
+ 1 APPPATH\Models\PembelianModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_tipe', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Models\\PembelianModel.php', 21)
+ 2 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')
+CRITICAL - 2024-10-30 20:32:20 --> ArgumentCountError: Too few arguments to function App\Models\PembelianModel::getPembelianDetail(), 1 passed in E:\XAMPP\htdocs\toko_sukses_bersama\app\Controllers\Admin\PembelianController.php on line 31 and exactly 2 expected
+[Method: GET, Route: admin/pembelian/detail/1]
+in APPPATH\Models\PembelianModel.php on line 12.
+ 1 APPPATH\Controllers\Admin\PembelianController.php(31): App\Models\PembelianModel->getPembelianDetail('1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')

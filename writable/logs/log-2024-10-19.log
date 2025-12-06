@@ -1,0 +1,19 @@
+CRITICAL - 2024-10-19 03:56:25 --> ErrorException: Undefined array key "id_pembelian"
+[Method: GET, Route: admin/pembelian]
+in APPPATH\Views\pages\admin\pembelian\modal.php on line 359.
+ 1 APPPATH\Views\pages\admin\pembelian\modal.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pembelian"', 'E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\modal.php', 359)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\modal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/modal', [], true)
+ 5 APPPATH\Views\pages\admin\pembelian\list.php(118): view('pages/admin/pembelian/modal')
+ 6 SYSTEMPATH\View\View.php(234): include('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\app\\Views\\pages\\admin\\pembelian\\list.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/admin/pembelian/list', [], true)
+ 9 APPPATH\Controllers\Admin\PembelianController.php(26): view('pages/admin/pembelian/list', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\PembelianController->list()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\PembelianController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('E:\\XAMPP\\htdocs\\toko_sukses_bersama\\public\\index.php')

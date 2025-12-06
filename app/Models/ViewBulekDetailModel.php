@@ -1,0 +1,46 @@
+<?php
+
+namespace App\Models;
+
+use CodeIgniter\Model;
+
+class ViewBulekDetailModel extends Model
+{
+    protected $table            = 'vw_bulek_detail';
+    protected $primaryKey       = 'id_penjualan';
+    // protected $useAutoIncrement = true;
+    protected $returnType       = 'array';
+    // protected $useSoftDeletes   = false;
+    // protected $protectFields    = true;
+    protected $allowedFields    = [ 'tgl_penjualan', 'id_tipe', 'total_harga_modal', 'total_harga_jual', 'total_untung', 'id_bulek', 'tgl_setor', 'jumlah_setor', 'total_setor', 'keterangan', 'sisa_profit'];
+
+    // protected bool $allowEmptyInserts = false;
+    // protected bool $updateOnlyChanged = true;
+
+    // protected array $casts = [];
+    // protected array $castHandlers = [];
+
+    // // Dates
+    // protected $useTimestamps = false;
+    // protected $dateFormat    = 'datetime';
+    // protected $createdField  = 'created_at';
+    // protected $updatedField  = 'updated_at';
+    // protected $deletedField  = 'deleted_at';
+
+    // // Validation
+    // protected $validationRules      = [];
+    // protected $validationMessages   = [];
+    // protected $skipValidation       = false;
+    // protected $cleanValidationRules = true;
+
+    // // Callbacks
+    // protected $allowCallbacks = true;
+    // protected $beforeInsert   = [];
+    // protected $afterInsert    = [];
+    // protected $beforeUpdate   = [];
+    // protected $afterUpdate    = [];
+    // protected $beforeFind     = [];
+    // protected $afterFind      = [];
+    // protected $beforeDelete   = [];
+    // protected $afterDelete    = [];
+}
