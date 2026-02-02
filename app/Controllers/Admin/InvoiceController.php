@@ -166,9 +166,9 @@ class InvoiceController extends BaseController
                     'payment_method' => $this->getPaymentMethodName($paymentMethodId)
                 ],
                 'items' => $invoiceItems, // Use the retrieved items directly
-                'storeName' => 'Toko Sukses Bersama <br> (Agen Telur Orange) ',
-                'storeAddress' => 'Jl. Rambutan Raya No. 42<br>RT.06/RW.06 Baranangsiang<br>Kec. Bogor Timur, Kota Bogor<br>Jawa Barat 16143', 
-                'storePhone' => '082175671616'
+                'storeName' => 'Toko Sukses <br> (Agen Telur Orange) ',
+                'storeAddress' => 'Jl. Rambutan Raya -', 
+                'storePhone' => '-'
             ];
     
             // Load view for receipt

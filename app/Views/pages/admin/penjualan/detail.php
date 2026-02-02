@@ -7,7 +7,7 @@
     </a>
     <div class="card">
         <div class="card-header">
-            <h4 class="card-title">Riwayat Biaya Harian </h4>
+            <h4 class="card-title">Riwayat Penjualan </h4>
         </div>
         <div class="card-content mb-4 px-4">
             <div class="table-responsive">

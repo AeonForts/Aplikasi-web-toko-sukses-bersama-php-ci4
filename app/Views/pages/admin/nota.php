@@ -87,16 +87,16 @@
             <div class="info">
                 <h2>Toko Sukses Bersama</h2>
                 <p>Toko Agen Telur dan Minyak</p>
-                <p>Jl. Bantarkemang No. 5c <br>
-                    Email: suksesbersama@gmail.com</p>
+                <p>Jl. Bantarkemang <br>
+                    Email: -</p>
             </div>
         </center>
         <div id="mid">
             <div class="info">
                 <p>
-                    No Nota     :002-912-12  </br>
-                    Tanggal     :30/08/2024  </br>
-                    Telephone   :0895346228087  </br>
+                    No Nota     :-  </br>
+                    Tanggal     :-  </br>
+                    Telephone   :-  </br>
                 </p>
             </div>
         </div>

@@ -31,7 +31,7 @@
 #--------------------------------------------------------------------
 
 # database.default.hostname = localhost
-# database.default.database = db_toko_sukses_bersama
+# database.default.database = db_toko_sukses
 # database.default.username = root
 # database.default.password = 
 # database.default.DBDriver = MySQLi

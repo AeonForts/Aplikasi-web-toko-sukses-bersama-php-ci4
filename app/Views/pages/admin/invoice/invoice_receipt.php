@@ -153,9 +153,9 @@
         <p>Terima Kasih Telah Berbelanja di</p>
         <p>Toko Kami</p>
         <p>Semoga Sehat Selalu</p>
-        <p>No Rek: 1140292849</p>
-        <p>Septian Cahyadi</p>
-        <p>Bank BCA</p>
+        <p>No Rek: -</p>
+        <p>- </p>
+        <p>Bank -</p>
     </div>
 </div>
 </body>
