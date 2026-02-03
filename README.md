@@ -2,6 +2,12 @@
 
 Sistem POS berbasis web untuk bisnis distribusi telur dan sembilan bahan. Dibangun menggunakan CodeIgniter 4 dan MySQL, sistem ini menangani penjualan harian, inventaris, pembayaran, faktur, dan pelaporan keuangan secara langsung di produksi.
 
+🔗 **Demo:** [inventory-assets-tracking-system.netlify.app](https://inventory-assets-tracking-system.netlify.app)
+
+> Tampilan demo adalah versi statis untuk menunjukkan desain UI. 
+> Aplikasi penuh dengan backend dan database jalankan secara lokal 
+> mengikuti langkah instalasi di bawah.
+
 ## 📊 Statistik Produksi
 
 Sistem ini berjalan dalam produksi aktif dari **Desember 2024 hingga Maret 2025**, memproses transaksi nyata setiap harinya.
