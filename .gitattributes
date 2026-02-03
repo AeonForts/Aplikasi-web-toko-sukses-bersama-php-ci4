@@ -1,0 +1,2 @@
+# Ignore vendor folder in language stats
+vendor/** linguist-vendored
