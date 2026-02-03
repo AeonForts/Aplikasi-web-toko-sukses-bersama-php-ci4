@@ -1,4 +1,4 @@
-# Toko Sukses Bersama — Sistem Point of Sale
+# Sistem Point of Sale — Distribusi Telur & Sembilan Bahan
 
 Sistem POS berbasis web untuk bisnis distribusi telur dan sembilan bahan. Dibangun menggunakan CodeIgniter 4 dan MySQL, sistem ini menangani penjualan harian, inventaris, pembayaran, faktur, dan pelaporan keuangan secara langsung di produksi.
 
